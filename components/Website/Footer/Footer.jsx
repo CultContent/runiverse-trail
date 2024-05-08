@@ -1,4 +1,4 @@
-import packageInfo from '../package.json'
+import packageInfo from '../../../package.json'
 
 export default function Footer() {
     const currentYear = new Date().getFullYear();

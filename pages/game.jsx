@@ -1,8 +1,8 @@
 import Layout from '../components/layout'
 import { getCookie } from 'cookies-next';
 import { getGameData } from './api/game';
-import OuterNav from '../components/outerNav';
-import Footer from '../components/footer';
+import OuterNav from '../components/OuterNav';
+import Footer from '../components/Website/Footer/Footer';
 import supabase from '../utils/supabase';
 import GameChoiceCard from '../components/gameChoiceCard';
 

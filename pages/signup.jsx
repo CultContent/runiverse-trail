@@ -1,7 +1,7 @@
-import Layout from '../components/layout'
+import Layout from '../components/Layout';
 import { getCookie } from 'cookies-next';
-import OuterNav from '../components/outerNav';
-import Footer from '../components/footer';
+import OuterNav from '../components/OuterNav';
+import Footer from '../components/Website/Footer/Footer';
 import { useRouter } from 'next/router'
 
 export default function SignupPage({ username }) {

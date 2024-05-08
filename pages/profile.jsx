@@ -1,4 +1,4 @@
-import Layout from '../components/layout'
+import Layout from '../components/Layout';
 import { getCookie } from 'cookies-next';
 import Link from 'next/link'
 import supabase from '../../utils/supabase'

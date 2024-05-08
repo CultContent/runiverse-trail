@@ -1,6 +1,6 @@
-import Layout from '../components/layout'
-import OuterNav from '../components/outerNav';
-import Footer from '../components/footer'
+import Layout from '../components/Layout';
+import OuterNav from '../components/OuterNav';
+import Footer from '../components/Website/Footer/Footer';
 import { getCookie } from 'cookies-next';
 
 export default function HomePage({ username }) {
