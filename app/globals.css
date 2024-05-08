@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+html {
+  font-family: "Poppins",
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -18,16 +25,504 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.form-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  border-color: #e2e8f0;
+  border-width: 1px;
+  border-radius: .25rem;
+  padding-top: .5rem;
+  padding-right: .75rem;
+  padding-bottom: .5rem;
+  padding-left: .75rem;
+  font-size: 1rem;
+  line-height: 1.5
+}
+
+.form-input::-webkit-input-placeholder {
+  color: #a0aec0;
+  opacity: 1
+}
+
+.form-input::-moz-placeholder {
+  color: #a0aec0;
+  opacity: 1
+}
+
+.form-input:-ms-input-placeholder {
+  color: #a0aec0;
+  opacity: 1
+}
+
+.form-input::-ms-input-placeholder {
+  color: #a0aec0;
+  opacity: 1
+}
+
+.form-input::placeholder {
+  color: #a0aec0;
+  opacity: 1
+}
+
+.form-input:focus {
+  outline: 0;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, .5);
+  border-color: #63b3ed
+}
+
+.form-textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  border-color: #e2e8f0;
+  border-width: 1px;
+  border-radius: .25rem;
+  padding-top: .5rem;
+  padding-right: .75rem;
+  padding-bottom: .5rem;
+  padding-left: .75rem;
+  font-size: 1rem;
+  line-height: 1.5
+}
+
+.form-textarea::-webkit-input-placeholder {
+  color: #a0aec0;
+  opacity: 1
+}
+
+.form-textarea::-moz-placeholder {
+  color: #a0aec0;
+  opacity: 1
+}
+
+.form-textarea:-ms-input-placeholder {
+  color: #a0aec0;
+  opacity: 1
+}
+
+.form-textarea::-ms-input-placeholder {
+  color: #a0aec0;
+  opacity: 1
+}
+
+.form-textarea::placeholder {
+  color: #a0aec0;
+  opacity: 1
+}
+
+.form-textarea:focus {
+  outline: 0;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, .5);
+  border-color: #63b3ed
+}
+
+.form-multiselect {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  border-color: #e2e8f0;
+  border-width: 1px;
+  border-radius: .25rem;
+  padding-top: .5rem;
+  padding-right: .75rem;
+  padding-bottom: .5rem;
+  padding-left: .75rem;
+  font-size: 1rem;
+  line-height: 1.5
+}
+
+.form-multiselect:focus {
+  outline: 0;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, .5);
+  border-color: #63b3ed
+}
+
+.form-select {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23a0aec0'%3e%3cpath d='M15.3 9.3a1 1 0 0 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 1.4-1.4l3.3 3.29 3.3-3.3z'/%3e%3c/svg%3e");
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  border-color: #e2e8f0;
+  border-width: 1px;
+  border-radius: .25rem;
+  padding-top: .5rem;
+  padding-right: 2.5rem;
+  padding-bottom: .5rem;
+  padding-left: .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  background-position: right .5rem center;
+  background-size: 1.5em 1.5em
+}
+
+.form-select::-ms-expand {
+  color: #a0aec0;
+  border: none
+}
+
+@media not print {
+  .form-select::-ms-expand {
+    display: none
+  }
+}
+
+@media print and (-ms-high-contrast:active),
+print and (-ms-high-contrast:none) {
+  .form-select {
+    padding-right: .75rem
+  }
+}
+
+.form-select:focus {
+  outline: 0;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, .5);
+  border-color: #63b3ed
+}
+
+.form-checkbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+  display: inline-block;
+  vertical-align: middle;
+  background-origin: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  flex-shrink: 0;
+  height: 1em;
+  width: 1em;
+  color: #4299e1;
+  background-color: #fff;
+  border-color: #e2e8f0;
+  border-width: 1px;
+  border-radius: .25rem
+}
+
+.form-checkbox:checked {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M5.707 7.293a1 1 0 0 0-1.414 1.414l2 2a1 1 0 0 0 1.414 0l4-4a1 1 0 0 0-1.414-1.414L7 8.586 5.707 7.293z'/%3e%3c/svg%3e");
+  border-color: transparent;
+  background-color: currentColor;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat
+}
+
+@media not print {
+  .form-checkbox::-ms-check {
+    border-width: 1px;
+    color: transparent;
+    background: inherit;
+    border-color: inherit;
+    border-radius: inherit
+  }
+}
+
+.form-checkbox:focus {
+  outline: 0;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, .5);
+  border-color: #63b3ed
+}
+
+.form-radio {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+  display: inline-block;
+  vertical-align: middle;
+  background-origin: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  flex-shrink: 0;
+  border-radius: 100%;
+  height: 1em;
+  width: 1em;
+  color: #4299e1;
+  background-color: #fff;
+  border-color: #e2e8f0;
+  border-width: 1px
+}
+
+.form-radio:checked {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3ccircle cx='8' cy='8' r='3'/%3e%3c/svg%3e");
+  border-color: transparent;
+  background-color: currentColor;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat
+}
+
+@media not print {
+  .form-radio::-ms-check {
+    border-width: 1px;
+    color: transparent;
+    background: inherit;
+    border-color: inherit;
+    border-radius: inherit
+  }
+}
+
+.form-radio:focus {
+  outline: 0;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, .5);
+  border-color: #63b3ed
+}
+
+/*
+  -------------------------
+  -------------------------
+          CARD
+  -------------------------
+  -------------------------
+*/
+
+.card-container {
+  border: 1px solid black;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 56px;
+  border-radius: 25px;
+  box-sizing: border-box;
+  box-shadow: -8px 9px 16px -3px #207b48;
+  background: #171314;
+}
+
+.card-background {
+  height: 250px;
+  margin: 20px 20px 0 20px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 8%;
+  border-bottom-right-radius: 8%;
+  background-image: url(https://wallpapers.com/images/hd/green-texture-background-2272-x-1704-s4p4nc3f7n1o3eyn.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  background-color: #bbb;
+  z-index: 0;
+}
+
+/*
+  -------------------------
+  -------------------------
+          BORDERS
+  -------------------------
+  -------------------------
+*/
+.frame-header,
+.frame-type-line {
+  border-bottom: 4px solid #a9a9a9;
+  border-left: 2px solid #a9a9a9;
+  border-top: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+
+.frame-header,
+.frame-art,
+.frame-type-line {
+  box-shadow:
+    0 0 0 2px #171314,
+    0 0 0 5px #26714A,
+    -3px 3px 2px 5px #171314;
+
+  margin-bottom: 7px;
+}
+
+.frame-text-box {
+  box-shadow:
+    0 0 0 5px #26714A,
+    -3px 3px 2px 5px #171314;
+}
+
+/*
+  ----------------------
+  ----------------------
+          OVERFLOW
+  ----------------------
+  ----------------------
+*/
+.frame-header,
+.frame-type-line,
+.frame-text-box {
+  overflow: hidden;
+  color: black;
+}
+
+
+/*
+----------------------------------------
+----------------------------------------
+          CARD FRAME
+----------------------------------------
+----------------------------------------
+*/
+.card-frame {
+  z-index: 1;
+  position: relative;
+  height: 108%;
+  max-width: 97%;
+  left: 1%;
+  top: 0.5%;
+  left: 1.2%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.frame-header,
+.frame-type-line {
+  background:
+    linear-gradient(0deg, rgba(201, 216, 201, .3), rgba(201, 216, 209, .3)),
+    url(https://image.ibb.co/jKByZn/tile_bg_1.jpg);
+  display: flex;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 8px 0;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 18px/40px;
+}
+
+/*
+Tue 27/3
+*/
+.name,
+.type {
+  font-size: 1.3em;
+  margin-left: 10px;
+  align-self: baseline;
+  font-weight: 600;
+}
+
+#mana-icon {
+  font-size: 1.4em;
+  background: #ADD3AC;
+  border-radius: 50%;
+  box-sizing: border-box;
+  box-shadow: -0.05em 0.12em 0px 0 black;
+  margin-right: 5px;
+  height: 20px;
+  align-self: center;
+}
+
+.frame-art {
+  height: 50%;
+  margin: 0 10px;
+}
+
+#set-icon {
+  height: 9%;
+  width: 6%;
+  overflow: hidden;
+  margin-right: 10px;
+  align-self: center;
+}
+
+.frame-type-line {
+  margin-top: 0;
+}
+
+.frame-text-box {
+  margin: 20px 10px;
+  background: #d3ded6;
+  background-image: url(https://image.ibb.co/dFcNx7/tile_bg_2.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px 6px;
+  font-size: 1.2em;
+}
+
+.flavour-text {
+  font-style: italic;
+  padding: 10px 0;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+.ftb-inner-margin {
+  margin: 5px 1px;
+}
+
+
+
+
+
+.frame-bottom-info {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 15px 0 15px;
+}
+
+fbi-left {
+  flex: 1;
+}
+
+.fbi-left p:first-of-type {
+  margin-bottom: 1px;
+}
+
+.fbi-left,
+.fbi-right {
+  font-size: 10px;
+  position: relative;
+  top: 6px;
+}
+
+.fbi-center {
+  border-radius: 60%;
+  flex-basis: 41px;
+  height: 21px;
+  position: relative;
+  bottom: 11px;
+  z-index: 2;
+  background: lightgray;
+  background-image: url(https://image.ibb.co/jyq34n/holofoil_texture_2.jpg);
+  box-shadow:
+    0 0 0 4px #171314;
+}
+
+.inner-margins {
+  margin: 0 10px;
+}
+
+*/ .fbi-right {
+  flex: 1;
+  text-align: right;
+}
+
+.frame-bottom-info img {
+  overflow: hidden;
+  max-width: 10px;
 }
