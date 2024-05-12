@@ -10,14 +10,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@rainbow-me/rainbowkit": "^2.0.7",
+    "@rainbow-me/rainbowkit-siwe-next-auth": "^0.4.0",
     "@supabase/supabase-js": "^2.42.0",
+    "@tanstack/react-query": "^5.35.1",
     "@types/cookies": "^0.9.0",
     "cookies": "^0.9.1",
     "cookies-next": "^4.1.1",
     "next": "14.1.4",
     "react": "^18",
     "react-cookie": "^7.1.4",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "siwe": "^2.3.2",
+    "viem": "^2.10.2",
+    "wagmi": "^2.8.3"
   },
   "devDependencies": {
     "@types/node": "^20",
