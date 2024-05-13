@@ -1,6 +1,7 @@
 import Layout from '../components/Layout';
 import { getCookie } from 'cookies-next';
 import { getGameData } from './api/game';
+import Image from 'next/image'
 import OuterNav from '../components/OuterNav';
 import Footer from '../components/Website/Footer/Footer';
 import supabase from '../utils/supabase';
@@ -17,7 +18,7 @@ export default function GamePage({ address, session, gameData }) {
                 {/* Main */}
                 <div className="container pt-24 md:pt-36 mx-auto flex flex-wrap flex-col md:flex-row items-center">
                     <div className="flex flex-col w-full md:w-2/3 justify-center lg:items-start overflow-y-hidden">
-                        <img className="mx-auto w-full md:w-4/5" src={gameData.primaryImageUri} />
+                        <Image className="mx-auto w-full md:w-4/5" src={gameData.primaryImageUri} />
                     </div>
                     <div className="flex flex-col w-full md:w-1/3 justify-center lg:items-start overflow-y-hidden">
                         <p className="text-2xl"><em>{gameData.primaryPromptText}</em></p>
