@@ -320,7 +320,7 @@ print and (-ms-high-contrast:none) {
   border-top-right-radius: 6px;
   border-bottom-left-radius: 8%;
   border-bottom-right-radius: 8%;
-  background-image: url(https://wallpapers.com/images/hd/green-texture-background-2272-x-1704-s4p4nc3f7n1o3eyn.jpg);
+  background-image: url("https://wallpapers.com/images/hd/green-texture-background-2272-x-1704-s4p4nc3f7n1o3eyn.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -400,7 +400,7 @@ print and (-ms-high-contrast:none) {
 .frame-type-line {
   background:
     linear-gradient(0deg, rgba(201, 216, 201, .3), rgba(201, 216, 209, .3)),
-    url(https://image.ibb.co/jKByZn/tile_bg_1.jpg);
+    url("https://image.ibb.co/jKByZn/tile_bg_1.jpg");
   display: flex;
   margin-top: 10px;
   margin-left: 5px;
@@ -453,7 +453,7 @@ Tue 27/3
 .frame-text-box {
   margin: 20px 10px;
   background: #d3ded6;
-  background-image: url(https://image.ibb.co/dFcNx7/tile_bg_2.jpg);
+  background-image: url("https://image.ibb.co/dFcNx7/tile_bg_2.jpg");
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -508,7 +508,7 @@ fbi-left {
   bottom: 11px;
   z-index: 2;
   background: lightgray;
-  background-image: url(https://image.ibb.co/jyq34n/holofoil_texture_2.jpg);
+  background-image: url("https://image.ibb.co/jyq34n/holofoil_texture_2.jpg");
   box-shadow:
     0 0 0 4px #171314;
 }
@@ -517,7 +517,7 @@ fbi-left {
   margin: 0 10px;
 }
 
-*/ .fbi-right {
+.fbi-right {
   flex: 1;
   text-align: right;
 }

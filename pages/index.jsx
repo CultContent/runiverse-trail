@@ -1,6 +1,7 @@
 import Layout from '../components/Layout';
 import OuterNav from '../components/OuterNav';
 import Footer from '../components/Website/Footer/Footer';
+import Image from 'next/image'
 import { getSession } from 'next-auth/react';
 import { getToken } from 'next-auth/jwt';
 
@@ -51,7 +52,7 @@ export default function HomePage({ address, session }) {
 
                     {/* Right-col */}
                     <div className="w-full xl:w-3/5 p-12 overflow-hidden">
-                        <img className="mx-auto w-full md:w-4/5 transform -rotate-6 transition hover:scale-105 duration-700 ease-in-out hover:rotate-6" src="https://zork.nyc3.cdn.digitaloceanspaces.com/runiverse-sample-1.png" />
+                        <Image className="mx-auto w-full md:w-4/5 transform -rotate-6 transition hover:scale-105 duration-700 ease-in-out hover:rotate-6" src="https://zork.nyc3.cdn.digitaloceanspaces.com/runiverse-sample-1.png" />
                     </div>
 
                     {/* Footer */}
