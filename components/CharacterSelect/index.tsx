@@ -1,4 +1,4 @@
-import { FC, useEffect, useState } from "react";
+import React, { FC, useEffect, useState } from "react";
 
 const backgroundPositions = [
   "19px 18px",
@@ -23,8 +23,7 @@ const backgroundPositions = [
 const WIZARD_CONTRACT = "0x521f9c7505005cfa19a8e5786a9c3c9c9f5e6f42";
 const WARRIOR_CONTRACT = "0x9690b63eb85467be5267a3603f770589ab12dc95";
 const BABY_CONTRACT = "0x4b1e130ae84c97b931ffbe91ead6b1da16993d45";
-const SOUL_CONTRACT =
-  "0x251b5f14a825c537ff788604ea1b58e49b70726f";
+const SOUL_CONTRACT = "0x251b5f14a825c537ff788604ea1b58e49b70726f";
 
 enum CharacterType {
   None,
@@ -34,11 +33,20 @@ enum CharacterType {
   Soul
 }
 
-const CharacterSelect: FC<{ id: string; contract: string; onSelect: (character: { id: string; contract: string }) => void; isSelected: boolean }> = ({
+interface CharacterSelectProps {
+  id: string;
+  contract: string;
+  onSelect: (character: { id: string; contract: string }) => void;
+  isSelected: boolean;
+  className?: string;
+}
+
+const CharacterSelect: FC<CharacterSelectProps> = ({
   id,
   contract,
   onSelect,
   isSelected,
+  className = "", // Default value for className
 }) => {
   const [backgroundPosition, setBackgroundPosition] = useState(0);
   const [selectedCharacterType, setSelectedCharacterType] = useState(CharacterType.None);
@@ -88,18 +96,18 @@ const CharacterSelect: FC<{ id: string; contract: string; onSelect: (character: 
       backgroundImageUrl = `https://www.forgottenrunes.com/api/art/wizards/${id}.png`;
       break;
     case "soul":
-       backgroundImageUrl = `https://portal.forgottenrunes.com/api/souls/img/${id}`;
-       break;
+      backgroundImageUrl = `https://portal.forgottenrunes.com/api/souls/img/${id}`;
+      break;
     default:
-      // Handle unknown walkCycleType, if needed
+    // Handle unknown walkCycleType, if needed
   }
-  
+
   return (
     <div
       onClick={() => onSelect({ id, contract })}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
-      className={`relative overflow-hidden ${isSelected ? 'border-4 border-green-500' : 'border-2 border-transparent'} rounded-lg cursor-pointer transition transform hover:scale-105`}
+      className={`relative overflow-hidden ${isSelected ? 'border-4 border-green-500' : 'border-2 border-transparent'} rounded-lg cursor-pointer transition transform hover:scale-105 ${className}`}
     >
       <div className="relative overflow-hidden">
         <div
