@@ -3,7 +3,7 @@ import { useCharacter } from "../context/CharacterContext";
 
 const CharNavBar: React.FC = () => {
     const { selectedCharacter } = useCharacter();
-
+    const characterUrl = `https://www.forgottenrunes.com/api/art/wizards/${selectedCharacter?.id}`
     console.log('Selected Character:', selectedCharacter); // Debugging log
 
     return (
@@ -12,8 +12,9 @@ const CharNavBar: React.FC = () => {
             <div>
                 {selectedCharacter ? (
                     <div className="flex items-center space-x-2">
-                        <span>Selected Character ID: {selectedCharacter.id}</span>
-                        <span>Contract: {selectedCharacter.contract}</span>
+                        
+                        {characterUrl && <img src={characterUrl} alt="Character" style={{ width: '50px', height: '50px' }} />}
+                        
                     </div>
                 ) : (
                     <span>No character selected</span>
