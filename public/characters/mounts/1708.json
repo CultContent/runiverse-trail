@@ -1,0 +1,37 @@
+{
+    "name": "Icarus the Swift",
+    "description": "LOTS OF PONIES",
+    "image": "https://forgottenbabies.com/ponies/1708.png",
+    "edition": 1708,
+    "attributes": [
+       {
+        "traittype": "artist",
+        "value": "Castamere"
+      },
+      {
+        "trait_type": "generation",
+        "value": "0"
+      },
+      {
+        "trait_type": "background",
+        "value": "gray_background"
+      },
+      {
+        "trait_type": "species",
+        "value": "Flying Fish"
+      },
+      {
+        "trait_type": "Trait_1",
+        "value": "Quad Wings"
+      },
+      {
+        "trait_type": "Trait_2",
+        "value": "Ever Scales"
+      },
+      {
+        "trait_type": "Trait_3",
+        "value": "Fish Eyes"
+      }
+    ],
+    "compiler": "Black Sand Mount Generator"
+  }

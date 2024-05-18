@@ -1,5 +1,12 @@
-import '../app/globals.css'
+import '../app/globals.css';
 import { CookiesProvider } from 'react-cookie';
+import { reservoirChains } from '@reservoir0x/reservoir-sdk';
+import { CharacterProvider } from '../context/CharacterContext';
+import CharNavBar from '../components/CharNavbar'; // Import NavBar
+
+import {
+    ReservoirKitProvider
+} from '@reservoir0x/reservoir-kit-ui';
 
 // RainbowKit Imports
 import '@rainbow-me/rainbowkit/styles.css';
@@ -32,6 +39,9 @@ const getSiweMessageOptions: GetSiweMessageOptions = () => ({
     statement: 'Sign in to Runiverse Trail',
 });
 
+//HOST switch
+const HOST = process.env.NEXT_PUBLIC_HOST || "http://localhost:3000";
+
 // Wagmi Config
 const config = getDefaultConfig({
     appName: 'Runiverse Trail',
@@ -44,7 +54,6 @@ const config = getDefaultConfig({
 const queryClient = new QueryClient();
 
 // Create initial context provider
-
 
 export default function App({
     Component,
@@ -67,9 +76,24 @@ export default function App({
                                 overlayBlur: 'small',
                             })}
                         >
-                            <CookiesProvider>
-                                <Component {...pageProps} />
-                            </CookiesProvider>
+                            <ReservoirKitProvider
+                                options={{
+                                    apiKey: process.env.NEXT_RESERVOIR_API_KEY,
+                                    chains: [{
+                                        ...reservoirChains.mainnet,
+                                        active: true,
+                                    }],
+                                }}
+                            >
+                                
+                                <CookiesProvider>
+                                    <CharacterProvider>
+                                    <CharNavBar />
+                                        <Component {...pageProps} />
+                                    
+                                    </CharacterProvider>
+                                </CookiesProvider>
+                            </ReservoirKitProvider>
                         </RainbowKitProvider>
                     </RainbowKitSiweNextAuthProvider>
                 </QueryClientProvider>

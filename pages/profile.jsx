@@ -4,6 +4,7 @@ import { getCookie } from 'cookies-next';
 import Link from 'next/link'
 import { getSession } from 'next-auth/react';
 import { getToken } from 'next-auth/jwt';
+import CharacterMenu from '../components/Game/CharacterMenu'
 
 export default function ProfilePage({ address, session }) {
     return (
@@ -11,6 +12,7 @@ export default function ProfilePage({ address, session }) {
             <div className="h-full">
                 <OuterNav address={address} session={session} />
                 {/* Main */}
+                <CharacterMenu />
                 <div className="container pt-24 md:pt-36 mx-auto flex flex-wrap flex-col md:flex-row items-center">
                     <div className="flex flex-col w-full md:w-2/3 justify-center lg:items-start overflow-y-hidden">
                         <h1 className="my-4 text-3xl md:text-5xl text-white opacity-75 font-bold leading-tight text-center md:text-left">Character List</h1>

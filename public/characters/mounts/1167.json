@@ -1,0 +1,37 @@
+{
+    "name": "Coraline",
+    "description": "LOTS OF PONIES",
+    "image": "https://forgottenbabies.com/ponies/1167.png",
+    "edition": 1167,
+    "attributes": [
+       {
+        "traittype": "artist",
+        "value": "ArtisRock"
+      },
+      {
+        "trait_type": "generation",
+        "value": "0"
+      },
+      {
+        "trait_type": "background",
+        "value": "black_background"
+      },
+      {
+        "trait_type": "species",
+        "value": "Coralotl"
+      },
+      {
+        "trait_type": "Trait_1",
+        "value": "Coral Ferns"
+      },
+      {
+        "trait_type": "Trait_2",
+        "value": "Color-Shifting Skin"
+      },
+      {
+        "trait_type": "Trait_3",
+        "value": "Luminous Tail"
+      }
+    ],
+    "compiler": "Black Sand Mount Generator"
+  }

@@ -1,0 +1,37 @@
+{
+    "name": "Roku the Final SPark",
+    "description": "LOTS OF PONIES",
+    "image": "https://forgottenbabies.com/ponies/1171.png",
+    "edition": 1171,
+    "attributes": [
+       {
+        "traittype": "Artist",
+        "value": "ChariaMoreni"
+      },
+      {
+        "trait_type": "Generation",
+        "value": "0"
+      },
+      {
+        "trait_type": "Background",
+        "value": "Red"
+      },
+      {
+        "trait_type": "Species",
+        "value": "Dragon"
+      },
+      {
+        "trait_type": "Trait 1",
+        "value": "Red Dragon Hide"
+      },
+      {
+        "trait_type": "Trait 2",
+        "value": "Radiant Wings"
+      },
+      {
+        "trait_type": "Trait 3",
+        "value": "Gold Irises"
+      }
+    ],
+    "compiler": "Black Sand Mount Generator"
+  }

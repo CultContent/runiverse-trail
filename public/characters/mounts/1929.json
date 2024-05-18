@@ -1,0 +1,37 @@
+{
+    "name": "The Amber Ooze",
+    "description": "LOTS OF PONIES",
+    "image": "https://forgottenbabies.com/ponies/1929.png",
+    "edition": 1929,
+    "attributes": [
+       {
+        "traittype": "artist",
+        "value": "feckless"
+      },
+      {
+        "trait_type": "generation",
+        "value": "0"
+      },
+      {
+        "trait_type": "background",
+        "value": "red_background"
+      },
+      {
+        "trait_type": "species",
+        "value": "Slime"
+      },
+      {
+        "trait_type": "Trait_1",
+        "value": "Kobold Remains"
+      },
+      {
+        "trait_type": "Trait_2",
+        "value": "Torch of Souls"
+      },
+      {
+        "trait_type": "Trait_3",
+        "value": "Black Sun Staff"
+      }
+    ],
+    "compiler": "Black Sand Mount Generator"
+  }

@@ -1,0 +1,37 @@
+{
+  "name": "Brosaurus",
+  "description": "LOTS OF PONIES",
+  "image": "https://forgottenbabies.com/ponies/1254.png",
+  "edition": 1254,
+  "attributes": [
+     {
+      "traittype": "artist",
+      "value": "taniadelrio&_cosmic"
+    },
+    {
+      "trait_type": "generation",
+      "value": "0"
+    },
+    {
+      "trait_type": "background",
+      "value": "black_background"
+    },
+    {
+      "trait_type": "species",
+      "value": "Therizinosaurus"
+    },
+    {
+      "trait_type": "Trait_1",
+      "value": "Proto-Feathers"
+    },
+    {
+      "trait_type": "Trait_2",
+      "value": "Enormous Unguals"
+    },
+    {
+      "trait_type": "Trait_3",
+      "value": "Slow-twitch Muscle Fiber"
+    }
+  ],
+  "compiler": "Black Sand Mount Generator"
+}

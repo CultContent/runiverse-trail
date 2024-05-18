@@ -1,0 +1,37 @@
+{
+    "name": "Sir Cryptolot",
+    "description": "LOTS OF PONIES",
+    "image": "https://forgottenbabies.com/ponies/1124.png",
+    "edition": "1",
+    "attributes": [
+       {
+        "traittype": "artist",
+        "value": "MehsterBrown"
+      },
+      {
+        "trait_type": "generation",
+        "value": "0"
+      },
+      {
+        "trait_type": "background",
+        "value": "black_background"
+      },
+      {
+        "trait_type": "species",
+        "value": "Racing Horse"
+      },
+      {
+        "trait_type": "Trait_1",
+        "value": "2023 BlackSand Derby Winner Saddle"
+      },
+      {
+        "trait_type": "Trait_2",
+        "value": "Dirt Racing Mask"
+      },
+      {
+        "trait_type": "Trait_3",
+        "value": "Iron Horseshoes"
+      }
+    ],
+    "compiler": "Black Sand Mount Generator"
+  }

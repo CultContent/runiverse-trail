@@ -1,0 +1,37 @@
+{
+    "name": "Buckethead Atomic 79 Attempt",
+    "description": "LOTS OF PONIES",
+    "image": "https://forgottenbabies.com/ponies/1594.png",
+    "edition": 1594,
+    "attributes": [
+       {
+        "traittype": "artist",
+        "value": "AcidEater"
+      },
+      {
+        "trait_type": "generation",
+        "value": "1"
+      },
+      {
+        "trait_type": "background",
+        "value": "red_background"
+      },
+      {
+        "trait_type": "species",
+        "value": "Buckethead Atomic 79"
+      },
+      {
+        "trait_type": "Trait_1",
+        "value": "Really Junky Pony"
+      },
+      {
+        "trait_type": "Trait_2",
+        "value": ""
+      },
+      {
+        "trait_type": "Trait_3",
+        "value": ""
+      }
+    ],
+    "compiler": "Black Sand Mount Generator"
+  }
