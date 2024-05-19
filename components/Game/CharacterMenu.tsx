@@ -100,11 +100,11 @@ const CharacterMenu: React.FC = () => {
     };
 
     return (
-        <div className="p-4">
+        <div className="container mx-auto p-6">
             {equipScreen === EquipScreen.CharacterSelection && (
                 <div>
-                    <h2 className="text-2xl font-bold mb-4">Choose your Adventurer</h2>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                    <h2 className="text-3xl font-bold text-center mb-8">Choose your Adventurer</h2>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
                         {tokens?.map((token, i) => (
                             <CharacterSelect
                                 id={token?.token?.tokenId ?? ""}
@@ -112,7 +112,7 @@ const CharacterMenu: React.FC = () => {
                                 key={i}
                                 onSelect={handleCharacterSelect}
                                 isSelected={selectedCharacter?.id === token?.token?.tokenId}
-                                className="bg-gray-200 p-4 rounded-lg cursor-pointer transition transform hover:scale-105"
+                                className={`p-4 rounded-lg cursor-pointer transition-transform transform hover:scale-105 ${selectedCharacter?.id === token?.token?.tokenId ? 'border-4 border-green-500' : 'border-2 border-gray-300'}`}
                             />
                         ))}
                     </div>
@@ -120,7 +120,7 @@ const CharacterMenu: React.FC = () => {
             )}
 
             {equipScreen === EquipScreen.CharacterSelection && (
-                <div className="mt-4">
+                <div className="mt-8 text-center">
                     <ConnectButton.Custom>
                         {({ account, chain, openChainModal, openConnectModal, mounted }) => {
                             const ready = mounted && "loading";
@@ -143,7 +143,7 @@ const CharacterMenu: React.FC = () => {
                                                 <button
                                                     onClick={openConnectModal}
                                                     type="button"
-                                                    className="bg-blue-500 text-white py-2 px-4 rounded"
+                                                    className="bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition-colors"
                                                 >
                                                     Connect Wallet
                                                 </button>
@@ -155,7 +155,7 @@ const CharacterMenu: React.FC = () => {
                                                 <button
                                                     onClick={openChainModal}
                                                     type="button"
-                                                    className="bg-yellow-500 text-white py-2 px-4 rounded"
+                                                    className="bg-yellow-500 text-white py-2 px-4 rounded-lg hover:bg-yellow-600 transition-colors"
                                                 >
                                                     Switch Networks
                                                 </button>
@@ -165,7 +165,7 @@ const CharacterMenu: React.FC = () => {
                                         return (
                                             <button
                                                 onClick={() => setEquipScreen(EquipScreen.Equip)}
-                                                className="bg-green-500 text-white py-2 px-4 rounded"
+                                                className="bg-green-500 text-white py-2 px-4 rounded-lg hover:bg-green-600 transition-colors"
                                             >
                                                 Proceed
                                             </button>

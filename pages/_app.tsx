@@ -62,6 +62,7 @@ export default function App({
         <WagmiProvider config={config}>
             <SessionProvider refetchInterval={0} session={pageProps.session}>
                 <QueryClientProvider client={queryClient}>
+                <CharacterProvider>
                     <RainbowKitSiweNextAuthProvider getSiweMessageOptions={getSiweMessageOptions}>
                         <RainbowKitProvider
                             appInfo={{
@@ -85,14 +86,15 @@ export default function App({
                                 }}
                             >
                                 <CookiesProvider>
-                                    <CharacterProvider>
+                                    
                                         <CharNavBar />
                                         <Component {...pageProps} />
-                                    </CharacterProvider>
+                                    
                                 </CookiesProvider>
                             </ReservoirKitProvider>
                         </RainbowKitProvider>
                     </RainbowKitSiweNextAuthProvider>
+                    </CharacterProvider>
                 </QueryClientProvider>
             </SessionProvider>
         </WagmiProvider>

@@ -1,31 +1,43 @@
-import React from "react";
-import { useCharacter } from "../context/CharacterContext";
-import Link from 'next/link'; // Import Link from next
+// CharNavBar.tsx
+import React from 'react';
+import { useCharacter } from '../context/CharacterContext';
+import Link from 'next/link';
+import CustomConnectButton from './CustomConnectButton'
 
 const CharNavBar: React.FC = () => {
-    const { selectedCharacter } = useCharacter();
-    const characterUrl = `https://www.forgottenrunes.com/api/art/wizards/${selectedCharacter?.id}`
-    console.log('Selected Character:', selectedCharacter); // Debugging log
+  const { selectedCharacter } = useCharacter();
+  const characterUrl = `https://www.forgottenrunes.com/api/art/wizards/${selectedCharacter?.id}`;
 
-    return (
-        <nav className="bg-gray-800 p-4 text-white flex justify-between items-center">
-            <div className="text-xl font-bold">Runiverse Trail</div>
-            <div>
-            <li><Link href="/home">Home</Link></li>
-        <li><Link href="/profile">Profile</Link></li>
-        <li><Link href="/store">Store</Link></li>
-                {selectedCharacter ? (
-                    <div className="flex items-center space-x-2">
-                        
-                        {characterUrl && <img src={characterUrl} alt="Character" style={{ width: '50px', height: '50px' }} />}
-                        
-                    </div>
-                ) : (
-                    <span>No character selected</span>
-                )}
-            </div>
-        </nav>
-    );
+  return (
+    <nav className="bg-gray-900 p-4 text-white flex justify-between items-center shadow-lg">
+      <div className="text-2xl font-bold">Runiverse Trail</div>
+      <ul className="flex space-x-8">
+        <li>
+          <Link href="/" legacyBehavior>
+            <a className="hover:text-gray-400 transition-colors duration-200">Home</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/profile" legacyBehavior>
+            <a className="hover:text-gray-400 transition-colors duration-200">Profile</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/store" legacyBehavior>
+            <a className="hover:text-gray-400 transition-colors duration-200">Store</a>
+          </Link>
+        </li>
+        <li>
+        <Link href="/game" legacyBehavior>
+            <a className="hover:text-gray-400 transition-colors duration-200">Game</a>
+          </Link>
+        </li>
+      </ul>
+
+      <CustomConnectButton />
+
+    </nav>
+  );
 };
 
 export default CharNavBar;
