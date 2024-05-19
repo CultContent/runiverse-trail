@@ -1,6 +1,15 @@
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
-};
-
-export default nextConfig;
+    async rewrites() {
+      return [
+        {
+          source: '/api/character',
+          destination: 'http://consciousnft.ai/api/partner/v1/character',
+        },
+      ];
+    },
+  };
+  
+  export default nextConfig;
+  
