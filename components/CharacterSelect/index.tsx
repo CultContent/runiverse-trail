@@ -1,36 +1,36 @@
-import React, { FC, useEffect, useState } from "react";
+import React, { FC, useEffect, useState } from 'react';
 
 const backgroundPositions = [
-  "19px 18px",
-  "-156px 18px",
-  "-328px 18px",
-  "-502px 18px",
-  "15px -158px",
-  "-161px -158px",
-  "-329px -158px",
-  "-509px -158px",
-  "15px -328px",
-  "-155px -328px",
-  "-331px -328px",
-  "-503px -328px",
-  "-503px -328px",
-  "15px -501px",
-  "-145px -501px",
-  "-324px -501px",
-  "-494px -501px",
+  '19px 18px',
+  '-156px 18px',
+  '-328px 18px',
+  '-502px 18px',
+  '15px -158px',
+  '-161px -158px',
+  '-329px -158px',
+  '-509px -158px',
+  '15px -328px',
+  '-155px -328px',
+  '-331px -328px',
+  '-503px -328px',
+  '-503px -328px',
+  '15px -501px',
+  '-145px -501px',
+  '-324px -501px',
+  '-494px -501px',
 ];
 
-const WIZARD_CONTRACT = "0x521f9c7505005cfa19a8e5786a9c3c9c9f5e6f42";
-const WARRIOR_CONTRACT = "0x9690b63eb85467be5267a3603f770589ab12dc95";
-const BABY_CONTRACT = "0x4b1e130ae84c97b931ffbe91ead6b1da16993d45";
-const SOUL_CONTRACT = "0x251b5f14a825c537ff788604ea1b58e49b70726f";
+const WIZARD_CONTRACT = '0x521f9c7505005cfa19a8e5786a9c3c9c9f5e6f42';
+const WARRIOR_CONTRACT = '0x9690b63eb85467be5267a3603f770589ab12dc95';
+const BABY_CONTRACT = '0x4b1e130ae84c97b931ffbe91ead6b1da16993d45';
+const SOUL_CONTRACT = '0x251b5f14a825c537ff788604ea1b58e49b70726f';
 
 enum CharacterType {
   None,
   Wizard,
   Warrior,
   Baby,
-  Soul
+  Soul,
 }
 
 interface CharacterSelectProps {
@@ -41,19 +41,9 @@ interface CharacterSelectProps {
   className?: string;
 }
 
-const CharacterSelect: FC<CharacterSelectProps> = ({
-  id,
-  contract,
-  onSelect,
-  isSelected,
-  className = "", // Default value for className
-}) => {
+const CharacterSelect: FC<CharacterSelectProps> = ({ id, contract, onSelect, isSelected, className = '' }) => {
   const [backgroundPosition, setBackgroundPosition] = useState(0);
-  const [selectedCharacterType, setSelectedCharacterType] = useState(CharacterType.None);
   const [isHovered, setIsHovered] = useState(false);
-  const handleSelection = (type: CharacterType) => {
-    setSelectedCharacterType(type);
-  };
 
   useEffect(() => {
     let position = backgroundPosition;
@@ -71,31 +61,31 @@ const CharacterSelect: FC<CharacterSelectProps> = ({
     };
   }, [backgroundPositions]);
 
-  let walkCycleType = "";  
+  let walkCycleType = '';
 
   if (contract === WIZARD_CONTRACT) {
-    walkCycleType = "wizard";
+    walkCycleType = 'wizard';
   } else if (contract === WARRIOR_CONTRACT) {
-    walkCycleType = "warrior";
+    walkCycleType = 'warrior';
   } else if (contract === BABY_CONTRACT) {
-    walkCycleType = "baby";
+    walkCycleType = 'baby';
   } else if (contract === SOUL_CONTRACT) {
-    walkCycleType = "soul"
+    walkCycleType = 'soul';
   }
 
-  let backgroundImageUrl = "";
+  let backgroundImageUrl = '';
 
   switch (walkCycleType) {
-    case "wizard":
+    case 'wizard':
       backgroundImageUrl = `https://www.forgottenrunes.com/api/art/wizards/${id}.png`;
       break;
-    case "warrior":
+    case 'warrior':
       backgroundImageUrl = `https://portal.forgottenrunes.com/api/warriors/img/${id}.png`;
       break;
-    case "baby":
+    case 'baby':
       backgroundImageUrl = `https://www.forgottenrunes.com/api/art/wizards/${id}.png`;
       break;
-    case "soul":
+    case 'soul':
       backgroundImageUrl = `https://portal.forgottenrunes.com/api/souls/img/${id}`;
       break;
     default:
@@ -113,11 +103,11 @@ const CharacterSelect: FC<CharacterSelectProps> = ({
         <div
           style={{
             backgroundImage: isHovered ? 'url("/img/frame_on.png")' : 'url("/img/frame_off.png")',
-            backgroundSize: "200px 200px",
-            backgroundRepeat: "no-repeat",
-            height: "100%",
-            width: "100%",
-            position: "absolute",
+            backgroundSize: '200px 200px',
+            backgroundRepeat: 'no-repeat',
+            height: '100%',
+            width: '100%',
+            position: 'absolute',
             top: 0,
             left: 0,
             zIndex: 10,
@@ -129,10 +119,10 @@ const CharacterSelect: FC<CharacterSelectProps> = ({
             width: 200,
             height: 200,
             backgroundImage: `url("${backgroundImageUrl}")`,
-            backgroundRepeat: "no-repeat",
+            backgroundRepeat: 'no-repeat',
             backgroundPosition: backgroundPositions[backgroundPosition],
-            backgroundSize: "80%",
-            clipPath: "polygon(5% 3%, 94% 3%, 95% 97%, 5% 97%)",
+            backgroundSize: '80%',
+            clipPath: 'polygon(5% 3%, 94% 3%, 95% 97%, 5% 97%)',
           }}
         />
       </div>
