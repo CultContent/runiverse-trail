@@ -1,5 +1,6 @@
 import React from "react";
 import { useCharacter } from "../context/CharacterContext";
+import Link from 'next/link'; // Import Link from next
 
 const CharNavBar: React.FC = () => {
     const { selectedCharacter } = useCharacter();
@@ -10,6 +11,9 @@ const CharNavBar: React.FC = () => {
         <nav className="bg-gray-800 p-4 text-white flex justify-between items-center">
             <div className="text-xl font-bold">Runiverse Trail</div>
             <div>
+            <li><Link href="/home">Home</Link></li>
+        <li><Link href="/profile">Profile</Link></li>
+        <li><Link href="/store">Store</Link></li>
                 {selectedCharacter ? (
                     <div className="flex items-center space-x-2">
                         

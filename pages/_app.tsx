@@ -1,8 +1,9 @@
+// _app.tsx
 import '../app/globals.css';
 import { CookiesProvider } from 'react-cookie';
 import { reservoirChains } from '@reservoir0x/reservoir-sdk';
 import { CharacterProvider } from '../context/CharacterContext';
-import CharNavBar from '../components/CharNavbar'; // Import NavBar
+import CharNavBar from '../components/CharNavbar';
 
 import {
     ReservoirKitProvider
@@ -53,8 +54,6 @@ const config = getDefaultConfig({
 // W3 Querying Client
 const queryClient = new QueryClient();
 
-// Create initial context provider
-
 export default function App({
     Component,
     pageProps,
@@ -85,12 +84,10 @@ export default function App({
                                     }],
                                 }}
                             >
-                                
                                 <CookiesProvider>
                                     <CharacterProvider>
-                                    <CharNavBar />
+                                        <CharNavBar />
                                         <Component {...pageProps} />
-                                    
                                     </CharacterProvider>
                                 </CookiesProvider>
                             </ReservoirKitProvider>
@@ -98,6 +95,6 @@ export default function App({
                     </RainbowKitSiweNextAuthProvider>
                 </QueryClientProvider>
             </SessionProvider>
-        </WagmiProvider >
+        </WagmiProvider>
     );
 }
