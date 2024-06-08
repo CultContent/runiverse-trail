@@ -1,0 +1,35 @@
+{
+  "name": "Malone Meat Maker of the Deli",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3528.png",
+  "dna": "ef14421a68736a6506236a87d02b201d52f42d99",
+  "edition": 3528,
+  "date": 1661121494427,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cucumber Juggernaut"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Assassin"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Hotdog on a Fork"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Blueberry Danish"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Bessie"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

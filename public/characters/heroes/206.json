@@ -1,0 +1,35 @@
+{
+  "name": "Alberto Saucer of the Law",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/206.png",
+  "dna": "a6a3f30cd56e8a4873679a904c0355423608c72b",
+  "edition": 206,
+  "date": 1661121471924,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Brown Vest"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Emo"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Recipe 58"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Cookie"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Lil Bok"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

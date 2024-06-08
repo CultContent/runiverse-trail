@@ -1,0 +1,35 @@
+{
+  "name": "Denny Genetically Modified of Salads",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/840.png",
+  "dna": "011a10f18853163333a67848ecd668d367a3d78e",
+  "edition": 840,
+  "date": 1661121477003,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cucumber Juggernaut"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cucumber Juggernaut Helm"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "None"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Flimsy Paper Plate"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Battle Goat"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

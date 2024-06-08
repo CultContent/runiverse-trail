@@ -1,0 +1,35 @@
+{
+  "name": "Glacier Flying Dropkick of the Cumberdome",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3214.png",
+  "dna": "5120704252566eabb34ec9994ace66b62966705f",
+  "edition": 3214,
+  "date": 1661121392304,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Ice Cold"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Iceclops"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Steel Chain"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Watermelon"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Battle Dog"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

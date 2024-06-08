@@ -1,0 +1,35 @@
+{
+  "name": "Pup Cook of the Street Corner",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/20.png",
+  "dna": "6a772bd8d6a31654f4e2b5837c74f57288ab8106",
+  "edition": 20,
+  "date": 1661121443622,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cucumber Juggernaut"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Meat Bucket"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Spatula"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Square Waffle"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Lil Cluck"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

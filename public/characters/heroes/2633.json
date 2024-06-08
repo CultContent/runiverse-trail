@@ -1,0 +1,35 @@
+{
+  "name": "Gordon Nomad of the Skies",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2633.png",
+  "dna": "ff2687719445627cab1c6ea8e1cdcd243f77ebac",
+  "edition": 2633,
+  "date": 1661121473918,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Leggy Chicken"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Liutenant"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Plastic Knife"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Dodger"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Pig"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

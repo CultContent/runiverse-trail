@@ -1,0 +1,35 @@
+{
+  "name": "Pep Wrangler of Lofty Ambitions",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1218.png",
+  "dna": "04fd850a678ff0de3e22da2440cc44e98ae1e228",
+  "edition": 1218,
+  "date": 1661121497197,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Leggy Chicken"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cucumber Juggernaut Helm"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Lasso"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Snow Shield"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotdog Goat"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

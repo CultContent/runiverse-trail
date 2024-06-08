@@ -1,0 +1,35 @@
+{
+  "name": "Cobb Deconstructor of the Fairgrounds",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/594.png",
+  "dna": "410616ce4049eeec557f3bd4c2cf72fdc20b1823",
+  "edition": 594,
+  "date": 1661121386224,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cucumber Platemail"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Corn Cob"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Frying Pan"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Sliced Bread"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "h y d r a t i o n"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

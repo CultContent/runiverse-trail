@@ -1,0 +1,35 @@
+{
+  "name": "Malka Baron of the Farm",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/115.png",
+  "dna": "df68911835f82f485a88906b098785e926ab2105",
+  "edition": 115,
+  "date": 1661121408774,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Gambler"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Liutenant"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Cucumdog"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Watermelon"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Milker"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

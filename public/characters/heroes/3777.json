@@ -1,0 +1,35 @@
+{
+  "name": "Hurk Disciple of the Ballpark",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3777.png",
+  "dna": "6f4ff198d842ff28d2ab04a40418ee9841e8e840",
+  "edition": 3777,
+  "date": 1661121524151,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Pickle Pauldrons"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Grunt"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Watering Can"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Square Waffle"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotdog Goat"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

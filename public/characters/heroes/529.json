@@ -1,0 +1,35 @@
+{
+  "name": "Hurk Groundskeeper of the Pasture",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/529.png",
+  "dna": "0dca2efce4e232cd378b07ff054d8f5e3a77ce8e",
+  "edition": 529,
+  "date": 1661121441149,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Brown Vest"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Samurai"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Hoe"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "None"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Pig"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Peewee Pickler of the Corn",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3537.png",
+  "dna": "8f45e4c98d2d9f841d7be5829e9423a96f6e7ebf",
+  "edition": 3537,
+  "date": 1661121398551,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Green Flannel"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Grunt"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Icicle"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Coconut"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Gull"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Brad Harvester of the Kitchen",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1267.png",
+  "dna": "8d796afb32526f93e20f3336a4a85c886adda23c",
+  "edition": 1267,
+  "date": 1661121408231,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Pickle Pauldrons"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hot Dog"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Cornstalk"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Cucumber Slice"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Battle Snake"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

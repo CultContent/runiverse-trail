@@ -1,0 +1,35 @@
+{
+  "name": "Hurk Aquarius of the Garbage Plate",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2390.png",
+  "dna": "62188813decff118a4d36d12f5bf7b0da62734e2",
+  "edition": 2390,
+  "date": 1661121425611,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Champion"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Meat Bucket"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "None"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Flimsy Paper Plate"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "None"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

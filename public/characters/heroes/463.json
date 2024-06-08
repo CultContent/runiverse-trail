@@ -1,0 +1,35 @@
+{
+  "name": "Bob  of Salads",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/463.png",
+  "dna": "f82dcf6cc6a115371470ec910d746b718861c485",
+  "edition": 463,
+  "date": 1661121450232,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Pickle Sash"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cowboy Hat"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Vanilla Cone"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Square Waffle"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Battle Goat"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Justice Flipper of the Fire",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3178.png",
+  "dna": "c01fd75093a5d1173eb46a82077850fd4dfe35f1",
+  "edition": 3178,
+  "date": 1661121416513,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cucumber Unitard"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Assassin"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Dragon Flipper"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Mini Fridge"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Pig"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Wenhen Propane Purist of Frostbite",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/894.png",
+  "dna": "b188983bf97c4c43d74a98aa173a7e369252f752",
+  "edition": 894,
+  "date": 1661121378841,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Robe of Refrigeration"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Bird Brain"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Tongs"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Can of Spam"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Battle Goat"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

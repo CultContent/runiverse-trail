@@ -1,0 +1,35 @@
+{
+  "name": "Lee Green Thumb of the Long Table",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1604.png",
+  "dna": "f65fa6d68c7b6b1b6ce5a06be27d82a4150f3922",
+  "edition": 1604,
+  "date": 1661121411123,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Pest Control"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Liutenant"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Cucumber"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "None"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotfrog"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

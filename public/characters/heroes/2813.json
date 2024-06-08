@@ -1,0 +1,35 @@
+{
+  "name": "Ola Flipper of the Hexagon",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2813.png",
+  "dna": "0c54f44916282ed4043c4a56bcc4324f583e84a0",
+  "edition": 2813,
+  "date": 1661121496056,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Heavyweight Champ"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Assassin"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Spatula"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Cucumber Slice"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotfrog"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

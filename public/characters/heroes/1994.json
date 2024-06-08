@@ -1,0 +1,35 @@
+{
+  "name": "Glenn Shucker of the Buffet",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1994.png",
+  "dna": "11da853f2d02f6a939308d4a8b3757e039770372",
+  "edition": 1994,
+  "date": 1661121430953,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Chef's Smock"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Samurai"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Cucumber"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Can of Spam"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotdog Goat"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

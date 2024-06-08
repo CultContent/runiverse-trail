@@ -1,0 +1,35 @@
+{
+  "name": "Dale Bonesaw of Questionable Taste",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3533.png",
+  "dna": "a72728e5324bf441d41fdab7b310be8ac3fe609e",
+  "edition": 3533,
+  "date": 1661121439550,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Lettuce Wrap"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hot Dog"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "The Chair"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Sliced Bread"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Milker"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

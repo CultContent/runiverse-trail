@@ -1,0 +1,35 @@
+{
+  "name": "Hoot Mystery of the Mess Hall",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3401.png",
+  "dna": "337c56d54987af82471b4f849f63da3aa7e19685",
+  "edition": 3401,
+  "date": 1661121490719,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cucumber Juggernaut"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cowboy Hat"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "None"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Cucumber Slice"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Red Cooler"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

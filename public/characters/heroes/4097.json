@@ -1,0 +1,35 @@
+{
+  "name": "Ambrosia with the Sauce on the Cob",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/4097.png",
+  "dna": "76d1a4f91c9210f67b4793ae2f8bed960e1aada7",
+  "edition": 4097,
+  "date": 1661121387531,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cornzerker"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Corn Pop"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Ketchup Bottle"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Snow Shield"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotdog Snake"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

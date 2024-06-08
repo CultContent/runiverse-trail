@@ -1,0 +1,35 @@
+{
+  "name": "Whoops Drizzler of the Backwater",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/475.png",
+  "dna": "9fb792996d5b8a20ade76bbd2423b79f28f45cff",
+  "edition": 475,
+  "date": 1661121446136,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Intravenous Mustard Delivery Suit"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hot Dog"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Ketchup Bottle"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Sliced Bread"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Lil Bok"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

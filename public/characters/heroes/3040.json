@@ -1,0 +1,35 @@
+{
+  "name": "Amado Fertilizer for the People",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3040.png",
+  "dna": "7b55606d8caf560cef118d9c04879e3c18f01c96",
+  "edition": 3040,
+  "date": 1661121502483,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Bird of War"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Grunt"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Hoe"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Burger Bun"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotdog Monkey"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

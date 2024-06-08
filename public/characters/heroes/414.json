@@ -1,0 +1,35 @@
+{
+  "name": "Cheddar Plower of Salads",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/414.png",
+  "dna": "7f74d51b62b6db9443528fc7b9596124b8f70eaa",
+  "edition": 414,
+  "date": 1661121464028,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Pickle Pauldrons"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cheddarhead"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Shovel"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Cucumber Slice"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "None"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

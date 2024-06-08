@@ -1,0 +1,35 @@
+{
+  "name": "Morgan Gigger of Cumberland",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2702.png",
+  "dna": "3782763a122b838be58a45ce2fa736229b59f58f",
+  "edition": 2702,
+  "date": 1661121398999,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Champion"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Eldritch Hotdog"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Fishing Rod"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Round Waffle"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Battle Monkey"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

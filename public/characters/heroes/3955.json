@@ -1,0 +1,35 @@
+{
+  "name": "Ronna Tiller of Trouble",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3955.png",
+  "dna": "345b38f0c9d1a60306e33a3a207681279f0e0480",
+  "edition": 3955,
+  "date": 1661121424977,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cucumber Juggernaut"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Hooligan"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Tomato"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Sliced Bread"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotdog Goat"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

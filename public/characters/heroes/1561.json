@@ -1,0 +1,35 @@
+{
+  "name": "Wallace Broiler of the Diner",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1561.png",
+  "dna": "a3f7af633fdd17c3c908ceed09c7902816007688",
+  "edition": 1561,
+  "date": 1661121435848,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Chef's Smock"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Grunt"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Hotdog on a Fork"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Cucumber Slice"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Golden Calf"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

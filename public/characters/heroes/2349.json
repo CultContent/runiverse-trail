@@ -1,0 +1,35 @@
+{
+  "name": "Jay Plower of Pigs",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2349.png",
+  "dna": "6d5d9dfa4ac032f5c8d32b937b919da961cb66ad",
+  "edition": 2349,
+  "date": 1661121446906,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Champion"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Botanist"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Shovel"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Street Sign"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotdog Goat"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

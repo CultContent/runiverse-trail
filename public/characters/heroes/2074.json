@@ -1,0 +1,35 @@
+{
+  "name": "Rolland Bunwarmer of Dares",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2074.png",
+  "dna": "e5523a0d8452f090532636bde7ef0bbcb79f381a",
+  "edition": 2074,
+  "date": 1661121448440,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Champion"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Spartacuke"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Plastic Knife"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Round Waffle"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Green Cooler"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

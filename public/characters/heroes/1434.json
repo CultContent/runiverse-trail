@@ -1,0 +1,35 @@
+{
+  "name": "Stacy Libra of the Early Morning",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1434.png",
+  "dna": "84b7c62b810f52960ddcb5948ac2309f6e116b39",
+  "edition": 1434,
+  "date": 1661121429665,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cucumbarbarian"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hot Dog"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Pizza Paddle"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Trash Can Lid"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "None"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

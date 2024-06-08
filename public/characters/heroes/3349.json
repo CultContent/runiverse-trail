@@ -1,0 +1,35 @@
+{
+  "name": "Yelluh Toaster of the Harvest",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3349.png",
+  "dna": "316681b9fe696a88074fd092d366493c8d8cfd0d",
+  "edition": 3349,
+  "date": 1661121387172,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Red Flannel"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Corn Kid"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Plastic Knife"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "No Donuts Allowed"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotdog Snake"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Pep Harvester of the Bomber Squadron",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/132.png",
+  "dna": "2997c1639d5d963111c83babb38dfb1b15e17ceb",
+  "edition": 132,
+  "date": 1661121474790,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Wings of Pigarus"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Meat Bucket"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Shovel"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Egg"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "None"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

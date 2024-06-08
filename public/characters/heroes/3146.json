@@ -1,0 +1,35 @@
+{
+  "name": "Lennox Charcoal Enthusiast of the Freezer",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3146.png",
+  "dna": "dcbfda9918576f59df12b72ed0eb8f0aa09ad4d8",
+  "edition": 3146,
+  "date": 1661121437485,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Robe of Refrigeration"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Grunt"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Hotdog on a Fork"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "None"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Battle Dog"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

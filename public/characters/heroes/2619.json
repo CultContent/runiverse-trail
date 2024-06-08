@@ -1,0 +1,35 @@
+{
+  "name": "Jimothy Aries of Brrr",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2619.png",
+  "dna": "07ee6a2646150c547f617642e1731f4050dd5385",
+  "edition": 2619,
+  "date": 1661121409830,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Ice Knight"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Hero"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Bacon Cutlass"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "No Donuts Allowed"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotdog Dog"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

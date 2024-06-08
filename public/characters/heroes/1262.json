@@ -1,0 +1,35 @@
+{
+  "name": "Dale Propane Purist of the Skies",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1262.png",
+  "dna": "e633b32dc49ee3bdabc622eaa451df1c0262dcfc",
+  "edition": 1262,
+  "date": 1661121424249,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Wings of Pigarus"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Arcanist"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Fork"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Watermelon"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Pig"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

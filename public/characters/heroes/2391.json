@@ -1,0 +1,35 @@
+{
+  "name": "Glizzy with the Sauce of the Cantina",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2391.png",
+  "dna": "872bbd41337b791a1565c0ef1b947e14fc8bc0d6",
+  "edition": 2391,
+  "date": 1661121481615,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Chef's Smock"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Meat Bucket"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Hellman's Miracle"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Coconut"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotdog Dog"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

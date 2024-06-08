@@ -1,0 +1,35 @@
+{
+  "name": "Plop Emulcifier of Outlaws",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3460.png",
+  "dna": "5864bbb12778bc2829bdf3c8f294fac917f5b90d",
+  "edition": 3460,
+  "date": 1661121523191,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Gambler"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Celery Crusader"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Mole Whacker"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Round Waffle"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Lil Cluck"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

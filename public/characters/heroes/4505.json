@@ -1,0 +1,35 @@
+{
+  "name": "Blop Four Star of the Pasture",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/4505.png",
+  "dna": "76c00a1b9ca93b61bc28f694a047d14d319aacb4",
+  "edition": 4505,
+  "date": 1661121464291,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Black Steer"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Assassin"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Olive Toothpick"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "No Donuts Allowed"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Trash Can"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Hoot Angler of Flamingos",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3795.png",
+  "dna": "8c5139b590a8d144bd34698d8aed5e8bfd1b1e05",
+  "edition": 3795,
+  "date": 1661121431260,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Pickle Pauldrons"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Spartacuke"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Fishing Rod"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Flimsy Paper Plate"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Battle Snake"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

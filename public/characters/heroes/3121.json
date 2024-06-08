@@ -1,0 +1,35 @@
+{
+  "name": "Slim Plower of the Country",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3121.png",
+  "dna": "a4269a013c451fc16958513ce432c0369aec9782",
+  "edition": 3121,
+  "date": 1661121466076,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Intravenous Mustard Delivery Suit"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Grunt"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Shovel"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Flimsy Paper Plate"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Lil Bok"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

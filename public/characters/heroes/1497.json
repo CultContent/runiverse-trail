@@ -1,0 +1,35 @@
+{
+  "name": "Lennox Harvester of Frostbite",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1497.png",
+  "dna": "a6ad67fb10690cea42f13890c8eb6979848f4dc6",
+  "edition": 1497,
+  "date": 1661121403157,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Robe of Refrigeration"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Spartacuke"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Shovel"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Burger Bun"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Battle Monkey"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

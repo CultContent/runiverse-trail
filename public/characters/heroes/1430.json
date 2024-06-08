@@ -1,0 +1,35 @@
+{
+  "name": "Hunter Deconstructor of the Hexagon",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1430.png",
+  "dna": "a6c1170145ed0cf75de47e16a1efb5f71d8513d4",
+  "edition": 1430,
+  "date": 1661121432902,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Bird of War"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cowboy Hat"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Pizza Paddle"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "The Grill"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Milker"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

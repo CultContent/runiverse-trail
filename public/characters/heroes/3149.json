@@ -1,0 +1,35 @@
+{
+  "name": "Veronica Farmer of the Sauce",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3149.png",
+  "dna": "401c91f5ca00d40958f8cc9ea68f1d5d82c2cc82",
+  "edition": 3149,
+  "date": 1661121454078,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cucumbarbarian"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Amphibious Hotdog"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Cornstalk"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Square Waffle"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Lil Cluck"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

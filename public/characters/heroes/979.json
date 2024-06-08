@@ -1,0 +1,35 @@
+{
+  "name": "Skillet Scorpio of the Pond",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/979.png",
+  "dna": "151a94ae230f1117fb257693dead6bdc4cbec5c1",
+  "edition": 979,
+  "date": 1661121439521,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Pickle Pauldrons"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cowboy Hat"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Big Cucumdog"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Can of Spam"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Battle Snake"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

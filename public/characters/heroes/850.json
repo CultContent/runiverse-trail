@@ -1,0 +1,35 @@
+{
+  "name": "Milford Cancer of the Lunchroom",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/850.png",
+  "dna": "f78796a6e9ff60f4c100e4839eda9154464176ac",
+  "edition": 850,
+  "date": 1661121406943,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Chef's Smock"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hot Dog"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Watering Can"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Burger Bun"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "h y d r a t i o n"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

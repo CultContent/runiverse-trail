@@ -1,0 +1,35 @@
+{
+  "name": "Guiseppina Bunwarmer of Cast Iron",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/4229.png",
+  "dna": "ac860cb1a8dc10f5b94853f528d27dc5dd433d33",
+  "edition": 4229,
+  "date": 1661121436449,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Chef's Smock"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Captain"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Grain Alcohol"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Square Waffle"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "None"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

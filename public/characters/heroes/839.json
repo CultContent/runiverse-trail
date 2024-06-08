@@ -1,0 +1,35 @@
+{
+  "name": "Fredrick Deadshot of the Hill",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/839.png",
+  "dna": "a5aa7e39f6e912c5bb1c75ba16b894c007a3c1b6",
+  "edition": 839,
+  "date": 1661121394950,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Lettuce Wrap"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Celery Crusader"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Six Shooter"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Round Waffle"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Bessie"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

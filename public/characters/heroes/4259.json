@@ -1,0 +1,35 @@
+{
+  "name": "Chihuahua Wurst a la Carte",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/4259.png",
+  "dna": "4450c1f1ce965f740c265886d6b28f2fba977ac3",
+  "edition": 4259,
+  "date": 1661121510601,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "String Beans"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hot Dog"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Grain Alcohol"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "No Donuts Allowed"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotdog Dog"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

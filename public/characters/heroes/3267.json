@@ -1,0 +1,35 @@
+{
+  "name": "Bill Tiller of the Cumberdome",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3267.png",
+  "dna": "97dfd77b79b8683d4008a9619aa824e7c7fdaf6d",
+  "edition": 3267,
+  "date": 1661121497511,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Heavyweight Champ"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Amphibious Hotdog"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Cucumber"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Sliced Bread"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Mayo Dollop"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

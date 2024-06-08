@@ -1,0 +1,35 @@
+{
+  "name": "Toros Bullseye of Cows",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2609.png",
+  "dna": "97247f46a04e6f20cf328ff39aa3914416753bea",
+  "edition": 2609,
+  "date": 1661121495749,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Intravenous Mustard Delivery Suit"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Brown Cow"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Six Shooter"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Square Waffle"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Bessie"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

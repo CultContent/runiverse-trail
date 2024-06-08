@@ -1,0 +1,35 @@
+{
+  "name": "Oscar Hoagie of the Fryer",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1654.png",
+  "dna": "cc79da6594943940ab8e6f3acb0936cace16fe81",
+  "edition": 1654,
+  "date": 1661121453327,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cucumber Unitard"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cowboy Hat"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "None"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Burger Bun"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Battle Monkey"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

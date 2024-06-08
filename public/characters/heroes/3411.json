@@ -1,0 +1,35 @@
+{
+  "name": "Ira Broiler for the People",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3411.png",
+  "dna": "9af829725904b980fe164d4308d56211c074231b",
+  "edition": 3411,
+  "date": 1661121431658,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Bird of War"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Grunt"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Hotdog on a Fork"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Burger Bun"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Red Cooler"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

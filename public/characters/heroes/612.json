@@ -1,0 +1,35 @@
+{
+  "name": "Rory Double Dog of the Corn",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/612.png",
+  "dna": "e1506814ee8e2a0c4291a4a216b5294059d51511",
+  "edition": 612,
+  "date": 1661121497386,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Red Flannel"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cucumbearskin"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Frying Pan"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "No Donuts Allowed"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Bessie"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

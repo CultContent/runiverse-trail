@@ -1,0 +1,35 @@
+{
+  "name": "Nugget Grower of Frostbite",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/815.png",
+  "dna": "ccce82edc45ca03fcb95c4d8258cd4c97169e67b",
+  "edition": 815,
+  "date": 1661121378187,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Robe of Refrigeration"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Bird Brain"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Big Tomato"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Square Waffle"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotdog Dog"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

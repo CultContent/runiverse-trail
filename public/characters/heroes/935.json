@@ -1,0 +1,35 @@
+{
+  "name": "Denny Saggitarius a la Carte",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/935.png",
+  "dna": "fcbc9f300fe2d2ccb410be6cad05be9e7753398e",
+  "edition": 935,
+  "date": 1661121498757,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Swampweed Battledress"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Botanist"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Grain Alcohol"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "No Donuts Allowed"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotdog Goat"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

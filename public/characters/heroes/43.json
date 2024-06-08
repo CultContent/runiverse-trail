@@ -1,0 +1,35 @@
+{
+  "name": "Brock Tiller of the Factory",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/43.png",
+  "dna": "bdaef8898d9f2ae87f31d3bd46b809b5b787a98d",
+  "edition": 43,
+  "date": 1661121491485,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "String Beans"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Celery Crusader"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Pitchfork"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Snow Shield"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "None"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

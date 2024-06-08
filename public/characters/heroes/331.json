@@ -1,0 +1,35 @@
+{
+  "name": "Skillet Squeaker of the Ditch",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/331.png",
+  "dna": "77dea93025a2c56e03d9ca8f41110cb12c9d7db9",
+  "edition": 331,
+  "date": 1661121471955,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Champion"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Assassin"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Frying Pan"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Square Waffle"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Cucumduck"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

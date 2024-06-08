@@ -1,0 +1,35 @@
+{
+  "name": "Fredrick Firestarter of the Skies",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3792.png",
+  "dna": "3176a81caee34911f3db4316aa7d9c6a49fe7133",
+  "edition": 3792,
+  "date": 1661121491224,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Leggy Chicken"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Samurai"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Strike Anywhere Match"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Cucumber Slice"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotdog Dog"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

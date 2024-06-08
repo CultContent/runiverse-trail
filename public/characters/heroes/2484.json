@@ -1,0 +1,35 @@
+{
+  "name": "Bellamy Harvester of the Ditch",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2484.png",
+  "dna": "f5e8de8496ddab9fab410d587a78532c3c9f8341",
+  "edition": 2484,
+  "date": 1661121505797,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Champion"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Assassin"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Cornstalk"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Round Waffle"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Lil Cluck"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

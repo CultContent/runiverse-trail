@@ -1,0 +1,35 @@
+{
+  "name": "Phebe Cremator of the Bodega",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/4435.png",
+  "dna": "48304b8a3e162d5a105ad19297800492636d69cd",
+  "edition": 4435,
+  "date": 1661121404757,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cucumber Juggernaut"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hot Dog"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Strike Anywhere Match"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Cthulhucumber's Blessing"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotdog Snake"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Hurk Nomad of the Cafeteria",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1309.png",
+  "dna": "864b72441fceef5ba67c136beea89401abe3de49",
+  "edition": 1309,
+  "date": 1661121475204,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Intravenous Mustard Delivery Suit"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Meat Bucket"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Plastic Knife"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Dodger"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Bessie"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

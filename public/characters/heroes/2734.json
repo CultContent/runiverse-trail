@@ -1,0 +1,35 @@
+{
+  "name": "Bill Aquarius of the Harvest",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2734.png",
+  "dna": "63814f35bd373d8d6922444c068888c6b4436538",
+  "edition": 2734,
+  "date": 1661121435213,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Green Flannel"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Assassin"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Cucumdog"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "None"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Gull"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

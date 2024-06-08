@@ -1,0 +1,35 @@
+{
+  "name": "Jimothy Wrangler of the Mess Hall",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/4450.png",
+  "dna": "7c8b6316bdd6a10b457abaae5af42b6234836733",
+  "edition": 4450,
+  "date": 1661121461477,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Pest Control"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Meat Bucket"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Lasso"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Sliced Bread"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Red Cooler"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

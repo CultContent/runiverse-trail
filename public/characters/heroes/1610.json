@@ -1,0 +1,35 @@
+{
+  "name": "Keith Giller of Cumberland",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1610.png",
+  "dna": "f1e602079b10dbe602bb28607c19dfd590ba50a9",
+  "edition": 1610,
+  "date": 1661121515395,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Intravenous Mustard Delivery Suit"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cowboy Hat"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Fishing Rod"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Dodger"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Battle Monkey"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

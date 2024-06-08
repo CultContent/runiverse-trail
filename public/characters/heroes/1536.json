@@ -1,0 +1,35 @@
+{
+  "name": "Malone Tiller of the Buffet",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1536.png",
+  "dna": "63291f566add0af7e494e16167016a231ed88dc1",
+  "edition": 1536,
+  "date": 1661121493736,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Chef's Smock"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Celery Crusader"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Shovel"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "None"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotdog Monkey"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

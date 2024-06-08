@@ -1,0 +1,35 @@
+{
+  "name": "Glenn Charlord of Fancytown",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1796.png",
+  "dna": "4e74358d407dd880d67ebb8aa9b69c87233fa83c",
+  "edition": 1796,
+  "date": 1661121412075,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Swampweed Battledress"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hot Dog"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Spatula"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Cookie"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotdog Goat"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

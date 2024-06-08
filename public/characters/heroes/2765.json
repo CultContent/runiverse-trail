@@ -1,0 +1,35 @@
+{
+  "name": "Wallace Flipper of the Deli",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2765.png",
+  "dna": "29e21b713305e444be3462809c57cf6d4086f6ec",
+  "edition": 2765,
+  "date": 1661121531474,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cucumbarbarian"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Veggie Dog"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Steel Chain"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Coconut"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotdog Goat"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

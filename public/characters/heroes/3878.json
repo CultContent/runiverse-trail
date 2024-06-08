@@ -1,0 +1,35 @@
+{
+  "name": "Beans Flipper of Salads",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3878.png",
+  "dna": "b1cf9c6085d749b4c47ffcf22a0c5df2a4e082b0",
+  "edition": 3878,
+  "date": 1661121503238,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Danish Deserter"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Bandito"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "The Chair"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Shuckler"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Battle Monkey"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

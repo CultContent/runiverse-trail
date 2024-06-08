@@ -1,0 +1,35 @@
+{
+  "name": "Nathan Charlord of Impeccable Taste",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2728.png",
+  "dna": "b2e1db061af317dc149f461e21cd16e9afa47d26",
+  "edition": 2728,
+  "date": 1661121481818,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "String Beans"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cucumber Juggernaut Helm"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Tongs"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Sliced Bread"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Battle Monkey"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

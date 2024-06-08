@@ -1,0 +1,35 @@
+{
+  "name": "Sausage Mustardmancer of the Hexagon",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2054.png",
+  "dna": "0027f816a35c73a495e85030da7cb2de993f05c5",
+  "edition": 2054,
+  "date": 1661121515703,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Conqueror"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Arcanist"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "French's Yellow"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Round Waffle"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotdog Dog"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

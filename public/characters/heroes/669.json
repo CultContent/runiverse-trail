@@ -1,0 +1,35 @@
+{
+  "name": "Glenn Gunslinger of the Factory",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/669.png",
+  "dna": "feb4cd075ed11e3b8e8678a3428a2dc420dc73a6",
+  "edition": 669,
+  "date": 1661121448634,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Intravenous Mustard Delivery Suit"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Veggie Dog"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Shotgun"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Coconut"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Battle Monkey"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

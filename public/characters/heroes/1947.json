@@ -1,0 +1,35 @@
+{
+  "name": "Francis Virgo of the Diner",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1947.png",
+  "dna": "bf131f678080b3578b147302df77f3ba22b2b3df",
+  "edition": 1947,
+  "date": 1661121474664,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cucumber Unitard"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cucumbertip Cap"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Pizza Paddle"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Flimsy Paper Plate"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Blue Goat"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

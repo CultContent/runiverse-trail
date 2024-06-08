@@ -1,0 +1,35 @@
+{
+  "name": "Floy Gardener of the Factory",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3171.png",
+  "dna": "8ef742aa703972114824eecf19405e47450d4dd1",
+  "edition": 3171,
+  "date": 1661121424076,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Fresh out the Package"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cowboy Hat"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Hoe"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Magic Shield"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotdog Monkey"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

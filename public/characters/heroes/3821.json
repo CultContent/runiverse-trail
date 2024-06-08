@@ -1,0 +1,35 @@
+{
+  "name": "Shirley Deadshot of the Back Nine",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3821.png",
+  "dna": "fc74890d9707ab8018332219e83884a2a2b23450",
+  "edition": 3821,
+  "date": 1661121528270,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Swampweed Battledress"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Pig Pilot"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Shotgun"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Raspberry Danish"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotdog Snake"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

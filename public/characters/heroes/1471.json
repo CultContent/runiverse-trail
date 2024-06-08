@@ -1,0 +1,35 @@
+{
+  "name": "Guiseppina Champion of the Factory",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1471.png",
+  "dna": "60e2997cec7f9dba0544411c0079f466a756a129",
+  "edition": 1471,
+  "date": 1661121449025,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cucumber Unitard"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Bandito"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Steel Chain"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Round Waffle"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotfrog"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

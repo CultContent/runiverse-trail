@@ -1,0 +1,35 @@
+{
+  "name": "Hunter Slatherer of Comfort",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3820.png",
+  "dna": "0c53cfe016fff83273086100ca3f588834982c16",
+  "edition": 3820,
+  "date": 1661121479889,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Green Sweats"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cowboy Hat"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Ketchup Bottle"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Cookie"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotdog Snake"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

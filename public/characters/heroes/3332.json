@@ -1,0 +1,35 @@
+{
+  "name": "Tandy Grower of the Feast",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3332.png",
+  "dna": "bd796e06bde3775b731ded83bf619aa05fd6a56b",
+  "edition": 3332,
+  "date": 1661121470927,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Pest Control"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Captain"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Tomato"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Sliced Bread"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotdog Monkey"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

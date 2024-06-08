@@ -1,0 +1,35 @@
+{
+  "name": "Bob Gemini of the Fighter Squadron",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/535.png",
+  "dna": "37d54940a9532c086aa090e292a745e59f496e56",
+  "edition": 535,
+  "date": 1661121410051,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Wings of Pigarus"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Meat Bucket"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Pizza Paddle"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Cookie"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "None"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Braidy Green Thumb of Lofty Ambitions",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1355.png",
+  "dna": "92f1b87f551b679325bf5fd9fb43f3aacfeedede",
+  "edition": 1355,
+  "date": 1661121410542,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Wings of Pigarus"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Captain"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Hoe"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Square Waffle"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Lil Cluck"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

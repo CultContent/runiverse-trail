@@ -1,0 +1,35 @@
+{
+  "name": "Big Dog Chef of the Ditch",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3775.png",
+  "dna": "87c2b3e83212940697c9192f25df6f1f3f7a4c69",
+  "edition": 3775,
+  "date": 1661121531257,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Lettuce Wrap"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Assassin"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Hotdog on a Fork"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Pizza"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotdog Monkey"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

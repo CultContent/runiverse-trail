@@ -1,0 +1,35 @@
+{
+  "name": "Reese Smoker of Fancytown",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/947.png",
+  "dna": "f68e49d752c274fd63010f0ae1ae42b336552a07",
+  "edition": 947,
+  "date": 1661121381734,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Brown Vest Cowboy"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Dairy Disciple"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Hotdog on a Fork"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Round Waffle"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotdog Goat"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

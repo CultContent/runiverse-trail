@@ -1,0 +1,35 @@
+{
+  "name": "Virgil Slammer of the Early Morning",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/524.png",
+  "dna": "ae310ccc80765941b393181e742e98f392a34ea6",
+  "edition": 524,
+  "date": 1661121471894,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Pickle Sash"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Saboteur"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "The Chair"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "None"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Lil Bok"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

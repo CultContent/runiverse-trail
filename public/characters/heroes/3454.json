@@ -1,0 +1,35 @@
+{
+  "name": "Plop Pescatarian of Salads",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3454.png",
+  "dna": "c3f78c28e93ec1d9b3ef0a51a9b7b8ea4211cbad",
+  "edition": 3454,
+  "date": 1661121460025,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cucumber Platemail"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Captain"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Fishing Rod"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Trash Can Lid"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Pig"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

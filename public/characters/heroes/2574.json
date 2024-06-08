@@ -1,0 +1,35 @@
+{
+  "name": "Chonk Barbeque Artist on the Cob",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2574.png",
+  "dna": "f2524d8764bdee885b5b58bc811054a68f29e626",
+  "edition": 2574,
+  "date": 1661121407212,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Pickle Sash"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Assassin"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Tongs"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Pizza"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotdog Goat"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

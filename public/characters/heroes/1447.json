@@ -1,0 +1,35 @@
+{
+  "name": "Tandy Spark of the Deli",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1447.png",
+  "dna": "1ed8fb1be0c6414de84e22864c175d45b45aba63",
+  "edition": 1447,
+  "date": 1661121499760,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cucumber Unitard"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Assassin"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Strike Anywhere Match"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Trash Can Lid"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotdog Snake"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

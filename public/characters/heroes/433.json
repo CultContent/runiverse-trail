@@ -1,0 +1,35 @@
+{
+  "name": "Jojo Fertilizer of Frostbite",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/433.png",
+  "dna": "906a42abb8ecc995619471123235bebf75be052e",
+  "edition": 433,
+  "date": 1661121491256,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Robe of Refrigeration"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Arcanist"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Pitchfork"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "None"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotdog Dog"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

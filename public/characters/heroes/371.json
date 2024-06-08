@@ -1,0 +1,35 @@
+{
+  "name": "Blue Pitmaster of Hog Island",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/371.png",
+  "dna": "44864bbb1dbe8485985509698e85f5ecca1de5cf",
+  "edition": 371,
+  "date": 1661121391181,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Biker"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Ice Golem"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Hotdog on a Fork"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Cucumber Slice"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Trash Can"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

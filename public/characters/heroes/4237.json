@@ -1,0 +1,35 @@
+{
+  "name": "Sallie Gardener of the Street Corner",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/4237.png",
+  "dna": "d220f6d82f3c316c73ff1bcc3a41a4b1e0236361",
+  "edition": 4237,
+  "date": 1661121445602,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "String Beans"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Swampdog"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Big Cucumber"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Blueberry Danish"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Red Cooler"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

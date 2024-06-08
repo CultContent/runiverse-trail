@@ -1,0 +1,35 @@
+{
+  "name": "Cassidy Five Star of the Federation",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3208.png",
+  "dna": "56a3725d331a50cdca90dbd2e06f62833705ac39",
+  "edition": 3208,
+  "date": 1661121422946,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Conqueror"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Grunt"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Big Cucumdog"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "None"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Trash Can Fire"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

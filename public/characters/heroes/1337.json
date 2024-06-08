@@ -1,0 +1,35 @@
+{
+  "name": "Brock Farmer of the Convenience Store",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1337.png",
+  "dna": "6416deb77f52ec909ab4721399345da4b916f48d",
+  "edition": 1337,
+  "date": 1661121441636,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cucumber Platemail"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Swampdog"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Tomato"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "The Grill"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "None"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

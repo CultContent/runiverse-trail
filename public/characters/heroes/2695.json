@@ -1,0 +1,35 @@
+{
+  "name": "Spot Hoagie of Lofty Ambitions",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2695.png",
+  "dna": "d2bcdc7cd85dd25d3f84f5a6a627b6587d264346",
+  "edition": 2695,
+  "date": 1661121534538,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Champion"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Assassin"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Cucumdog"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Pizza"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Battle Monkey"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Bellamy Disciple of the Drive-Thru",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/677.png",
+  "dna": "02e389a2a85280ac0671257c5b27a6bda74ef3b1",
+  "edition": 677,
+  "date": 1661121407927,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Pickle Pauldrons"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Arcanist"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Rune of Cucumdog"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Street Sign"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Trash Can"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Winter Toaster of Frostbite",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/440.png",
+  "dna": "18ff5550e7ea9c1b0daee80827fed6a5cb0b5092",
+  "edition": 440,
+  "date": 1661121390687,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Robe of Refrigeration"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Lord of Snow"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Grain Alcohol"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "No Donuts Allowed"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "None"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

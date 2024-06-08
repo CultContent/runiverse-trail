@@ -1,0 +1,35 @@
+{
+  "name": "Morgan Aries of the Deli",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3156.png",
+  "dna": "7ee1822ef8be94ba76f6a2e393bf8155271d0141",
+  "edition": 3156,
+  "date": 1661121419939,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cucumbarbarian"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Liutenant"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "None"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "None"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotdog Snake"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

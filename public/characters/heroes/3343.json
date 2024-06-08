@@ -1,0 +1,35 @@
+{
+  "name": "Sal Tiller of the River",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3343.png",
+  "dna": "80edc8078a8a50ec335ddbf3250c8be734d7daba",
+  "edition": 3343,
+  "date": 1661121460930,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "String Beans"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Celery Crusader"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Cucumber"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Coconut"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Lil Cluck"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

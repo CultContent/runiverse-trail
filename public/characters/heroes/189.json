@@ -1,0 +1,35 @@
+{
+  "name": "Joey Capricorn of the Saloon",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/189.png",
+  "dna": "633fae7cba139ef91dc073af535afb453eee46c9",
+  "edition": 189,
+  "date": 1661121517533,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Black Vest"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Arcanist"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Frying Pan"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "The Grill"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Battle Dog"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Justice Grower of the Freezer",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3093.png",
+  "dna": "8926bce7ced901fea9279a773ed6fbf60ebf42d6",
+  "edition": 3093,
+  "date": 1661121470094,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Ice Knight"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Grunt"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Cucumber"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Cookie"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Battle Snake"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

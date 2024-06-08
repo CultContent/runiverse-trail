@@ -1,0 +1,35 @@
+{
+  "name": "Roman Cage Fighter of the Early Morning",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1721.png",
+  "dna": "c1c4a4fb531cf6a26bdd5e05512bd095c6b8a92c",
+  "edition": 1721,
+  "date": 1661121408287,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Pickle Pauldrons"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Spartacuke"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "The Chair"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Trash Can Lid"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Battle Dog"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

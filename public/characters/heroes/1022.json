@@ -1,0 +1,35 @@
+{
+  "name": "Lennox Slammer of the Early Morning",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1022.png",
+  "dna": "8a3e0e1b89d7d73acbcd68684ff223ebd31d5de8",
+  "edition": 1022,
+  "date": 1661121473370,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Champion"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Celery Crusader"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Steel Chain"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Pizza"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Green Cooler"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Brock Shucker of the Fire",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/229.png",
+  "dna": "bd0d49e44bae1a06bd03a1c9b0a22f95cba3808b",
+  "edition": 229,
+  "date": 1661121510961,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cucumber Juggernaut"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Celery Crusader"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Cornstalk"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Pizza"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Mayo Dollop"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Keith Lighter of Clouds",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1087.png",
+  "dna": "9830825f7597ac5f11e947c9b92643e88a7b9e94",
+  "edition": 1087,
+  "date": 1661121455694,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Leggy Chicken"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Fried Bologna"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Strike Anywhere Match"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Dodger"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotdog Snake"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

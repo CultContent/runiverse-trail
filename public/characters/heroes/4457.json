@@ -1,0 +1,35 @@
+{
+  "name": "Slim Lighter a la Carte",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/4457.png",
+  "dna": "68075a1e4c8eae708bbc756df063ad9dc1a8333d",
+  "edition": 4457,
+  "date": 1661121513090,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Lettuce Wrap"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Grunt"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Strike Anywhere Match"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "None"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotfrog"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

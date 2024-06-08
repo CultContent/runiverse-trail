@@ -1,0 +1,35 @@
+{
+  "name": "Chuck Green Thumb of Cows",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2095.png",
+  "dna": "87a15041c684be36112af4bd0421565e6d344f88",
+  "edition": 2095,
+  "date": 1661121402638,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Green Flannel"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Liutenant"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Pitchfork"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Can of Spam"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "None"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

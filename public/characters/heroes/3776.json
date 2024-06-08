@@ -1,0 +1,35 @@
+{
+  "name": "Jojo Farmer of Unknown Origin",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3776.png",
+  "dna": "8eac0fdc9ac1432c2ac94a0d36e9329edbde1b1c",
+  "edition": 3776,
+  "date": 1661121428759,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Heart Boxers"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Samurai"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Cucumber"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Flimsy Paper Plate"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Bessie"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

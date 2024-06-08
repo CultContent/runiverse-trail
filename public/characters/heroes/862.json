@@ -1,0 +1,35 @@
+{
+  "name": "Beau Gardener of the Deli",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/862.png",
+  "dna": "436000ea7b351e6a683817dce9cc1051af2cd845",
+  "edition": 862,
+  "date": 1661121432147,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Pickle Sash"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Emo"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Big Cucumber"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Flimsy Paper Plate"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotdog Monkey"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

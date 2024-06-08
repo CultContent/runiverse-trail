@@ -1,0 +1,35 @@
+{
+  "name": "Glizzy Slider of the Kid's Table",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2675.png",
+  "dna": "a29ba482a26fce6431983b3c8916ede1fe659499",
+  "edition": 2675,
+  "date": 1661121410505,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Pickle Pauldrons"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cucumber Juggernaut Helm"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Spamwich"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Cookie"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "None"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

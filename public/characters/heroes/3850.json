@@ -1,0 +1,35 @@
+{
+  "name": "Rolland Green Thumb of Cumberland",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3850.png",
+  "dna": "b1eb2bb27903e6cef1810485f015ef12c7e6c3d5",
+  "edition": 3850,
+  "date": 1661121434251,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Swampweed Battledress"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Emo"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Tomato"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Watermelon"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Black Widow"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

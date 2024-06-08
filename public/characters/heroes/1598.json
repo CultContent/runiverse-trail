@@ -1,0 +1,35 @@
+{
+  "name": "Link Big Game Hunter of the Kitchen",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1598.png",
+  "dna": "ca02f4055ecf94890c2385aa06901f019dd410f8",
+  "edition": 1598,
+  "date": 1661121519747,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Pickle Pauldrons"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Captain"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Six Shooter"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Watermelon"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "None"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

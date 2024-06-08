@@ -1,0 +1,35 @@
+{
+  "name": "Hunk Green Thumb of the Saloon",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3457.png",
+  "dna": "df456f184e955947436d5088f5627a5df17b73a0",
+  "edition": 3457,
+  "date": 1661121404575,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Black Vest"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Veggie Dog"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Cucumber"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Burger Bun"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Lil Bok"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

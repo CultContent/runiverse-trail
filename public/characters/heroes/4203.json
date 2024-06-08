@@ -1,0 +1,35 @@
+{
+  "name": "Peter Champion of the Street Corner",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/4203.png",
+  "dna": "fb50668fd2f4e4d565ea1227c40b7a36580aa769",
+  "edition": 4203,
+  "date": 1661121448696,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Pest Control"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Bandito"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "The Chair"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "None"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "h y d r a t i o n"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

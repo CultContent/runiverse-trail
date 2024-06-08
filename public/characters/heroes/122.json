@@ -1,0 +1,35 @@
+{
+  "name": "Adah Tosser of the Grocery",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/122.png",
+  "dna": "aa273306c8788e56854e9839702de39a7ad03b60",
+  "edition": 122,
+  "date": 1661121434576,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Pickle Sash"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Meat Bucket"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "The Chair"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Cthulhucumber's Blessing"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "h y d r a t i o n"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

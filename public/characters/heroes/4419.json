@@ -1,0 +1,35 @@
+{
+  "name": "Guiseppina Harvester of the Lunchroom",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/4419.png",
+  "dna": "89d0e8b403bddfa9c47f4ed295b7da3954bedecc",
+  "edition": 4419,
+  "date": 1661121445766,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Chef's Smock"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hot Dog"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Hoe"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "The Grill"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Trash Can"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Gordon Gardener of the Drive-Thru",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/799.png",
+  "dna": "13cb9cec7555a8cdd7164c1ae3a52d02324649e3",
+  "edition": 799,
+  "date": 1661121519464,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Champion"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cucumber Juggernaut Helm"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Big Tomato"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Snow Shield"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Lil Bok"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

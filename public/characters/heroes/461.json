@@ -1,0 +1,35 @@
+{
+  "name": "Big Dog Cowboy of Salads",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/461.png",
+  "dna": "7f5b6be5ea0a3c88215d98258dc9f08b3f37ee96",
+  "edition": 461,
+  "date": 1661121526138,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Pickle Sash"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Captain"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Lasso"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Shuckler"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotfrog"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

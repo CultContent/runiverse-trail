@@ -1,0 +1,35 @@
+{
+  "name": "Rover Pickler of the Fryer",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2149.png",
+  "dna": "282040d4f61af8e4542d76cb3e8c3aa4a35a0192",
+  "edition": 2149,
+  "date": 1661121495653,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cucumber Juggernaut"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Emo"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Cucumdog"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "The Grill"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotdog Monkey"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

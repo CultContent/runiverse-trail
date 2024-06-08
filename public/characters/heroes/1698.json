@@ -1,0 +1,35 @@
+{
+  "name": "Keith Mustardmancer of the River",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1698.png",
+  "dna": "c03b29ddcd4768ca1f0b047b6353d412c480b093",
+  "edition": 1698,
+  "date": 1661121434026,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cucumbarbarian"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Grunt"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "French's Yellow"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Shuckler"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Bessie"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

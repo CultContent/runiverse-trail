@@ -1,0 +1,35 @@
+{
+  "name": "Chance Gemini of Questionable Taste",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3412.png",
+  "dna": "0bd00e48dabc649f262b1edf1d840e2bcf5e11df",
+  "edition": 3412,
+  "date": 1661121514647,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Chef's Smock"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Captain"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Grain Alcohol"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Pizza"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Green Cooler"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

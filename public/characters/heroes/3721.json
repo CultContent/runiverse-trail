@@ -1,0 +1,35 @@
+{
+  "name": "Art Outlaw of the Grill",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3721.png",
+  "dna": "0cbee29716eca74e415d7067bf42cc87957dc442",
+  "edition": 3721,
+  "date": 1661121522470,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Pickle Pauldrons"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Meat Bucket"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Lasso"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Magic Shield"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Lil Cluck"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

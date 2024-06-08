@@ -1,0 +1,35 @@
+{
+  "name": "Guiseppina Beetle Smasher of the Farm",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/4317.png",
+  "dna": "f5466bb0a84c0d184938572c54f8e3dad31bf6e0",
+  "edition": 4317,
+  "date": 1661121411054,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Gambler"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Mustard Lover"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Mole Whacker"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Cookie"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Ice Block"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Dale Hooligan of Questionable Taste",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3728.png",
+  "dna": "c382fa300fb9bd1da42d5269aca63a91fe6051a9",
+  "edition": 3728,
+  "date": 1661121522701,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Chef's Smock"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Liutenant"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Pizza Paddle"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Egg"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Blue Ribbon Pig"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

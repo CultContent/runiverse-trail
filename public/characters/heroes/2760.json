@@ -1,0 +1,35 @@
+{
+  "name": "Bill Charcoal Enthusiast of the Coop",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2760.png",
+  "dna": "fe830da2d17d89b5ddfae822c8ba7298224e4274",
+  "edition": 2760,
+  "date": 1661121518261,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Leggy Chicken"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Samurai"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Spatula"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Flimsy Paper Plate"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Battle Snake"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

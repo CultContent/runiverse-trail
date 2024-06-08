@@ -1,0 +1,35 @@
+{
+  "name": "Junior Herald of the Federation",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3855.png",
+  "dna": "90a80c15ce95c143e015fbf631c6d875df77a218",
+  "edition": 3855,
+  "date": 1661121520034,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Conqueror"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Bandito"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Dinner Bell"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Round Waffle"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Bessie"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

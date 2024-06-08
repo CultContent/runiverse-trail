@@ -1,0 +1,35 @@
+{
+  "name": "Bub Barbeque Artist of the Coop",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1583.png",
+  "dna": "fdf34eca3b352c0d0e58ef88ed978081d7563006",
+  "edition": 1583,
+  "date": 1661121444835,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Wings of Pigarus"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Fried Bologna"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Fork"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Snow Shield"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Battle Snake"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Red Wurst of the Harvest",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2733.png",
+  "dna": "5606e3533b545219d87f6e658a98c9c253d72457",
+  "edition": 2733,
+  "date": 1661121516928,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Green Flannel"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Pig Pilot"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "None"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Trash Can Lid"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Blue Cooler"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

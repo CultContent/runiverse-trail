@@ -1,0 +1,35 @@
+{
+  "name": "Wallis Ringer of Vienna",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1345.png",
+  "dna": "492e0d991f0909a172308cb5d259d8e80b2b2ea4",
+  "edition": 1345,
+  "date": 1661121475585,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Pickle Pauldrons"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Pig Pilot"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Dinner Bell"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Cookie"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotdog Goat"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Clyde Steamer of Pigs",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2630.png",
+  "dna": "531711652d37c45eae20550e6b5299fd757b82a4",
+  "edition": 2630,
+  "date": 1661121488938,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "String Beans"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Arcanist"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Fork"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Watermelon"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Trash Can"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

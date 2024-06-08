@@ -1,0 +1,35 @@
+{
+  "name": "Amado Disciple of the Hill",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3645.png",
+  "dna": "064393228630f67337d7cba4b64f75aefa3b5547",
+  "edition": 3645,
+  "date": 1661121406805,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cucumber Unitard"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Veggie Dog"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Oscar's Belch"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Raspberry Danish"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "None"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

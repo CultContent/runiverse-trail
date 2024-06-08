@@ -1,0 +1,35 @@
+{
+  "name": "Maurice Tiller of Chicken",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2516.png",
+  "dna": "906dfe77561c2d916c9e727124785c954e714594",
+  "edition": 2516,
+  "date": 1661121451686,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cucumber Juggernaut"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Ground Beef"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Big Cucumber"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Mini Fridge"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Pig"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

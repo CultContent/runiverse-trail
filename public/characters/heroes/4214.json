@@ -1,0 +1,35 @@
+{
+  "name": "Pup Mallet of the Harvest",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/4214.png",
+  "dna": "9da729a67462e381fc5582b3bcf3e7cf6e52c8eb",
+  "edition": 4214,
+  "date": 1661121474964,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Red Flannel"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Fried Bologna"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Mole Whacker"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Magic Shield"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "None"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

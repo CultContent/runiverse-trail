@@ -1,0 +1,35 @@
+{
+  "name": "Jim Gigger of the Corn",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3378.png",
+  "dna": "1540c0297d0fe27929cd5aea0c75e2f41c8ec58d",
+  "edition": 3378,
+  "date": 1661121485701,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Red Flannel"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Spartacuke"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Fishing Rod"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Burger Bun"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Battle Dog"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

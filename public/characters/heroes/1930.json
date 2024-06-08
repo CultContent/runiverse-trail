@@ -1,0 +1,35 @@
+{
+  "name": "Sallie Chef of Frostbite",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1930.png",
+  "dna": "742a82eab0caeae48a43c1640de7c8e82aaa136e",
+  "edition": 1930,
+  "date": 1661121446005,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Robe of Refrigeration"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Assassin"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Fork"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Can of Spam"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Battle Monkey"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

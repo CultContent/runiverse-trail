@@ -1,0 +1,35 @@
+{
+  "name": "Frankie Aquarius of the Cucumb Tower",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/4475.png",
+  "dna": "795294a71f9fe918b7063f709ed660ecc8600200",
+  "edition": 4475,
+  "date": 1661121394914,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Swampweed Battledress"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Spartacuke"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Olive Toothpick"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Cucumber Slice"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Blue Cooler"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

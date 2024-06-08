@@ -1,0 +1,35 @@
+{
+  "name": "Rover Shucker of Unknown Origin",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1198.png",
+  "dna": "96475cf1e274978b7b04df6175d47b2ea6ad4845",
+  "edition": 1198,
+  "date": 1661121468006,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Green Sweats"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Mustard Lover"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Cucumber"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Flimsy Paper Plate"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Bessie"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

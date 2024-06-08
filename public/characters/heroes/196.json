@@ -1,0 +1,35 @@
+{
+  "name": "Kelly Grower of the Farm",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/196.png",
+  "dna": "b5efb06a49e007c0a2072c134c4cd85b22bd029d",
+  "edition": 196,
+  "date": 1661121394756,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Black Vest"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Brown Cow"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Pitchfork"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Watermelon"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Milker"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

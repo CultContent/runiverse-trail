@@ -1,0 +1,35 @@
+{
+  "name": "Benton Aries of the Mess Hall",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3789.png",
+  "dna": "63252cd8a4bc0722c4f53b7c3f758e26de514087",
+  "edition": 3789,
+  "date": 1661121481528,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Chef's Smock"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Amphibious Hotdog"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Bacon Cutlass"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Snow Shield"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Battle Monkey"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Hank Drizzler of Comfort",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1692.png",
+  "dna": "d2a621902c79b7e2ae945a0911baccce75ada1a2",
+  "edition": 1692,
+  "date": 1661121395159,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Green Sweats"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Assassin"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Ketchup Bottle"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Square Waffle"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Mayo Dollop"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

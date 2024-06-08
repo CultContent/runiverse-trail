@@ -1,0 +1,35 @@
+{
+  "name": "Oscar Disciple of the Long Table",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1318.png",
+  "dna": "8ecab8964031f65568764ac2a0817bfe182047df",
+  "edition": 1318,
+  "date": 1661121526604,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Pest Control"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Arcanist"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Icicle"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "None"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Red Cooler"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

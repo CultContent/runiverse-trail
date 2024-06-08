@@ -1,0 +1,35 @@
+{
+  "name": "Peter Flipper of the Shiver Shack",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2053.png",
+  "dna": "d3f7ec1deb8b53f6a7bb9350726a657fa3f28698",
+  "edition": 2053,
+  "date": 1661121433458,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Ice Knight"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Emo"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Steel Chain"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "No Donuts Allowed"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Blue Cooler"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

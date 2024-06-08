@@ -1,0 +1,35 @@
+{
+  "name": "Bub Rice Thief of the Long Table",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/785.png",
+  "dna": "3f5a9f647e19aa0fcb2ee40a50bef02f5568aca3",
+  "edition": 785,
+  "date": 1661121487544,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cucumbarbarian"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Captain"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Olive Toothpick"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Shuckler"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Red Cooler"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

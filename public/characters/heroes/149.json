@@ -1,0 +1,35 @@
+{
+  "name": "Peter Reaper of the Factory",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/149.png",
+  "dna": "ff15d69b7892e5528c0c864026cf22eec41eb904",
+  "edition": 149,
+  "date": 1661121397568,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cucumbarbarian"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Assassin"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Pitchfork"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Square Waffle"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Greater Flamingo"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

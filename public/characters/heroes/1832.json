@@ -1,0 +1,35 @@
+{
+  "name": "Uccio Glutton of the Deli",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1832.png",
+  "dna": "62947ba6b3835641e8e6295b322be4ec0ac79e28",
+  "edition": 1832,
+  "date": 1661121519246,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Swampweed Battledress"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Bandito"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Olive Toothpick"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Burger Bun"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Battle Dog"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

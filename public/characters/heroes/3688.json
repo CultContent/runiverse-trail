@@ -1,0 +1,35 @@
+{
+  "name": "Phebe Champion of the Fryer",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3688.png",
+  "dna": "5d125612984e04743816e16f0bb705f44fd14ee4",
+  "edition": 3688,
+  "date": 1661121436419,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cucumber Unitard"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Veggie Dog"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Steel Chain"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Trash Can Lid"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Blue Goat"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

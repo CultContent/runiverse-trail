@@ -1,0 +1,35 @@
+{
+  "name": "Hunk Ringer of the Shiver Shack",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3368.png",
+  "dna": "26ec5948997c0bd945c41f5ee46a04c64bac67c7",
+  "edition": 3368,
+  "date": 1661121480480,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Ice Knight"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cucumber Juggernaut Helm"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Dinner Bell"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Mini Fridge"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Green Cooler"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

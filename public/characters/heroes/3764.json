@@ -1,0 +1,35 @@
+{
+  "name": "Floy Leo of the Corn",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3764.png",
+  "dna": "4e8ac4694354bc9577460580fd4e34d12d02ad7f",
+  "edition": 3764,
+  "date": 1661121412306,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Red Flannel"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Eldritch Hotdog"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Grain Alcohol"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Cookie"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Green Cooler"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

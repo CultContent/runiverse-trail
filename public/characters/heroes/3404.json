@@ -1,0 +1,35 @@
+{
+  "name": "Malone Drizzler of Dares",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3404.png",
+  "dna": "c807a87551bf370421a90f731f6b400b285905b2",
+  "edition": 3404,
+  "date": 1661121430987,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cucumbarbarian"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Samurai"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Ketchup Bottle"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Trash Can Lid"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Battle Goat"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

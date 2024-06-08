@@ -1,0 +1,35 @@
+{
+  "name": "Marley Vegan of Lofty Ambitions",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/4171.png",
+  "dna": "1f94004ca1a8b03d04ba5273348fc2783f49e0d3",
+  "edition": 4171,
+  "date": 1661121519008,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Intravenous Mustard Delivery Suit"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Grunt"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Frying Pan"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Pizza"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Trash Can Fire"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

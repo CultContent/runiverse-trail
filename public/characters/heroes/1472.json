@@ -1,0 +1,35 @@
+{
+  "name": "Gordon Maniac of the Pasture",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1472.png",
+  "dna": "27fcdcb1a5021da4514d7f3486cd9add5c0b439a",
+  "edition": 1472,
+  "date": 1661121420348,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cucumber Platemail"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Assassin"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "The Chair"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Round Waffle"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Battle Goat"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

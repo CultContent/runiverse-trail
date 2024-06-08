@@ -1,0 +1,35 @@
+{
+  "name": "Justice with the Sauce of the Fighter Squadron",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2116.png",
+  "dna": "7aecf96918319ddf0e264fb3b5f75a8991c0a6a4",
+  "edition": 2116,
+  "date": 1661121492474,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Leggy Chicken"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Arcanist"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Recipe 58"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Blueberry Danish"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotfrog"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Beau Grower of the Hexagon",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1480.png",
+  "dna": "be7b59115b64efddbf1c62115762d8e48cb0edb1",
+  "edition": 1480,
+  "date": 1661121433966,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Conqueror"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Captain"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Tomato"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Sliced Bread"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Blue Cooler"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Betty Gardener of the Skies",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/4385.png",
+  "dna": "5e5514a207c41361cfe44dc0bf513b7bbb8b85c0",
+  "edition": 4385,
+  "date": 1661121446973,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Wings of Pigarus"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Grunt"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Cucumber"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Cucumber Slice"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Milker"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

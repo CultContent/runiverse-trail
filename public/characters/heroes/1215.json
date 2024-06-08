@@ -1,0 +1,35 @@
+{
+  "name": "Ronny Steamer of the Ballpark",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1215.png",
+  "dna": "5f02b2cef6f47d95cd6a2be04060790e715f03c0",
+  "edition": 1215,
+  "date": 1661121432610,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cucumber Juggernaut"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Bandito"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "The Sunshine Spell"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Dodger"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Mayo Dollop"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

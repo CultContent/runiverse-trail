@@ -1,0 +1,35 @@
+{
+  "name": "Pep Whistler of the Factory",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/596.png",
+  "dna": "f9a02ad094fefb9e4f3d9964dd409a7e8d565095",
+  "edition": 596,
+  "date": 1661121404122,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Champion"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Saboteur"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Plastic Knife"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Dodger"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Battle Goat"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

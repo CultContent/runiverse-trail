@@ -1,0 +1,35 @@
+{
+  "name": "Dusty Green Thumb of Brrr",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3236.png",
+  "dna": "d9c5ead8b864013dc2816c357f2ab18913cff949",
+  "edition": 3236,
+  "date": 1661121382104,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Robe of Refrigeration"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Dairy Disciple"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Big Tomato"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Square Waffle"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotdog Goat"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

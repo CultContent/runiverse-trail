@@ -1,0 +1,35 @@
+{
+  "name": "Chihuahua Maniac of Udder Nonsense",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3145.png",
+  "dna": "dba6af5f0ad262edf570b6be18560bcaecaa28a5",
+  "edition": 3145,
+  "date": 1661121479229,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "String Beans"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Celery Crusader"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "The Chair"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Can of Spam"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Cucumduck"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

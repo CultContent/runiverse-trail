@@ -1,0 +1,35 @@
+{
+  "name": "Pinky Vegan of the Ditch",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1429.png",
+  "dna": "03c04672d5c30202090912bc2c2e8195f8d1b3c8",
+  "edition": 1429,
+  "date": 1661121413066,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Pest Control"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Liutenant"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Icicle"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Cthulhucumber's Blessing"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Blue Cooler"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

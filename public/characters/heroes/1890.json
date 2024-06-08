@@ -1,0 +1,35 @@
+{
+  "name": "Flop Beetle Smasher of the Boardwalk",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1890.png",
+  "dna": "6452a2bc5fb77d87617bd638e63444f86b8826c5",
+  "edition": 1890,
+  "date": 1661121502025,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Pest Control"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Amphibious Hotdog"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Mole Whacker"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Blueberry Danish"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotdog Goat"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

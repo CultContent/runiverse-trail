@@ -1,0 +1,35 @@
+{
+  "name": "Pops Homesteader of the Dive Bar",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3116.png",
+  "dna": "b7673d5bd503dc87477881a0c40a19a11303b467",
+  "edition": 3116,
+  "date": 1661121388795,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Heart Boxers"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Corn Kid"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Hoe"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "None"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Bessie"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

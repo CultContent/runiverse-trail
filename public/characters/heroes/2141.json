@@ -1,0 +1,35 @@
+{
+  "name": "Dill with the Sauce of Salads",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2141.png",
+  "dna": "30edce93519a2769a57cb4218b4a85cabe3dc4bb",
+  "edition": 2141,
+  "date": 1661121466612,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cucumber Unitard"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cucumbertip Cap"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Recipe 58"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Cthulhucumber's Blessing"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Lil Cluck"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

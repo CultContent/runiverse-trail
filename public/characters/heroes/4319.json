@@ -1,0 +1,35 @@
+{
+  "name": "Jimbo Whistler of the Federation",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/4319.png",
+  "dna": "eb0cf067c8ea0f0bc6bd4e40cdde134d36956aec",
+  "edition": 4319,
+  "date": 1661121450915,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Bird of War"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Botanist"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Olive Toothpick"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Magic Shield"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Battle Monkey"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

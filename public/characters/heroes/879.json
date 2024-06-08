@@ -1,0 +1,35 @@
+{
+  "name": "Red Mystery of the Cumberdome",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/879.png",
+  "dna": "fa63f4ec51bd5b708f1b6c3945c696ab7ee55aa9",
+  "edition": 879,
+  "date": 1661121443799,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Heavyweight Champ"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Hooligan"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Oscar's Belch"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Snow Shield"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Trash Can"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

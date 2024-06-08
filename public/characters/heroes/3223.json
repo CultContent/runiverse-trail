@@ -1,0 +1,35 @@
+{
+  "name": "Ronny Bonker of Vienna",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3223.png",
+  "dna": "e4160c3a84b77eb3f4b97e3623721e81a128a544",
+  "edition": 3223,
+  "date": 1661121524436,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Pest Control"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cucumbearskin"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Mole Whacker"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Can of Spam"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "None"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

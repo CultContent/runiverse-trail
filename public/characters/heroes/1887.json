@@ -1,0 +1,35 @@
+{
+  "name": "Sheldon Doctorer of Lofty Ambitions",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1887.png",
+  "dna": "2e181679a8d9a5b273fe6bc976e0fa488f4a62ee",
+  "edition": 1887,
+  "date": 1661121379923,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Wings of Pigarus"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Bird Brain"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Hellman's Miracle"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Egg"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Red Cooler"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

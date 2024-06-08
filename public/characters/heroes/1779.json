@@ -1,0 +1,35 @@
+{
+  "name": "Jubilee Genetically Modified of the Feast",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1779.png",
+  "dna": "1fd17e4d9831e8b79ef9b52413be5082ae9dc94c",
+  "edition": 1779,
+  "date": 1661121389211,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Danish Deserter"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Corn Farmer"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Vanilla Cone"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Cookie"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotdog Monkey"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Bellamy Pork Puller of the Hill",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3498.png",
+  "dna": "ff93ee312f868c467392bb0fcde5b1a7e7908bd1",
+  "edition": 3498,
+  "date": 1661121466998,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cucumber Platemail"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Spartacuke"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Fork"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Sliced Bread"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Mayo Dollop"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Bellamy Scorpio of the Backwater",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2229.png",
+  "dna": "8af95881d06b44b66dd22ee0d81818132e2d663c",
+  "edition": 2229,
+  "date": 1661121429868,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Pickle Pauldrons"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Hooligan"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "None"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Shuckler"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Blue Goat"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

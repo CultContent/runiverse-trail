@@ -1,0 +1,35 @@
+{
+  "name": "Kevin Baron of the Kitchen",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/4480.png",
+  "dna": "2a826904323f7cf480704aa2e4183dc0e254e702",
+  "edition": 4480,
+  "date": 1661121384326,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Chef's Smock"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Baconator"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Olive Toothpick"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Trash Can Lid"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Cucumduck"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

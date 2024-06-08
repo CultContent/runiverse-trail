@@ -1,0 +1,35 @@
+{
+  "name": "Roman Charlord of the Pasture",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2219.png",
+  "dna": "15717e49936ef41f93fc5e564f52676ac24d2950",
+  "edition": 2219,
+  "date": 1661121394140,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Gambler"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Swampdog"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Spatula"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Square Waffle"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Lil Bok"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

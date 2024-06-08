@@ -1,0 +1,35 @@
+{
+  "name": "Dale Green Thumb of the Drive-Thru",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/128.png",
+  "dna": "8edf9be142d0e8f436b33a4226332eb8719b063d",
+  "edition": 128,
+  "date": 1661121439901,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "String Beans"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Veggie Dog"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Cucumber"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Cookie"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Ice Block"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

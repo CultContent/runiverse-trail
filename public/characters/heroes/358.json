@@ -1,0 +1,35 @@
+{
+  "name": "Braidy Cowboy of the Country",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/358.png",
+  "dna": "b45d5970885d853d40d0e9675c4ea346d4c49823",
+  "edition": 358,
+  "date": 1661121382505,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Pickle Pauldrons"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cucombatant"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Six Shooter"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Burger Bun"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Milker"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

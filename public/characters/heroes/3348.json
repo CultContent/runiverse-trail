@@ -1,0 +1,35 @@
+{
+  "name": "Duke Gigger of Clouds",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3348.png",
+  "dna": "2724268cf311eda836bdca1e4c1eca92af836632",
+  "edition": 3348,
+  "date": 1661121398322,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Leggy Chicken"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Arcanist"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Fishing Rod"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Flimsy Paper Plate"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Blue Goat"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

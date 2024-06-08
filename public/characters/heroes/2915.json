@@ -1,0 +1,35 @@
+{
+  "name": "Milford Pork Puller of the Machine",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2915.png",
+  "dna": "6203e04c63f3bcd6023b584c37301dc9dfc9dd55",
+  "edition": 2915,
+  "date": 1661121529653,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Blue Harvester"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Emo"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Tongs"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Street Sign"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Gull"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

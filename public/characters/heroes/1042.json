@@ -1,0 +1,35 @@
+{
+  "name": "Ambrosia Gardener of the Pond",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1042.png",
+  "dna": "05f2cd32da9f4a0197667decb80d9a2388f91825",
+  "edition": 1042,
+  "date": 1661121385864,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Pest Control"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Corn Cob"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Shovel"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "No Donuts Allowed"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Blue Goat"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

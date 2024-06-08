@@ -1,0 +1,35 @@
+{
+  "name": "Cassidy Outlaw of the Rodeo",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3840.png",
+  "dna": "1abe39d9a3abb4563e4e40381a5f1b7529624c3b",
+  "edition": 3840,
+  "date": 1661121403267,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Gambler"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cowboy Hat"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Olive Toothpick"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "No Donuts Allowed"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Propane Tank"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Avery Meat Maker of the Fire",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3595.png",
+  "dna": "8a1aac29a489f74d6dd5ca859b0261bc90abc580",
+  "edition": 3595,
+  "date": 1661121515831,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cucumber Unitard"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Liutenant"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Spatula"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Cucumber Slice"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Stygian Calf"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

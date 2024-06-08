@@ -1,0 +1,35 @@
+{
+  "name": "Whiff Glutton of the Machine",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/4569.png",
+  "dna": "995ce5c739e345a95bafd08245927e138f455d1d",
+  "edition": 4569,
+  "date": 1661121532015,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Yellow Harvester"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cheddarhead"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Jar of Mayonaise"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Mini Fridge"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Green Cooler"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

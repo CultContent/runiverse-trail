@@ -1,0 +1,35 @@
+{
+  "name": "Malka Doctorer of Pigs",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/967.png",
+  "dna": "48180b20504fd815cae17f0500872cd7584c2912",
+  "edition": 967,
+  "date": 1661121507807,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Swampweed Battledress"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Celery Crusader"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Ketchup Bottle"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Cucumber Slice"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Ice Block"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

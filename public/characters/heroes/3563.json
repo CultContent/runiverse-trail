@@ -1,0 +1,35 @@
+{
+  "name": "Big Mac Rider of the Barn",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3563.png",
+  "dna": "58aaa6b6dcf3fd18a7b7f548936a26d3b4136a6a",
+  "edition": 3563,
+  "date": 1661121529504,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Black Steer"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Brown Cow"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Lasso"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Trash Can Lid"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotfrog"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

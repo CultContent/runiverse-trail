@@ -1,0 +1,35 @@
+{
+  "name": "Lennox Green Thumb of Clouds",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2040.png",
+  "dna": "74c62bf3e0d1d8c4e93b5363596f8ace31c120aa",
+  "edition": 2040,
+  "date": 1661121500416,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cucumbarbarian"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Mustard Lover"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Tomato"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Mini Fridge"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Propane Tank"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

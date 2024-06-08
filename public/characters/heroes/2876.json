@@ -1,0 +1,35 @@
+{
+  "name": "Plop Fly-fisher of Vegetables",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2876.png",
+  "dna": "1c7ffed4f8c991c203cb8b65a71bd072224d79c4",
+  "edition": 2876,
+  "date": 1661121456753,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Red Flannel"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cucumber Juggernaut Helm"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Fishing Rod"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Cthulhucumber's Blessing"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Black Widow"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

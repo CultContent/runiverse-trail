@@ -1,0 +1,35 @@
+{
+  "name": "Egghead Saggitarius of the Street Corner",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/4420.png",
+  "dna": "7ad9ea2fe9676fdbd6247214fe47f906b10eb6a9",
+  "edition": 4420,
+  "date": 1661121378116,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Green Flannel Hotdog"
+    },
+    {
+      "trait_type": "Head",
+      "value": "White Rooster"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Cucumdog"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Watermelon"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "h y d r a t i o n"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Phebe Cancer of the Meatverse",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2974.png",
+  "dna": "64ea6dfea9b7a3bef6b9fd3397eaf429bbf2c715",
+  "edition": 2974,
+  "date": 1661121452808,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Intravenous Mustard Delivery Suit"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Swampdog"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Olive Toothpick"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Magic Shield"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Golden Calf"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

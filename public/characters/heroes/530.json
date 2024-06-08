@@ -1,0 +1,35 @@
+{
+  "name": "Benny Beast of Golems",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/530.png",
+  "dna": "68ff0825b35b2eb56d779512ae34842d1e535c99",
+  "edition": 530,
+  "date": 1661121451979,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Fresh out the Package"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Captain"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Steel Chain"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Snow Shield"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Ice Block"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

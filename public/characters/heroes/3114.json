@@ -1,0 +1,35 @@
+{
+  "name": "T-Bone Four Star of Salads",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3114.png",
+  "dna": "d5c9ac23d11409643f9f772feb6988a550b0a71a",
+  "edition": 3114,
+  "date": 1661121380566,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Red Flannel Hotdog"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Bohemian"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Grain Alcohol"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Round Waffle"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Trash Can"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

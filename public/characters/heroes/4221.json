@@ -1,0 +1,35 @@
+{
+  "name": "Link Vegan of the Wurst",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/4221.png",
+  "dna": "6aa240d5a5aba6ec14c069dbfa7c6e9891c74fa0",
+  "edition": 4221,
+  "date": 1661121392964,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Intravenous Mustard Delivery Suit"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Mustard Lover"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Spamwich"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Cucumber Slice"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Gull"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

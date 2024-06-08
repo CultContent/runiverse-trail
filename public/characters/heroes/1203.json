@@ -1,0 +1,35 @@
+{
+  "name": "Bellamy Tiller of the Rodeo",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1203.png",
+  "dna": "b9c2146d2eb5a0c5c7dd4dd8135ae45f2bcc6329",
+  "edition": 1203,
+  "date": 1661121401289,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Black Vest"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Assassin"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Pitchfork"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Round Waffle"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Pot of Petunias"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

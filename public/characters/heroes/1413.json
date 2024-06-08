@@ -1,0 +1,35 @@
+{
+  "name": "Block Outlaw of the Dive Bar",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1413.png",
+  "dna": "7d62b7bb9db8b159bcf36175fc33337cebfd405a",
+  "edition": 1413,
+  "date": 1661121390762,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Silk Boxers"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Lord of Snow"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Cucumdog"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Egg"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Blue Cooler"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

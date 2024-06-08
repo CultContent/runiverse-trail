@@ -1,0 +1,35 @@
+{
+  "name": "Chance Rider of the Bodega",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2112.png",
+  "dna": "91bf28fa54933727da593fd4d797d46c94aa8618",
+  "edition": 2112,
+  "date": 1661121438703,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Intravenous Mustard Delivery Suit"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cucumbearskin"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Shotgun"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Cookie"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Lil Bok"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

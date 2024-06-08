@@ -1,0 +1,35 @@
+{
+  "name": "Benny Drizzler of the Skies",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3676.png",
+  "dna": "0ce45b4cc5d9d43af5533ab88ce4f8bdb0a69d03",
+  "edition": 3676,
+  "date": 1661121464873,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Leggy Chicken"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Hero"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "French's Yellow"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Dodger"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Pig"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

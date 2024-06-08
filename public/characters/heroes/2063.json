@@ -1,0 +1,35 @@
+{
+  "name": "Francis Surf Caster of the Food Pyramid",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2063.png",
+  "dna": "d664a8573d3fbad32fadcd8b7f58975cd95e8960",
+  "edition": 2063,
+  "date": 1661121491521,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Pickle Pauldrons"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cowboy Hat"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Fishing Rod"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "No Donuts Allowed"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Ice Block"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

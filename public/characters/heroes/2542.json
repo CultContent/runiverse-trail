@@ -1,0 +1,35 @@
+{
+  "name": "Khanzir with the Sauce of the Fire",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2542.png",
+  "dna": "f202c1d81f75c830d3bde58a483ea56714475ca8",
+  "edition": 2542,
+  "date": 1661121470283,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Intravenous Mustard Delivery Suit"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Pig"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Hellman's Miracle"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Cucumber Slice"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Ice Block"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

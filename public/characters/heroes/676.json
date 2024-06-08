@@ -1,0 +1,35 @@
+{
+  "name": "Bub Four Star of the Ditch",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/676.png",
+  "dna": "dde3470ad384c15f876f2192ce8d712958129483",
+  "edition": 676,
+  "date": 1661121425575,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cucumber Juggernaut"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Swampdog"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Icicle"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "None"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Gull"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

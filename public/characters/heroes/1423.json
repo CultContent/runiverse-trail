@@ -1,0 +1,35 @@
+{
+  "name": "Sweaty Mystery of the Factory",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1423.png",
+  "dna": "0aa5ebc41ffab4d7f11a773acadf87af62bb70f8",
+  "edition": 1423,
+  "date": 1661121499323,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Fresh out the Package"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Pig"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Spamwich"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Egg"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Bubbles"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

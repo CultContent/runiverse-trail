@@ -1,0 +1,35 @@
+{
+  "name": "Winter Squasher of the Dessert",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/4184.png",
+  "dna": "92d3b81abf6bb27fe90987b8a17166a7a6098c75",
+  "edition": 4184,
+  "date": 1661121391366,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Blueberry Danish Defender"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Ice Golem"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Mole Whacker"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Pizza"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Lil Cluck"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

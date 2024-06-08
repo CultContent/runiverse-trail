@@ -1,0 +1,35 @@
+{
+  "name": "Macy Flipper of Hog Island",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/4418.png",
+  "dna": "f99da26801ac068eb65b6c5e095c91f598f7d92f",
+  "edition": 4418,
+  "date": 1661121389859,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Biker"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Corn Farmer"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Fork"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Round Waffle"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "None"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

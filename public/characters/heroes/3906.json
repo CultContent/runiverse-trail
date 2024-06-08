@@ -1,0 +1,35 @@
+{
+  "name": "Jojo Vegan of the Early Morning",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3906.png",
+  "dna": "415c0caebd52dd0bc68caa0ab4a05660b4aab6a7",
+  "edition": 3906,
+  "date": 1661121420566,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cucumber Juggernaut"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Spartacuke"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Icicle"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Watermelon"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Black Widow"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

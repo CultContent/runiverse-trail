@@ -1,0 +1,35 @@
+{
+  "name": "Ceret Giller of the Feast",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2416.png",
+  "dna": "bb824d925c194023d72ced4548dcc9f0e799f7de",
+  "edition": 2416,
+  "date": 1661121386845,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Pest Control"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Corn Kid"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Fishing Rod"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Dodger"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Propane Tank"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

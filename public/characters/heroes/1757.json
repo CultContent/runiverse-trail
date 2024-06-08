@@ -1,0 +1,35 @@
+{
+  "name": "Junior Plower of Unknown Origin",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1757.png",
+  "dna": "2a18caf7a7bbefc2255dbbb9268ecee032d80f91",
+  "edition": 1757,
+  "date": 1661121394620,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Green Sweats"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Captain"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Pitchfork"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Shuckler"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Stygian Calf"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

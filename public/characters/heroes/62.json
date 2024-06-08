@@ -1,0 +1,35 @@
+{
+  "name": "Chico Genetically Modified without a Cause",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/62.png",
+  "dna": "c1886a41dab8230f82faf1fa6ea1cdc3f94827ee",
+  "edition": 62,
+  "date": 1661121389418,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Biker"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Corn Kid"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Cucumdog"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Flimsy Paper Plate"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Milker"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

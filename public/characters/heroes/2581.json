@@ -1,0 +1,35 @@
+{
+  "name": "Ellis Groundskeeper of the Cantina",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2581.png",
+  "dna": "2a147cff85312c341a0b54e6446696dc38d5e899",
+  "edition": 2581,
+  "date": 1661121382175,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Brown Vest Cowboy"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Dairy Disciple"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Pitchfork"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Magic Shield"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Battle Snake"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

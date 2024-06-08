@@ -1,0 +1,35 @@
+{
+  "name": "Sausage Plower of Questionable Taste",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/4482.png",
+  "dna": "1d94d1359cc6cb5d82db33727242438ffd8748e3",
+  "edition": 4482,
+  "date": 1661121440088,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Chef's Smock"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Celery Crusader"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Hoe"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Raspberry Danish"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Stygian Calf"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

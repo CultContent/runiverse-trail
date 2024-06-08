@@ -1,0 +1,35 @@
+{
+  "name": "Honey Reaper of the Dessert",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/4342.png",
+  "dna": "3222993cc83049692ecdb6d4c41a10a9951914ea",
+  "edition": 4342,
+  "date": 1661121389280,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Raspberry Danish Defender"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Corn Farmer"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Hoe"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "No Donuts Allowed"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "None"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

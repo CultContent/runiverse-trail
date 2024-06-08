@@ -1,0 +1,35 @@
+{
+  "name": "Blop Stone Cold of the Machine",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3111.png",
+  "dna": "4f18a8e78425a322e49222e8358e6aac6821f33c",
+  "edition": 3111,
+  "date": 1661121440731,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Yellow Harvester"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cucumbearskin"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "The Chair"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Cthulhucumber's Blessing"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Propane Tank"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

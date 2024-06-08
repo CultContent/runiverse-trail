@@ -1,0 +1,35 @@
+{
+  "name": "Chuck Burner of the Fire",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2703.png",
+  "dna": "2e17fefa964c5d1fa155575f9e493e43fca1e78d",
+  "edition": 2703,
+  "date": 1661121474937,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Lettuce Wrap"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cucumber Juggernaut Helm"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Strike Anywhere Match"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Watermelon"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Propane Tank"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

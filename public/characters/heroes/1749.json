@@ -1,0 +1,35 @@
+{
+  "name": "Chuck Groundskeeper of the Law",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1749.png",
+  "dna": "7832498c1718b2d6971cbc720e9acb36c5917af3",
+  "edition": 1749,
+  "date": 1661121424041,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Black Vest"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cucumber Juggernaut Helm"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Pitchfork"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "The Grill"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Golden Calf"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

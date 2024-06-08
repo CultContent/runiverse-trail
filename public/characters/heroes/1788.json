@@ -1,0 +1,35 @@
+{
+  "name": "Rover Meat Maker without a Cause",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1788.png",
+  "dna": "00485dac0a28f578334a1c0a805de834cea7e7ab",
+  "edition": 1788,
+  "date": 1661121489414,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Gambler"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Hero"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Forbidden Recipe Book"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Round Waffle"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotdog Snake"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

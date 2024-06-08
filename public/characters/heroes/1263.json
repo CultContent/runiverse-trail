@@ -1,0 +1,35 @@
+{
+  "name": "Big Dog Vegan of the Cumberdome",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1263.png",
+  "dna": "58c6a8b733d16d74fa5890617cda31dbdeb19570",
+  "edition": 1263,
+  "date": 1661121411490,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Bird of War"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Samurai"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Big Cucumdog"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Watermelon"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Greater Flamingo"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

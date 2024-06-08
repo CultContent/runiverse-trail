@@ -1,0 +1,35 @@
+{
+  "name": "Avery Harvester of the Federation",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2324.png",
+  "dna": "9d12b1cf81535bae0ab8b37d3aa2620b1c63c3be",
+  "edition": 2324,
+  "date": 1661121416485,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Bird of War"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hot Dog"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Tomato"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Snow Shield"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Greater Flamingo"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Keith Saggitarius of Junk Food",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/4227.png",
+  "dna": "c347c8a3d62a314c6b3463be40f03a262d96f093",
+  "edition": 4227,
+  "date": 1661121440758,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Green Sweats"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Grunt"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Cucumdog"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "None"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Trash Can Fire"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

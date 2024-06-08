@@ -1,0 +1,35 @@
+{
+  "name": " Burner of the Lunchroom",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1254.png",
+  "dna": "b7f43a3a8a8896fd9f914afd03b3f1607408825f",
+  "edition": 1254,
+  "date": 1661121433332,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "String Beans"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Liutenant"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Dragon Flipper"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Trash Can Lid"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Trash Can Fire"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

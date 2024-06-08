@@ -1,0 +1,35 @@
+{
+  "name": "Justice Harvester of the Boardwalk",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1782.png",
+  "dna": "caf9d5e571579f8aee696d612ae3eb754c939370",
+  "edition": 1782,
+  "date": 1661121423713,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cucumber Platemail"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Grunt"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Tomato"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Burger Bun"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Black Widow"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

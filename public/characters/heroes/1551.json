@@ -1,0 +1,35 @@
+{
+  "name": "Art Pork Puller of the Federation",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1551.png",
+  "dna": "07ae3d65d81b2f18ef9b9272c4080739403d53f8",
+  "edition": 1551,
+  "date": 1661121515121,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Bird of War"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Bandito"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Hotdog on a Fork"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "None"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Cucumduck"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

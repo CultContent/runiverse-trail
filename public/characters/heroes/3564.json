@@ -1,0 +1,35 @@
+{
+  "name": "Duke Meat Maker of Flamingos",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3564.png",
+  "dna": "b72abdee10fe461b72505cb06397ea7d6678231a",
+  "edition": 3564,
+  "date": 1661121468041,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "String Beans"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Grunt"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Cucumdog"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Round Waffle"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Charlotte"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Sloan Doctorer of the Dive Bar",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3699.png",
+  "dna": "ac0b87469e1fed6041ded30561dbe0185547ff4d",
+  "edition": 3699,
+  "date": 1661121380606,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Green Sweats"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Bohemian"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Recipe 58"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Cucumber Slice"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Battle Monkey"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

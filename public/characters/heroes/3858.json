@@ -1,0 +1,35 @@
+{
+  "name": "Sausage Gluten-Free of the Mess Hall",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3858.png",
+  "dna": "87649938a9319225f353bc0593d9aa1e21f4bd8c",
+  "edition": 3858,
+  "date": 1661121522369,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Pest Control"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Botanist"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Pizza Paddle"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Square Waffle"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Bubbles"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

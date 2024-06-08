@@ -1,0 +1,35 @@
+{
+  "name": "Pup Farmhand of the Meatverse",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/4063.png",
+  "dna": "4e9b63907ff7623ce6dd4bbab2468f3e76aa477d",
+  "edition": 4063,
+  "date": 1661121533086,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Heart Boxers"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Celery Crusader"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Pitchfork"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Dodger"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Trash Can Fire"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

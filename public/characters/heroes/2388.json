@@ -1,0 +1,35 @@
+{
+  "name": "Oink Drizzler of O",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2388.png",
+  "dna": "d75be74cd2f4aad899c6fd219791a1bae216cd6d",
+  "edition": 2388,
+  "date": 1661121502620,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Blueberry Danish Defender"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Pig"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Hellman's Miracle"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Coconut"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Lil Cluck"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

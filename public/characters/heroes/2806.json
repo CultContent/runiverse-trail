@@ -1,0 +1,35 @@
+{
+  "name": "Cassidy Reaper of the Buffet",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2806.png",
+  "dna": "433790da0719b1446715d0e3af654fe2989b3997",
+  "edition": 2806,
+  "date": 1661121432535,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Pest Control"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Amphibious Hotdog"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Pitchfork"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Round Waffle"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Pot of Petunias"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

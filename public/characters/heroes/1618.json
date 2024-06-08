@@ -1,0 +1,35 @@
+{
+  "name": "Ola Squeaker of Cows",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1618.png",
+  "dna": "f1578dc65f2ab5bb455b213639c75673e364bfae",
+  "edition": 1618,
+  "date": 1661121531047,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "String Beans"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Eldritch Hotdog"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "The Sunshine Spell"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Cookie"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Hotdog Goat"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

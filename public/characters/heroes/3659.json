@@ -1,0 +1,35 @@
+{
+  "name": "Maurice Tenderizer of the Law",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3659.png",
+  "dna": "5bffeee2198c8b1d7deb64382f38b1d83491d28f",
+  "edition": 3659,
+  "date": 1661121502836,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Brown Vest"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Grunt"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Frying Pan"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Flimsy Paper Plate"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Bubbles"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

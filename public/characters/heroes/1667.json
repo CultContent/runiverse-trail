@@ -1,0 +1,35 @@
+{
+  "name": "Chicken Rice Thief a la Carte",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1667.png",
+  "dna": "a0fc12edc4a83abe99c35dbc25e1b1fd1146ebc0",
+  "edition": 1667,
+  "date": 1661121377666,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Danish Deserter"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Brown Rooster"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Frying Pan"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "No Donuts Allowed"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Ice Block"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

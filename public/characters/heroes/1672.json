@@ -1,0 +1,35 @@
+{
+  "name": "Lennox Tiller of the Skies",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1672.png",
+  "dna": "3df3a2693f59e744e831d080cfa76902f19becaf",
+  "edition": 1672,
+  "date": 1661121415696,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Wings of Pigarus"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Samurai"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Shovel"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Sliced Bread"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Cucumduck"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

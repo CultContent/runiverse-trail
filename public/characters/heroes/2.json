@@ -1,0 +1,35 @@
+{
+  "name": "Blue Goat Enabler of Udder Nonsense",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2.png",
+  "dna": "3e3cd1c5afr18f592fc0e31c590afsafyedb072b",
+  "edition": 2,
+  "date": 1661121483283,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Robe of Refrigeration"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Chill One"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Rune of Cucumdog"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "None"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "None"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

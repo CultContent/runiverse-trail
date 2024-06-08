@@ -1,0 +1,35 @@
+{
+  "name": "Beau Griller of the Skies",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/634.png",
+  "dna": "0ed5be1665abf1f3f706029eddc7b48e7f906487",
+  "edition": 634,
+  "date": 1661121394485,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Leggy Chicken"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Captain"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Hotdog on a Fork"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Round Waffle"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Black Widow"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Eggy Green Thumb of Dares",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/477.png",
+  "dna": "156bf1cb56a3b2b00aa8dfe266f3f57bfdd809b3",
+  "edition": 477,
+  "date": 1661121379290,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Black Vest Cowboy"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Brown Chicken"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Cornstalk"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Flimsy Paper Plate"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Battle Goat"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

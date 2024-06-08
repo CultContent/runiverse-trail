@@ -1,0 +1,35 @@
+{
+  "name": "Avery Hooligan of Unknown Origin",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1741.png",
+  "dna": "f820e69f648da9a23af2128e29f7fa5d46c6eb53",
+  "edition": 1741,
+  "date": 1661121459510,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Green Sweats"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Assassin"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "None"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Raspberry Danish"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Pot of Petunias"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

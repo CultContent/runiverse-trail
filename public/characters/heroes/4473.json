@@ -1,0 +1,35 @@
+{
+  "name": "Jimmy Meathead on the Cob",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/4473.png",
+  "dna": "eba2b719712f308c327d710da3347159eada2f40",
+  "edition": 4473,
+  "date": 1661121438469,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cucumber Juggernaut"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Spartacuke"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Cucumdog"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Blueberry Danish"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Pot of Petunias"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

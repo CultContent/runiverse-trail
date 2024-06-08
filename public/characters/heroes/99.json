@@ -1,0 +1,35 @@
+{
+  "name": "Ronny Coney of Junk Food",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/99.png",
+  "dna": "ccf31233901d566a3c92c1fe0294a57902193359",
+  "edition": 99,
+  "date": 1661121419144,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Green Sweats"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Cowboy Hat"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Olive Toothpick"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Flimsy Paper Plate"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Greater Flamingo"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

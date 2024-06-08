@@ -1,0 +1,35 @@
+{
+  "name": "Ginger All-Pork of the Hexagon",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2135.png",
+  "dna": "4f7072edb9108d02e993a8b182d3317a4eb945dd",
+  "edition": 2135,
+  "date": 1661121380219,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Bird of War"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Brown Rooster"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Bacon Cutlass"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Flimsy Paper Plate"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Lil Cluck"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Cookie Groundskeeper of Clouds",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2700.png",
+  "dna": "c3e0ed374c2654fdd9c34a716e3c5288625956fe",
+  "edition": 2700,
+  "date": 1661121381353,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Brown Vest Cowboy"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Dairy Disciple"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Shovel"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Burger Bun"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Pot of Petunias"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Fred Virgo of the Sauce",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2681.png",
+  "dna": "b55fa7e4f44a58ab6c99cd722338ac04f17f13c7",
+  "edition": 2681,
+  "date": 1661121510229,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cucumber Unitard"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Meat Bucket"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Grain Alcohol"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Cucumber Slice"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Stygian Calf"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

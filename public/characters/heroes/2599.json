@@ -1,0 +1,35 @@
+{
+  "name": "Bill Cowboy of the Farm",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2599.png",
+  "dna": "bd050ce67e4e23eb6b6815ddd7be6312f3d95ef6",
+  "edition": 2599,
+  "date": 1661121396725,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Red Flannel"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Assassin"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Shotgun"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "None"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Charlotte"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

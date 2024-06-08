@@ -1,0 +1,35 @@
+{
+  "name": "Weenie Exterminator of Vienna",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3173.png",
+  "dna": "83d3fcc6d8b110a3e72e908dcdf7639bc0e5c7e4",
+  "edition": 3173,
+  "date": 1661121421387,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cucumber Platemail"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Spartacuke"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Six Shooter"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Watermelon"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Stygian Calf"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

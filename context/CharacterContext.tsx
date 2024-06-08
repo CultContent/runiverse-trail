@@ -4,6 +4,7 @@ interface Attribute {
   trait_type: string;
   value: string | number;
   filename: string | null;
+  original_value?: string | number;
 }
 
 interface Character {

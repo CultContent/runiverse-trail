@@ -38,7 +38,7 @@ const CharacterMenu: React.FC = () => {
       {equipScreen === EquipScreen.CharacterSelection && (
         <div>
           <h2 className="text-3xl font-bold text-center mb-8">Choose your Adventurer</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {tokens?.map((token, i) => (
               <CharacterSelect
                 id={token?.token?.tokenId ?? ''}
@@ -46,7 +46,7 @@ const CharacterMenu: React.FC = () => {
                 key={i}
                 onSelect={handleCharacterSelect}
                 isSelected={selectedCharacter?.id === token?.token?.tokenId}
-                className={`p-4 rounded-lg cursor-pointer transition-transform transform hover:scale-105 ${selectedCharacter?.id === token?.token?.tokenId ? 'border-4 border-green-500' : 'border-2 border-gray-300'}`}
+                className={`rounded-lg cursor-pointer transition-transform transform hover:scale-105`}
               />
             ))}
           </div>

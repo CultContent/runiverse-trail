@@ -1,0 +1,35 @@
+{
+  "name": "Dill Aries of the Rodeo",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2880.png",
+  "dna": "acbb937d31fe5e5cea8eb3bb394228d5d396b52f",
+  "edition": 2880,
+  "date": 1661121535538,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Black Vest"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Captain"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "None"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Sliced Bread"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Golden Calf"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

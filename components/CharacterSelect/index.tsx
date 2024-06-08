@@ -1,37 +1,9 @@
-import React, { FC, useEffect, useState } from 'react';
-
-const backgroundPositions = [
-  '19px 18px',
-  '-156px 18px',
-  '-328px 18px',
-  '-502px 18px',
-  '15px -158px',
-  '-161px -158px',
-  '-329px -158px',
-  '-509px -158px',
-  '15px -328px',
-  '-155px -328px',
-  '-331px -328px',
-  '-503px -328px',
-  '-503px -328px',
-  '15px -501px',
-  '-145px -501px',
-  '-324px -501px',
-  '-494px -501px',
-];
+import React, { FC, useState } from 'react';
 
 const WIZARD_CONTRACT = '0x521f9c7505005cfa19a8e5786a9c3c9c9f5e6f42';
 const WARRIOR_CONTRACT = '0x9690b63eb85467be5267a3603f770589ab12dc95';
 const BABY_CONTRACT = '0x4b1e130ae84c97b931ffbe91ead6b1da16993d45';
 const SOUL_CONTRACT = '0x251b5f14a825c537ff788604ea1b58e49b70726f';
-
-enum CharacterType {
-  None,
-  Wizard,
-  Warrior,
-  Baby,
-  Soul,
-}
 
 interface CharacterSelectProps {
   id: string;
@@ -42,54 +14,25 @@ interface CharacterSelectProps {
 }
 
 const CharacterSelect: FC<CharacterSelectProps> = ({ id, contract, onSelect, isSelected, className = '' }) => {
-  const [backgroundPosition, setBackgroundPosition] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
-
-  useEffect(() => {
-    let position = backgroundPosition;
-    const positionInterval = setInterval(() => {
-      if (backgroundPositions[position + 1]) {
-        position = position + 0;
-      } else {
-        position = 0;
-      }
-      setBackgroundPosition(position);
-    }, 500);
-
-    return () => {
-      clearInterval(positionInterval);
-    };
-  }, [backgroundPositions]);
-
-  let walkCycleType = '';
-
-  if (contract === WIZARD_CONTRACT) {
-    walkCycleType = 'wizard';
-  } else if (contract === WARRIOR_CONTRACT) {
-    walkCycleType = 'warrior';
-  } else if (contract === BABY_CONTRACT) {
-    walkCycleType = 'baby';
-  } else if (contract === SOUL_CONTRACT) {
-    walkCycleType = 'soul';
-  }
 
   let backgroundImageUrl = '';
 
-  switch (walkCycleType) {
-    case 'wizard':
+  switch (contract) {
+    case WIZARD_CONTRACT:
       backgroundImageUrl = `https://www.forgottenrunes.com/api/art/wizards/${id}.png`;
       break;
-    case 'warrior':
+    case WARRIOR_CONTRACT:
       backgroundImageUrl = `https://portal.forgottenrunes.com/api/warriors/img/${id}.png`;
       break;
-    case 'baby':
+    case BABY_CONTRACT:
       backgroundImageUrl = `https://www.forgottenrunes.com/api/art/wizards/${id}.png`;
       break;
-    case 'soul':
+    case SOUL_CONTRACT:
       backgroundImageUrl = `https://portal.forgottenrunes.com/api/souls/img/${id}`;
       break;
     default:
-    // Handle unknown walkCycleType, if needed
+    // Handle unknown contract, if needed
   }
 
   return (
@@ -97,13 +40,14 @@ const CharacterSelect: FC<CharacterSelectProps> = ({ id, contract, onSelect, isS
       onClick={() => onSelect({ id, contract })}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
-      className={`relative overflow-hidden ${isSelected ? 'border-4 border-green-500' : 'border-2 border-transparent'} rounded-lg cursor-pointer transition transform hover:scale-105 ${className}`}
+      className={`relative overflow-hidden ${className} p-1`}
+      style={{ width: '250px', height: '250px' }}
     >
-      <div className="relative overflow-hidden">
+      <div className="relative overflow-hidden rounded-lg shadow-lg w-full h-full">
         <div
           style={{
-            backgroundImage: isHovered ? 'url("/img/frame_on.png")' : 'url("/img/frame_off.png")',
-            backgroundSize: '200px 200px',
+            backgroundImage: isSelected || isHovered ? 'url("/img/frame_on.png")' : 'url("/img/frame_off.png")',
+            backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
             height: '100%',
             width: '100%',
@@ -116,14 +60,14 @@ const CharacterSelect: FC<CharacterSelectProps> = ({ id, contract, onSelect, isS
         <div
           style={{
             zIndex: 1,
-            width: 200,
-            height: 200,
+            width: '90%', // Ensures the image fits within the frame
+            height: '90%',
             backgroundImage: `url("${backgroundImageUrl}")`,
             backgroundRepeat: 'no-repeat',
-            backgroundPosition: backgroundPositions[backgroundPosition],
-            backgroundSize: '80%',
-            clipPath: 'polygon(5% 3%, 94% 3%, 95% 97%, 5% 97%)',
+            backgroundSize: 'contain',
+            marginTop: '10px', // Adds top padding to adjust the character image position
           }}
+          className="flex items-center justify-center mx-auto"
         />
       </div>
     </div>

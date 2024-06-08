@@ -1,0 +1,35 @@
+{
+  "name": "Doughy Prince of O",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "ipfs:/bafybeia3lxeabkqtsomyy3vn5e3v27fm6ccwqbh3q3pzdyv5sur7anc3qi/420.png",
+  "dna": "8c13074gsdr0079ba9ik2af3faagef91ako6140f",
+  "edition": 420,
+  "date": 1661034518254,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Blueberry Danish Defender"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Pastry Prince"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Plastic Knife"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Blueberry Danish"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "None"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

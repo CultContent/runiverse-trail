@@ -1,0 +1,35 @@
+{
+  "name": "Chance Organic of the Cucumb Tower",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/3482.png",
+  "dna": "492d9257ea6fb0d6c5ec145af54c1f72c0fa2426",
+  "edition": 3482,
+  "date": 1661121492397,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Champion"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Grunt"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "None"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Mini Fridge"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Bubbles"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

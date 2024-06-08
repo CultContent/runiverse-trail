@@ -1,0 +1,35 @@
+{
+  "name": "Sue Shucker of the Cantina",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2684.png",
+  "dna": "ba39f4e83faa57f0a50cafdf001857feaeb7f2e1",
+  "edition": 2684,
+  "date": 1661121455233,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Cucumber Juggernaut"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Grunt"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Tomato"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Sliced Bread"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Blue Ribbon Pig"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

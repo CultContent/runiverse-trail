@@ -1,0 +1,35 @@
+{
+  "name": "Sausage Fishmonger of Unknown Origin",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/2945.png",
+  "dna": "a42f3b1aed5434c1785814d3eb9470a536937f5e",
+  "edition": 2945,
+  "date": 1661121447653,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Heart Boxers"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Spartacuke"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Fishing Rod"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Cucumber Slice"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Bubbles"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

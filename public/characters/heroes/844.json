@@ -1,0 +1,35 @@
+{
+  "name": "Glenn Beast of the Lunchroom",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/844.png",
+  "dna": "34460ee5dcbf4c904e88de99ee44c3b82f269d1a",
+  "edition": 844,
+  "date": 1661121400648,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Chef's Smock"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Hotdog Grunt"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Steel Chain"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Trash Can Lid"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Blue Ribbon Pig"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

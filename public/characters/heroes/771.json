@@ -1,0 +1,35 @@
+{
+  "name": "Lee Summoner of the Freezer",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/771.png",
+  "dna": "8e3c58a506198577d780f40f7d6ada710777f96f",
+  "edition": 771,
+  "date": 1661121460193,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Ice Knight"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Celery Crusader"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Dinner Bell"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "Round Waffle"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Greater Flamingo"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}

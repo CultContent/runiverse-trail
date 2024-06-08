@@ -3,7 +3,7 @@ import fs from 'fs';
 import path from 'path';
 
 export default (req: NextApiRequest, res: NextApiResponse) => {
-  const { contract } = req.query;
+  const { contract, head } = req.query;
 
   if (!contract) {
     res.status(400).json({ error: 'Contract address is required' });
@@ -31,11 +31,20 @@ export default (req: NextApiRequest, res: NextApiResponse) => {
   categories.forEach(category => {
     const categoryPath = path.join(outfitsPath, category);
     if (fs.existsSync(categoryPath)) {
-      const files = fs.readdirSync(categoryPath).map(file => ({
+      let files = fs.readdirSync(categoryPath).map(file => ({
         name: file.replace(/_/g, ' ').replace(/\..+$/, ''), // remove file extension and replace underscores
         path: `/assets/${collectionFolder}/${category}/${file}`
       }));
-      console.log(`Found files in ${category}:`, files);
+      
+      if (category === 'head' && typeof head === 'string') {
+        // Only include heads that match the head attribute exactly, without any suffix
+        const headName = head.toLowerCase().replace(/ /g, '_');
+        files = files.filter(file => file.name === headName);
+        console.log(`Filtered files in ${category}:`, files);
+      } else {
+        console.log(`Found files in ${category}:`, files);
+      }
+      
       outfits[category] = files;
     } else {
       outfits[category] = [];

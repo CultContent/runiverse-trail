@@ -1,0 +1,35 @@
+{
+  "name": "The False Idols",
+  "description": "a horde of hotdog warriors, hellbent on assaulting your palate",
+  "image": "https://forgottenbabies.com/cucumdogs/1228.png",
+  "dna": "8c13074gsdr00795ab2ef6abfaagef91b0e6140f",
+  "edition": 1228,
+  "date": 1661034518254,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Golden Steer"
+    },
+    {
+      "trait_type": "Head",
+      "value": "False Idol"
+    },
+    {
+      "trait_type": "Prop",
+      "value": "Forbidden Recipe Book"
+    },
+    {
+      "trait_type": "Shield",
+      "value": "None"
+    },
+    {
+      "trait_type": "Pet",
+      "value": "Golden Calf"
+    }
+  ],
+  "compiler": "Cumberland Art Engine"
+}
