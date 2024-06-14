@@ -32,7 +32,7 @@ const CharacterCreation: React.FC = () => {
 
   const handleSubmit = async () => {
     try {
-      const response = await fetch('/api/character', {
+      const response = await fetch('/api/consciousnft/character', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

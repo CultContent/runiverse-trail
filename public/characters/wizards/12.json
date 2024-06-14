@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/12.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 12,
       "filename": null
     },
@@ -15,12 +15,12 @@
     },
     {
       "trait_type": "body",
-      "value": "Rose Yoga",
+      "value": "Rose_Yoga",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Lucky Black Cat",
+      "value": "Lucky_Black_Cat",
       "filename": null
     },
     {
@@ -30,26 +30,26 @@
     },
     {
       "trait_type": "prop",
-      "value": "Aphrodite's Heart: the Love Spell",
+      "value": "Aphrodite's_Heart:_the_Love_Spell",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
+      "trait_type": "affinity",
       "value": "Crimson",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "4",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "3",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "75",
       "filename": null
     }

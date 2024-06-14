@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/7245.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 7245,
       "filename": null
     },
@@ -15,41 +15,41 @@
     },
     {
       "trait_type": "body",
-      "value": "Royal Shoulder Cape",
+      "value": "Royal_Shoulder_Cape",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Golden Viper",
+      "value": "Golden_Viper",
       "filename": null
     },
     {
       "trait_type": "head",
-      "value": "Eastern Arcanist",
+      "value": "Eastern_Arcanist",
       "filename": null
     },
     {
       "trait_type": "rune",
-      "value": "Rune of Neptune",
+      "value": "Rune_of_Neptune",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
+      "trait_type": "affinity",
       "value": "Academic",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "4",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "3",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "75",
       "filename": null
     }

@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/4784.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 4784,
       "filename": null
     },
@@ -15,46 +15,46 @@
     },
     {
       "trait_type": "body",
-      "value": "Green Coveralls",
+      "value": "Green_Coveralls",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Crackerjack Crow",
+      "value": "Crackerjack_Crow",
       "filename": null
     },
     {
       "trait_type": "head",
-      "value": "Master of Wood, Water, and Hill",
+      "value": "Master_of_Wood,_Water,_and_Hill",
       "filename": null
     },
     {
       "trait_type": "prop",
-      "value": "Ruby Staff",
+      "value": "Ruby_Staff",
       "filename": null
     },
     {
       "trait_type": "rune",
-      "value": "Rune of Sun",
+      "value": "Rune_of_Sun",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
+      "trait_type": "affinity",
       "value": "Rugged",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "5",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "4",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "80",
       "filename": null
     }

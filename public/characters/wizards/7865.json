@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/7865.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 7865,
       "filename": null
     },
@@ -15,12 +15,12 @@
     },
     {
       "trait_type": "body",
-      "value": "Desert Wear",
+      "value": "Desert_Wear",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Plague Rat",
+      "value": "Plague_Rat",
       "filename": null
     },
     {
@@ -30,26 +30,26 @@
     },
     {
       "trait_type": "prop",
-      "value": "Hobgoblin's Flame: the Wayward Spell",
+      "value": "Hobgoblin's_Flame:_the_Wayward_Spell",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
+      "trait_type": "affinity",
       "value": "Brownish",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "4",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "2",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "50",
       "filename": null
     }

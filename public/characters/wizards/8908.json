@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/8908.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 8908,
       "filename": null
     },
@@ -15,41 +15,41 @@
     },
     {
       "trait_type": "body",
-      "value": "Desert Wear",
+      "value": "Desert_Wear",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Red Mamba",
+      "value": "Red_Mamba",
       "filename": null
     },
     {
       "trait_type": "head",
-      "value": "Corpse Feeder",
+      "value": "Corpse_Feeder",
       "filename": null
     },
     {
       "trait_type": "prop",
-      "value": "The Midas Rod",
+      "value": "The_Midas_Rod",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
-      "value": "Blue Shift",
+      "trait_type": "affinity",
+      "value": "Blue_Shift",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "4",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "2",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "50",
       "filename": null
     }

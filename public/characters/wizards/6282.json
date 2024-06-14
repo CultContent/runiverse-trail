@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/6282.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 6282,
       "filename": null
     },
@@ -15,36 +15,36 @@
     },
     {
       "trait_type": "body",
-      "value": "Red Cleric",
+      "value": "Red_Cleric",
       "filename": null
     },
     {
       "trait_type": "head",
-      "value": "Medicine Man",
+      "value": "Medicine_Man",
       "filename": null
     },
     {
       "trait_type": "prop",
-      "value": "Joy Staff",
+      "value": "Joy_Staff",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
-      "value": "Medicine Man",
+      "trait_type": "affinity",
+      "value": "Medicine_Man",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "3",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "1",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "33",
       "filename": null
     }

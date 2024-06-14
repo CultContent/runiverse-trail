@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/4650.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 4650,
       "filename": null
     },
@@ -25,26 +25,26 @@
     },
     {
       "trait_type": "prop",
-      "value": "Sphinx's Hourglass",
+      "value": "Sphinx's_Hourglass",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
+      "trait_type": "affinity",
       "value": "Rugged",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "3",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "2",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "66",
       "filename": null
     }

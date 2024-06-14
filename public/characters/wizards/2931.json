@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/2931.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 2931,
       "filename": null
     },
@@ -15,46 +15,46 @@
     },
     {
       "trait_type": "body",
-      "value": "Robe of Shadow",
+      "value": "Robe_of_Shadow",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Mesozoic Cockatrice",
+      "value": "Mesozoic_Cockatrice",
       "filename": null
     },
     {
       "trait_type": "head",
-      "value": "Big Gross Eyeball",
+      "value": "Big_Gross_Eyeball",
       "filename": null
     },
     {
       "trait_type": "prop",
-      "value": "Soul Harvester",
+      "value": "Soul_Harvester",
       "filename": null
     },
     {
       "trait_type": "rune",
-      "value": "Rune of Down",
+      "value": "Rune_of_Down",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
+      "trait_type": "affinity",
       "value": "Wraith",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "5",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "4",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "80",
       "filename": null
     }

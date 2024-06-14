@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/4969.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 4969,
       "filename": null
     },
@@ -15,41 +15,41 @@
     },
     {
       "trait_type": "body",
-      "value": "White Wraith",
+      "value": "White_Wraith",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Crackerjack Crow",
+      "value": "Crackerjack_Crow",
       "filename": null
     },
     {
       "trait_type": "head",
-      "value": "Wild Woman",
+      "value": "Wild_Woman",
       "filename": null
     },
     {
       "trait_type": "prop",
-      "value": "Eternal Rose",
+      "value": "Eternal_Rose",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
+      "trait_type": "affinity",
       "value": "Wraith",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "4",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "2",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "50",
       "filename": null
     }

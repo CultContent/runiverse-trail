@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/3488.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 3488,
       "filename": null
     },
@@ -15,46 +15,46 @@
     },
     {
       "trait_type": "body",
-      "value": "Tundra Wear",
+      "value": "Tundra_Wear",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Bliss Cat",
+      "value": "Bliss_Cat",
       "filename": null
     },
     {
       "trait_type": "head",
-      "value": "Polar Shapeshifter",
+      "value": "Polar_Shapeshifter",
       "filename": null
     },
     {
       "trait_type": "prop",
-      "value": "Bag of Tricks",
+      "value": "Bag_of_Tricks",
       "filename": null
     },
     {
       "trait_type": "rune",
-      "value": "Rune of Water",
+      "value": "Rune_of_Water",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
-      "value": "White Magic",
+      "trait_type": "affinity",
+      "value": "White_Magic",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "5",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "3",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "60",
       "filename": null
     }

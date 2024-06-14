@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/4326.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 4326,
       "filename": null
     },
@@ -15,12 +15,12 @@
     },
     {
       "trait_type": "body",
-      "value": "Formal Suit",
+      "value": "Formal_Suit",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Swamp Bullfrog",
+      "value": "Swamp_Bullfrog",
       "filename": null
     },
     {
@@ -30,26 +30,26 @@
     },
     {
       "trait_type": "prop",
-      "value": "Goblet of Immortality",
+      "value": "Goblet_of_Immortality",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
+      "trait_type": "affinity",
       "value": "Frog",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "4",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "2",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "50",
       "filename": null
     }

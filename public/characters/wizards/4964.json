@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/4964.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 4964,
       "filename": null
     },
@@ -15,12 +15,12 @@
     },
     {
       "trait_type": "body",
-      "value": "Jester Diamonds",
+      "value": "Jester_Diamonds",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Albino Rat",
+      "value": "Albino_Rat",
       "filename": null
     },
     {
@@ -29,22 +29,22 @@
       "filename": null
     },
     {
-      "trait_type": "Affinity",
+      "trait_type": "affinity",
       "value": "Formal",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "3",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "3",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "100",
       "filename": null
     }

@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/261.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 261,
       "filename": null
     },
@@ -15,41 +15,41 @@
     },
     {
       "trait_type": "body",
-      "value": "Rose Yoga",
+      "value": "Rose_Yoga",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Sun Cat",
+      "value": "Sun_Cat",
       "filename": null
     },
     {
       "trait_type": "head",
-      "value": "Floral Master",
+      "value": "Floral_Master",
       "filename": null
     },
     {
       "trait_type": "prop",
-      "value": "Grim Reaper's Breath: the Death Spell",
+      "value": "Grim_Reaper's_Breath:_the_Death_Spell",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
+      "trait_type": "affinity",
       "value": "Feminine",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "4",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "2",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "50",
       "filename": null
     }

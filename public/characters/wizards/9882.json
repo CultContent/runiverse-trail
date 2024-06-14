@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/9882.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 9882,
       "filename": null
     },
@@ -15,46 +15,46 @@
     },
     {
       "trait_type": "body",
-      "value": "Gold Chain",
+      "value": "Gold_Chain",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Psychic Rabbit",
+      "value": "Psychic_Rabbit",
       "filename": null
     },
     {
       "trait_type": "head",
-      "value": "Big Gross Eyeball",
+      "value": "Big_Gross_Eyeball",
       "filename": null
     },
     {
       "trait_type": "prop",
-      "value": "The Midas Rod",
+      "value": "The_Midas_Rod",
       "filename": null
     },
     {
       "trait_type": "rune",
-      "value": "Rune of Sigma",
+      "value": "Rune_of_Sigma",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
+      "trait_type": "affinity",
       "value": "Cosmic",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "5",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "4",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "80",
       "filename": null
     }

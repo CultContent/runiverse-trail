@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/3976.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 3976,
       "filename": null
     },
@@ -15,36 +15,36 @@
     },
     {
       "trait_type": "body",
-      "value": "White Coveralls",
+      "value": "White_Coveralls",
       "filename": null
     },
     {
       "trait_type": "head",
-      "value": "Dark Arcanist",
+      "value": "Dark_Arcanist",
       "filename": null
     },
     {
       "trait_type": "prop",
-      "value": "The Midas Rod",
+      "value": "The_Midas_Rod",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
-      "value": "Dark Arcanist",
+      "trait_type": "affinity",
+      "value": "Dark_Arcanist",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "3",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "1",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "33",
       "filename": null
     }

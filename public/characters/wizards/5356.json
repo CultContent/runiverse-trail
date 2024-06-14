@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/5356.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 5356,
       "filename": null
     },
@@ -15,31 +15,31 @@
     },
     {
       "trait_type": "body",
-      "value": "Green Mantle Robe",
+      "value": "Green_Mantle_Robe",
       "filename": null
     },
     {
       "trait_type": "head",
-      "value": "Dream Master",
+      "value": "Dream_Master",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
+      "trait_type": "affinity",
       "value": "Orange",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "2",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "2",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "100",
       "filename": null
     }

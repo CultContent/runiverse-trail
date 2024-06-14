@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/9137.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 9137,
       "filename": null
     },
@@ -15,46 +15,46 @@
     },
     {
       "trait_type": "body",
-      "value": "Tundra Wear",
+      "value": "Tundra_Wear",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Albino Rat",
+      "value": "Albino_Rat",
       "filename": null
     },
     {
       "trait_type": "head",
-      "value": "Cloud Prophet",
+      "value": "Cloud_Prophet",
       "filename": null
     },
     {
       "trait_type": "prop",
-      "value": "Candle of Intuition",
+      "value": "Candle_of_Intuition",
       "filename": null
     },
     {
       "trait_type": "rune",
-      "value": "Rune of Saturn",
+      "value": "Rune_of_Saturn",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
-      "value": "White Magic",
+      "trait_type": "affinity",
+      "value": "White_Magic",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "5",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "4",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "80",
       "filename": null
     }

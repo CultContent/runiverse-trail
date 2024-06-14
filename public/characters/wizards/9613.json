@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/9613.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 9613,
       "filename": null
     },
@@ -15,7 +15,7 @@
     },
     {
       "trait_type": "body",
-      "value": "Robe of Shadow",
+      "value": "Robe_of_Shadow",
       "filename": null
     },
     {
@@ -25,26 +25,26 @@
     },
     {
       "trait_type": "prop",
-      "value": "Guillaume's Broom",
+      "value": "Guillaume's_Broom",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
+      "trait_type": "affinity",
       "value": "Wraith",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "3",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "2",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "66",
       "filename": null
     }

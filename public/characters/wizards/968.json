@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/968.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 968,
       "filename": null
     },
@@ -20,7 +20,7 @@
     },
     {
       "trait_type": "familiar",
-      "value": "Great Owl",
+      "value": "Great_Owl",
       "filename": null
     },
     {
@@ -30,31 +30,31 @@
     },
     {
       "trait_type": "prop",
-      "value": "Mug of Ale",
+      "value": "Mug_of_Ale",
       "filename": null
     },
     {
       "trait_type": "rune",
-      "value": "Rune of Earth",
+      "value": "Rune_of_Earth",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
+      "trait_type": "affinity",
       "value": "City",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "5",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "4",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "80",
       "filename": null
     }

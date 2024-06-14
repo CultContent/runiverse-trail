@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/7513.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 7513,
       "filename": null
     },
@@ -15,12 +15,12 @@
     },
     {
       "trait_type": "body",
-      "value": "Green Elven Cloak",
+      "value": "Green_Elven_Cloak",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Dirt Rabbit",
+      "value": "Dirt_Rabbit",
       "filename": null
     },
     {
@@ -30,31 +30,31 @@
     },
     {
       "trait_type": "prop",
-      "value": "Ace in the Hole",
+      "value": "Ace_in_the_Hole",
       "filename": null
     },
     {
       "trait_type": "rune",
-      "value": "Rune of Sigma",
+      "value": "Rune_of_Sigma",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
+      "trait_type": "affinity",
       "value": "Goofy",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "5",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "2",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "40",
       "filename": null
     }

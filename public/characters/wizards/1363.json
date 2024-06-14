@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/1363.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 1363,
       "filename": null
     },
@@ -15,41 +15,41 @@
     },
     {
       "trait_type": "body",
-      "value": "Wicker Wear",
+      "value": "Wicker_Wear",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Plague Rat",
+      "value": "Plague_Rat",
       "filename": null
     },
     {
       "trait_type": "head",
-      "value": "Brown Wizard",
+      "value": "Brown_Wizard",
       "filename": null
     },
     {
       "trait_type": "prop",
-      "value": "Dryad's Ear: the Plant Spell",
+      "value": "Dryad's_Ear:_the_Plant_Spell",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
+      "trait_type": "affinity",
       "value": "Brownish",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "4",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "4",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "100",
       "filename": null
     }

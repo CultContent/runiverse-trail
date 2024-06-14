@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/9078.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 9078,
       "filename": null
     },
@@ -15,46 +15,46 @@
     },
     {
       "trait_type": "body",
-      "value": "Yellow Elven Cloak",
+      "value": "Yellow_Elven_Cloak",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Albino Rat",
+      "value": "Albino_Rat",
       "filename": null
     },
     {
       "trait_type": "head",
-      "value": "White Wizard",
+      "value": "White_Wizard",
       "filename": null
     },
     {
       "trait_type": "prop",
-      "value": "Peace Staff",
+      "value": "Peace_Staff",
       "filename": null
     },
     {
       "trait_type": "rune",
-      "value": "Rune of Water",
+      "value": "Rune_of_Water",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
-      "value": "White Magic",
+      "trait_type": "affinity",
+      "value": "White_Magic",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "5",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "3",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "60",
       "filename": null
     }

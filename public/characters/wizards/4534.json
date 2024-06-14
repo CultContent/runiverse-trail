@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/4534.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 4534,
       "filename": null
     },
@@ -15,12 +15,12 @@
     },
     {
       "trait_type": "body",
-      "value": "Swashbuckling Gear",
+      "value": "Swashbuckling_Gear",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Green Asp",
+      "value": "Green_Asp",
       "filename": null
     },
     {
@@ -30,31 +30,31 @@
     },
     {
       "trait_type": "prop",
-      "value": "The Bone Stave",
+      "value": "The_Bone_Stave",
       "filename": null
     },
     {
       "trait_type": "rune",
-      "value": "Rune of Pluto",
+      "value": "Rune_of_Pluto",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
+      "trait_type": "affinity",
       "value": "Jungle",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "5",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "2",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "40",
       "filename": null
     }

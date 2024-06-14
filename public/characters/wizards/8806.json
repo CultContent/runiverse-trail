@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/8806.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 8806,
       "filename": null
     },
@@ -15,12 +15,12 @@
     },
     {
       "trait_type": "body",
-      "value": "Banded Overall",
+      "value": "Banded_Overall",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Green Asp",
+      "value": "Green_Asp",
       "filename": null
     },
     {
@@ -30,31 +30,31 @@
     },
     {
       "trait_type": "prop",
-      "value": "Thor's Wrath: the Lightning Spell",
+      "value": "Thor's_Wrath:_the_Lightning_Spell",
       "filename": null
     },
     {
       "trait_type": "rune",
-      "value": "Rune of Sun",
+      "value": "Rune_of_Sun",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
+      "trait_type": "affinity",
       "value": "Amber",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "5",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "2",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "40",
       "filename": null
     }

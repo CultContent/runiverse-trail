@@ -46,6 +46,24 @@ const CharacterPreview: React.FC = () => {
 
   console.log('Rendering CharacterPreview with attributes:', selectedCharacter.attributes);
 
+  // Define the order of traits to ensure correct layering
+  const traitOrder: { [key: string]: number } = {
+    background: 0,
+    familiar: 1,
+    bottoms: 2,
+    tops: 3,
+    body: 4,
+    prop: 5,
+    head: 6,
+    eye_accessory: 7,
+    hats: 8
+  };
+
+  // Sort the attributes based on the defined order
+  const sortedAttributes = selectedCharacter.attributes
+    .filter(attr => traitOrder.hasOwnProperty(attr.trait_type.toLowerCase()))
+    .sort((a, b) => traitOrder[a.trait_type.toLowerCase()] - traitOrder[b.trait_type.toLowerCase()]);
+
   return (
     <div className="bg-white shadow-md rounded p-4 w-60">
       <div className="text-center mb-2">
@@ -53,13 +71,13 @@ const CharacterPreview: React.FC = () => {
         <input className="border p-1 rounded w-full bg-gray-100 text-gray-700" type="text" value={selectedCharacter.name} readOnly />
       </div>
       <div className="flex justify-center mb-4 relative w-60 h-60">
-        {selectedCharacter.attributes.map((trait, index) => (
+        {sortedAttributes.map((trait, index) => (
           <img
             key={index}
             src={getTraitImage(trait)}
             alt={trait.trait_type}
             className="absolute"
-            style={{ zIndex: index }}
+            style={{ zIndex: traitOrder[trait.trait_type.toLowerCase()] || index }}
             width="250"
             height="250"
           />
@@ -74,7 +92,7 @@ const CharacterPreview: React.FC = () => {
         <ul>
           {selectedCharacter.attributes.map((attribute, index) => (
             <li key={index} className="text-gray-700">
-              <strong>{attribute.trait_type}:</strong> {attribute.value}
+              <strong>{attribute.trait_type.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase())}:</strong> {attribute.value}
             </li>
           ))}
         </ul>

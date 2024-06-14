@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/8525.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 8525,
       "filename": null
     },
@@ -15,36 +15,36 @@
     },
     {
       "trait_type": "body",
-      "value": "Orange Caped Traveller",
+      "value": "Orange_Caped_Traveller",
       "filename": null
     },
     {
       "trait_type": "head",
-      "value": "Dark Arcanist",
+      "value": "Dark_Arcanist",
       "filename": null
     },
     {
       "trait_type": "prop",
-      "value": "Harmony Staff",
+      "value": "Harmony_Staff",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
-      "value": "Dark Arcanist",
+      "trait_type": "affinity",
+      "value": "Dark_Arcanist",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "3",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "1",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "33",
       "filename": null
     }

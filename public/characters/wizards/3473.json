@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/3473.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 3473,
       "filename": null
     },
@@ -15,17 +15,17 @@
     },
     {
       "trait_type": "body",
-      "value": "Orange Scholar",
+      "value": "Orange_Scholar",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Topaz Slime",
+      "value": "Topaz_Slime",
       "filename": null
     },
     {
       "trait_type": "head",
-      "value": "Floral Master",
+      "value": "Floral_Master",
       "filename": null
     },
     {
@@ -34,22 +34,22 @@
       "filename": null
     },
     {
-      "trait_type": "Affinity",
+      "trait_type": "affinity",
       "value": "Orange",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "4",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "4",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "100",
       "filename": null
     }

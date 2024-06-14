@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/2335.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 2335,
       "filename": null
     },
@@ -15,46 +15,46 @@
     },
     {
       "trait_type": "body",
-      "value": "Aristocrat Purple",
+      "value": "Aristocrat_Purple",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Bliss Cat",
+      "value": "Bliss_Cat",
       "filename": null
     },
     {
       "trait_type": "head",
-      "value": "Wicked Wizard",
+      "value": "Wicked_Wizard",
       "filename": null
     },
     {
       "trait_type": "prop",
-      "value": "Aphrodite's Heart: the Love Spell",
+      "value": "Aphrodite's_Heart:_the_Love_Spell",
       "filename": null
     },
     {
       "trait_type": "rune",
-      "value": "Rune of Sigma",
+      "value": "Rune_of_Sigma",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
+      "trait_type": "affinity",
       "value": "Formal",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "5",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "3",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "60",
       "filename": null
     }

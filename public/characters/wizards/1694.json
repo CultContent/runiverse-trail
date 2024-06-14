@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/1694.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 1694,
       "filename": null
     },
@@ -15,41 +15,41 @@
     },
     {
       "trait_type": "body",
-      "value": "White Wraith",
+      "value": "White_Wraith",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Dirt Rabbit",
+      "value": "Dirt_Rabbit",
       "filename": null
     },
     {
       "trait_type": "head",
-      "value": "Polar Shapeshifter",
+      "value": "Polar_Shapeshifter",
       "filename": null
     },
     {
       "trait_type": "prop",
-      "value": "Phoenix Feather",
+      "value": "Phoenix_Feather",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
-      "value": "White Magic",
+      "trait_type": "affinity",
+      "value": "White_Magic",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "4",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "3",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "75",
       "filename": null
     }

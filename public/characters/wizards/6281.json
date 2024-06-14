@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/6281.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 6281,
       "filename": null
     },
@@ -15,41 +15,41 @@
     },
     {
       "trait_type": "body",
-      "value": "Blue Coveralls",
+      "value": "Blue_Coveralls",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Red Mamba",
+      "value": "Red_Mamba",
       "filename": null
     },
     {
       "trait_type": "head",
-      "value": "Wooden Boy",
+      "value": "Wooden_Boy",
       "filename": null
     },
     {
       "trait_type": "prop",
-      "value": "Candle of Intuition",
+      "value": "Candle_of_Intuition",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
+      "trait_type": "affinity",
       "value": "Crimson",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "4",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "4",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "100",
       "filename": null
     }

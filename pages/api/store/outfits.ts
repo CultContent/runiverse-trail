@@ -25,7 +25,7 @@ export default (req: NextApiRequest, res: NextApiResponse) => {
 
   const outfitsPath = path.join(process.cwd(), 'public', 'assets', collectionFolder);
 
-  const categories = ['head', 'body', 'prop'];
+  const categories = ['head', 'body', 'prop', 'hats', 'tops', 'bottoms', 'eye_accessory'];
   const outfits: { [key: string]: { name: string; path: string }[] } = {};
 
   categories.forEach(category => {
@@ -35,7 +35,7 @@ export default (req: NextApiRequest, res: NextApiResponse) => {
         name: file.replace(/_/g, ' ').replace(/\..+$/, ''), // remove file extension and replace underscores
         path: `/assets/${collectionFolder}/${category}/${file}`
       }));
-      
+
       if (category === 'head' && typeof head === 'string') {
         // Only include heads that match the head attribute exactly, without any suffix
         const headName = head.toLowerCase().replace(/ /g, '_');
@@ -44,7 +44,7 @@ export default (req: NextApiRequest, res: NextApiResponse) => {
       } else {
         console.log(`Found files in ${category}:`, files);
       }
-      
+
       outfits[category] = files;
     } else {
       outfits[category] = [];

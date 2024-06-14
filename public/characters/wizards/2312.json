@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/2312.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 2312,
       "filename": null
     },
@@ -15,46 +15,46 @@
     },
     {
       "trait_type": "body",
-      "value": "Formal Suit",
+      "value": "Formal_Suit",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Crackerjack Crow",
+      "value": "Crackerjack_Crow",
       "filename": null
     },
     {
       "trait_type": "head",
-      "value": "Evil One",
+      "value": "Evil_One",
       "filename": null
     },
     {
       "trait_type": "prop",
-      "value": "Chaos Staff",
+      "value": "Chaos_Staff",
       "filename": null
     },
     {
       "trait_type": "rune",
-      "value": "Rune of Brimstone",
+      "value": "Rune_of_Brimstone",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
+      "trait_type": "affinity",
       "value": "Blackness",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "5",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "5",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "100",
       "filename": null
     }

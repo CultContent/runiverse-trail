@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/1637.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 1637,
       "filename": null
     },
@@ -15,46 +15,46 @@
     },
     {
       "trait_type": "body",
-      "value": "Double Sash",
+      "value": "Double_Sash",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Fox Trickster",
+      "value": "Fox_Trickster",
       "filename": null
     },
     {
       "trait_type": "head",
-      "value": "Polar Shapeshifter",
+      "value": "Polar_Shapeshifter",
       "filename": null
     },
     {
       "trait_type": "prop",
-      "value": "Mystic Ice Cream",
+      "value": "Mystic_Ice_Cream",
       "filename": null
     },
     {
       "trait_type": "rune",
-      "value": "Rune of Fire",
+      "value": "Rune_of_Fire",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
+      "trait_type": "affinity",
       "value": "Crimson",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "5",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "4",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "80",
       "filename": null
     }

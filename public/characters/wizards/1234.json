@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/1234.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 1234,
       "filename": null
     },
@@ -15,41 +15,41 @@
     },
     {
       "trait_type": "body",
-      "value": "Rainbow Suit",
+      "value": "Rainbow_Suit",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Rain Toucan",
+      "value": "Rain_Toucan",
       "filename": null
     },
     {
       "trait_type": "head",
-      "value": "Hue Master",
+      "value": "Hue_Master",
       "filename": null
     },
     {
       "trait_type": "prop",
-      "value": "Loki's Bridge: the Rainbow Spell",
+      "value": "Loki's_Bridge:_the_Rainbow_Spell",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
+      "trait_type": "affinity",
       "value": "Rainbow",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "4",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "4",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "100",
       "filename": null
     }

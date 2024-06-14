@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/1699.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 1699,
       "filename": null
     },
@@ -15,46 +15,46 @@
     },
     {
       "trait_type": "body",
-      "value": "Spandex  Dark",
+      "value": "Spandex__Dark",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Lucky Black Cat",
+      "value": "Lucky_Black_Cat",
       "filename": null
     },
     {
       "trait_type": "head",
-      "value": "Dark Sister",
+      "value": "Dark_Sister",
       "filename": null
     },
     {
       "trait_type": "prop",
-      "value": "Astral Potion",
+      "value": "Astral_Potion",
       "filename": null
     },
     {
       "trait_type": "rune",
-      "value": "Rune of Saturn",
+      "value": "Rune_of_Saturn",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
+      "trait_type": "affinity",
       "value": "Feminine",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "5",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "2",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "40",
       "filename": null
     }

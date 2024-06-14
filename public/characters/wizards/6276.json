@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/6276.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 6276,
       "filename": null
     },
@@ -15,36 +15,36 @@
     },
     {
       "trait_type": "body",
-      "value": "Desert Wear",
+      "value": "Desert_Wear",
       "filename": null
     },
     {
       "trait_type": "head",
-      "value": "Wooden Boy",
+      "value": "Wooden_Boy",
       "filename": null
     },
     {
       "trait_type": "prop",
-      "value": "Vile of Virgin's Blood",
+      "value": "Vile_of_Virgin's_Blood",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
+      "trait_type": "affinity",
       "value": "Academic",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "3",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "2",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "66",
       "filename": null
     }

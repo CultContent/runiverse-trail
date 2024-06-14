@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/7267.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 7267,
       "filename": null
     },
@@ -15,46 +15,46 @@
     },
     {
       "trait_type": "body",
-      "value": "Red Hip Pouch",
+      "value": "Red_Hip_Pouch",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Crackerjack Crow",
+      "value": "Crackerjack_Crow",
       "filename": null
     },
     {
       "trait_type": "head",
-      "value": "Kabuki ",
+      "value": "Kabuki_",
       "filename": null
     },
     {
       "trait_type": "prop",
-      "value": "Grim Reaper's Breath: the Death Spell",
+      "value": "Grim_Reaper's_Breath:_the_Death_Spell",
       "filename": null
     },
     {
       "trait_type": "rune",
-      "value": "Rune of Brimstone",
+      "value": "Rune_of_Brimstone",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
+      "trait_type": "affinity",
       "value": "Blackness",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "5",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "4",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "80",
       "filename": null
     }

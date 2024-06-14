@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/9246.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 9246,
       "filename": null
     },
@@ -15,7 +15,7 @@
     },
     {
       "trait_type": "body",
-      "value": "Cosmic Cardigan",
+      "value": "Cosmic_Cardigan",
       "filename": null
     },
     {
@@ -25,26 +25,26 @@
     },
     {
       "trait_type": "prop",
-      "value": "Prometheus's Torch",
+      "value": "Prometheus's_Torch",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
-      "value": "Blue Shift",
+      "trait_type": "affinity",
+      "value": "Blue_Shift",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "3",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "2",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "66",
       "filename": null
     }

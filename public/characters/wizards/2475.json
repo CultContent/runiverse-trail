@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/2475.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 2475,
       "filename": null
     },
@@ -15,46 +15,46 @@
     },
     {
       "trait_type": "body",
-      "value": "Yellow Elven Cloak",
+      "value": "Yellow_Elven_Cloak",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Golden Toad",
+      "value": "Golden_Toad",
       "filename": null
     },
     {
       "trait_type": "head",
-      "value": "Fur Gnome",
+      "value": "Fur_Gnome",
       "filename": null
     },
     {
       "trait_type": "prop",
-      "value": "The Orb Staff",
+      "value": "The_Orb_Staff",
       "filename": null
     },
     {
       "trait_type": "rune",
-      "value": "Rune of Sigma",
+      "value": "Rune_of_Sigma",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
+      "trait_type": "affinity",
       "value": "Forest",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "5",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "3",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "60",
       "filename": null
     }

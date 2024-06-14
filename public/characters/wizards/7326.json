@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/7326.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 7326,
       "filename": null
     },
@@ -15,36 +15,36 @@
     },
     {
       "trait_type": "body",
-      "value": "Grey Tunic",
+      "value": "Grey_Tunic",
       "filename": null
     },
     {
       "trait_type": "head",
-      "value": "Medicine Man",
+      "value": "Medicine_Man",
       "filename": null
     },
     {
       "trait_type": "prop",
-      "value": "Egg of Unknown Beast",
+      "value": "Egg_of_Unknown_Beast",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
+      "trait_type": "affinity",
       "value": "Mountains",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "3",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "2",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "66",
       "filename": null
     }

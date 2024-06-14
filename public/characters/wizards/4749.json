@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/4749.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 4749,
       "filename": null
     },
@@ -15,46 +15,46 @@
     },
     {
       "trait_type": "body",
-      "value": "Red Suit",
+      "value": "Red_Suit",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Pink Butterfly",
+      "value": "Pink_Butterfly",
       "filename": null
     },
     {
       "trait_type": "head",
-      "value": "Wild Woman",
+      "value": "Wild_Woman",
       "filename": null
     },
     {
       "trait_type": "prop",
-      "value": "Ruby Staff",
+      "value": "Ruby_Staff",
       "filename": null
     },
     {
       "trait_type": "rune",
-      "value": "Rune of Down",
+      "value": "Rune_of_Down",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
+      "trait_type": "affinity",
       "value": "Crimson",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "5",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "5",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "100",
       "filename": null
     }

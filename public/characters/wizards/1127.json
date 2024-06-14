@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/1127.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 1127,
       "filename": null
     },
@@ -15,46 +15,46 @@
     },
     {
       "trait_type": "body",
-      "value": "Two Tone Fringe",
+      "value": "Two_Tone_Fringe",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Forever Bat",
+      "value": "Forever_Bat",
       "filename": null
     },
     {
       "trait_type": "head",
-      "value": "Medicine Man",
+      "value": "Medicine_Man",
       "filename": null
     },
     {
       "trait_type": "prop",
-      "value": "Nightshade Potion",
+      "value": "Nightshade_Potion",
       "filename": null
     },
     {
       "trait_type": "rune",
-      "value": "Rune of Air",
+      "value": "Rune_of_Air",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
+      "trait_type": "affinity",
       "value": "Nature",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "5",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "2",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "40",
       "filename": null
     }

@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/2180.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 2180,
       "filename": null
     },
@@ -15,46 +15,46 @@
     },
     {
       "trait_type": "body",
-      "value": "Green Caped Traveller",
+      "value": "Green_Caped_Traveller",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Sun Cat",
+      "value": "Sun_Cat",
       "filename": null
     },
     {
       "trait_type": "head",
-      "value": "Master of Wood, Water, and Hill",
+      "value": "Master_of_Wood,_Water,_and_Hill",
       "filename": null
     },
     {
       "trait_type": "prop",
-      "value": "The Bone Stave",
+      "value": "The_Bone_Stave",
       "filename": null
     },
     {
       "trait_type": "rune",
-      "value": "Rune of Water",
+      "value": "Rune_of_Water",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
+      "trait_type": "affinity",
       "value": "Forest",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "5",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "2",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "40",
       "filename": null
     }

@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/2586.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 2586,
       "filename": null
     },
@@ -15,41 +15,41 @@
     },
     {
       "trait_type": "body",
-      "value": "Gold Chain",
+      "value": "Gold_Chain",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Plague Rat",
+      "value": "Plague_Rat",
       "filename": null
     },
     {
       "trait_type": "head",
-      "value": "Durm and Strang",
+      "value": "Durm_and_Strang",
       "filename": null
     },
     {
       "trait_type": "prop",
-      "value": "Jinx Staff",
+      "value": "Jinx_Staff",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
-      "value": "Purple Haze",
+      "trait_type": "affinity",
+      "value": "Purple_Haze",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "4",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "3",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "75",
       "filename": null
     }

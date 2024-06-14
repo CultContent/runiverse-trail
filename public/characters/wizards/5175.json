@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/5175.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 5175,
       "filename": null
     },
@@ -15,46 +15,46 @@
     },
     {
       "trait_type": "body",
-      "value": "Rose Yoga",
+      "value": "Rose_Yoga",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Golden Toad",
+      "value": "Golden_Toad",
       "filename": null
     },
     {
       "trait_type": "head",
-      "value": "Red Priestess",
+      "value": "Red_Priestess",
       "filename": null
     },
     {
       "trait_type": "prop",
-      "value": "Phoenix Feather",
+      "value": "Phoenix_Feather",
       "filename": null
     },
     {
       "trait_type": "rune",
-      "value": "Rune of Fire",
+      "value": "Rune_of_Fire",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
+      "trait_type": "affinity",
       "value": "Crimson",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "5",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "4",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "80",
       "filename": null
     }

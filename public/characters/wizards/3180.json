@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/3180.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 3180,
       "filename": null
     },
@@ -15,46 +15,46 @@
     },
     {
       "trait_type": "body",
-      "value": "Brown Harem Pants",
+      "value": "Brown_Harem_Pants",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Emerald Slime",
+      "value": "Emerald_Slime",
       "filename": null
     },
     {
       "trait_type": "head",
-      "value": "Master of Wood, Water, and Hill",
+      "value": "Master_of_Wood,_Water,_and_Hill",
       "filename": null
     },
     {
       "trait_type": "prop",
-      "value": "A dumb stick...",
+      "value": "A_dumb_stick...",
       "filename": null
     },
     {
       "trait_type": "rune",
-      "value": "Rune of Pluto",
+      "value": "Rune_of_Pluto",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
+      "trait_type": "affinity",
       "value": "Verdant",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "5",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "4",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "80",
       "filename": null
     }

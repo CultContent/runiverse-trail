@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/2221.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 2221,
       "filename": null
     },
@@ -15,46 +15,46 @@
     },
     {
       "trait_type": "body",
-      "value": "Green Elven Cloak",
+      "value": "Green_Elven_Cloak",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Ember Frog",
+      "value": "Ember_Frog",
       "filename": null
     },
     {
       "trait_type": "head",
-      "value": "Durm and Strang",
+      "value": "Durm_and_Strang",
       "filename": null
     },
     {
       "trait_type": "prop",
-      "value": "Fairy Glamour: the Dazzle Spell",
+      "value": "Fairy_Glamour:_the_Dazzle_Spell",
       "filename": null
     },
     {
       "trait_type": "rune",
-      "value": "Rune of Brimstone",
+      "value": "Rune_of_Brimstone",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
+      "trait_type": "affinity",
       "value": "Goofy",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "5",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "2",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "40",
       "filename": null
     }

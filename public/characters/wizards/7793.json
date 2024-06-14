@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/7793.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 7793,
       "filename": null
     },
@@ -15,46 +15,46 @@
     },
     {
       "trait_type": "body",
-      "value": "Green Caped Traveller",
+      "value": "Green_Caped_Traveller",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Lucky Black Cat",
+      "value": "Lucky_Black_Cat",
       "filename": null
     },
     {
       "trait_type": "head",
-      "value": "Evil One",
+      "value": "Evil_One",
       "filename": null
     },
     {
       "trait_type": "prop",
-      "value": "Phoenix Feather",
+      "value": "Phoenix_Feather",
       "filename": null
     },
     {
       "trait_type": "rune",
-      "value": "Rune of Lime",
+      "value": "Rune_of_Lime",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
+      "trait_type": "affinity",
       "value": "Rainbow",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "5",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "2",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "40",
       "filename": null
     }

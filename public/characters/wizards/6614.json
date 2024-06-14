@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/6614.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 6614,
       "filename": null
     },
@@ -15,46 +15,46 @@
     },
     {
       "trait_type": "body",
-      "value": "Grey Tunic",
+      "value": "Grey_Tunic",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Emerald Slime",
+      "value": "Emerald_Slime",
       "filename": null
     },
     {
       "trait_type": "head",
-      "value": "Flaming Skull",
+      "value": "Flaming_Skull",
       "filename": null
     },
     {
       "trait_type": "prop",
-      "value": "Chaos Staff",
+      "value": "Chaos_Staff",
       "filename": null
     },
     {
       "trait_type": "rune",
-      "value": "Rune of Steel",
+      "value": "Rune_of_Steel",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
+      "trait_type": "affinity",
       "value": "Blackness",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "5",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "3",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "60",
       "filename": null
     }

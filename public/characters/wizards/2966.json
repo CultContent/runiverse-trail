@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/2966.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 2966,
       "filename": null
     },
@@ -15,46 +15,46 @@
     },
     {
       "trait_type": "body",
-      "value": "Two Tone Fringe",
+      "value": "Two_Tone_Fringe",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Field Dog",
+      "value": "Field_Dog",
       "filename": null
     },
     {
       "trait_type": "head",
-      "value": "Master of Wood, Water, and Hill",
+      "value": "Master_of_Wood,_Water,_and_Hill",
       "filename": null
     },
     {
       "trait_type": "prop",
-      "value": "A Big Magic Stick",
+      "value": "A_Big_Magic_Stick",
       "filename": null
     },
     {
       "trait_type": "rune",
-      "value": "Rune of Saturn",
+      "value": "Rune_of_Saturn",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
+      "trait_type": "affinity",
       "value": "Nature",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "5",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "4",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "80",
       "filename": null
     }

@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/8882.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 8882,
       "filename": null
     },
@@ -15,46 +15,46 @@
     },
     {
       "trait_type": "body",
-      "value": "Jester Diamonds",
+      "value": "Jester_Diamonds",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Lucky Black Cat",
+      "value": "Lucky_Black_Cat",
       "filename": null
     },
     {
       "trait_type": "head",
-      "value": "Master of Wood, Water, and Hill",
+      "value": "Master_of_Wood,_Water,_and_Hill",
       "filename": null
     },
     {
       "trait_type": "prop",
-      "value": "The Mamba Stick",
+      "value": "The_Mamba_Stick",
       "filename": null
     },
     {
       "trait_type": "rune",
-      "value": "Rune of Neptune",
+      "value": "Rune_of_Neptune",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
+      "trait_type": "affinity",
       "value": "Verdant",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "5",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "3",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "60",
       "filename": null
     }

@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/6618.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 6618,
       "filename": null
     },
@@ -15,12 +15,12 @@
     },
     {
       "trait_type": "body",
-      "value": "Orchid Harem Pants",
+      "value": "Orchid_Harem_Pants",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Sapphire Slime",
+      "value": "Sapphire_Slime",
       "filename": null
     },
     {
@@ -30,26 +30,26 @@
     },
     {
       "trait_type": "prop",
-      "value": "Harmony Staff",
+      "value": "Harmony_Staff",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
-      "value": "Blue Shift",
+      "trait_type": "affinity",
+      "value": "Blue_Shift",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "4",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "4",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "100",
       "filename": null
     }

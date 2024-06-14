@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/4165.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 4165,
       "filename": null
     },
@@ -15,46 +15,46 @@
     },
     {
       "trait_type": "body",
-      "value": "Red Suit",
+      "value": "Red_Suit",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Field Dog",
+      "value": "Field_Dog",
       "filename": null
     },
     {
       "trait_type": "head",
-      "value": "Green Wizard",
+      "value": "Green_Wizard",
       "filename": null
     },
     {
       "trait_type": "prop",
-      "value": "Guillaume's Broom",
+      "value": "Guillaume's_Broom",
       "filename": null
     },
     {
       "trait_type": "rune",
-      "value": "Rune of Steel",
+      "value": "Rune_of_Steel",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
+      "trait_type": "affinity",
       "value": "Rugged",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "5",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "4",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "80",
       "filename": null
     }

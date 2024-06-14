@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/6289.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 6289,
       "filename": null
     },
@@ -15,46 +15,46 @@
     },
     {
       "trait_type": "body",
-      "value": "Blue Big Buckle",
+      "value": "Blue_Big_Buckle",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Onyx Wolf",
+      "value": "Onyx_Wolf",
       "filename": null
     },
     {
       "trait_type": "head",
-      "value": "Astral Arcanist",
+      "value": "Astral_Arcanist",
       "filename": null
     },
     {
       "trait_type": "prop",
-      "value": "Emerald Staff",
+      "value": "Emerald_Staff",
       "filename": null
     },
     {
       "trait_type": "rune",
-      "value": "Rune of Neptune",
+      "value": "Rune_of_Neptune",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
-      "value": "Blue Shift",
+      "trait_type": "affinity",
+      "value": "Blue_Shift",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "5",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "2",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "40",
       "filename": null
     }

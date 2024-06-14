@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/8215.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 8215,
       "filename": null
     },
@@ -15,12 +15,12 @@
     },
     {
       "trait_type": "body",
-      "value": "White Coveralls",
+      "value": "White_Coveralls",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Field Dog",
+      "value": "Field_Dog",
       "filename": null
     },
     {
@@ -30,31 +30,31 @@
     },
     {
       "trait_type": "prop",
-      "value": "A Big Magic Stick",
+      "value": "A_Big_Magic_Stick",
       "filename": null
     },
     {
       "trait_type": "rune",
-      "value": "Rune of Lime",
+      "value": "Rune_of_Lime",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
+      "trait_type": "affinity",
       "value": "Rugged",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "5",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "4",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "80",
       "filename": null
     }

@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/3965.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 3965,
       "filename": null
     },
@@ -15,17 +15,17 @@
     },
     {
       "trait_type": "body",
-      "value": "Grey Tunic",
+      "value": "Grey_Tunic",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Dirt Rabbit",
+      "value": "Dirt_Rabbit",
       "filename": null
     },
     {
       "trait_type": "head",
-      "value": "Fortune Seeker",
+      "value": "Fortune_Seeker",
       "filename": null
     },
     {
@@ -35,26 +35,26 @@
     },
     {
       "trait_type": "rune",
-      "value": "Rune of Pluto",
+      "value": "Rune_of_Pluto",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
+      "trait_type": "affinity",
       "value": "Formal",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "5",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "2",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "40",
       "filename": null
     }

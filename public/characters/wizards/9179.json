@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/9179.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 9179,
       "filename": null
     },
@@ -15,7 +15,7 @@
     },
     {
       "trait_type": "body",
-      "value": "Yellow Cleric",
+      "value": "Yellow_Cleric",
       "filename": null
     },
     {
@@ -25,26 +25,26 @@
     },
     {
       "trait_type": "prop",
-      "value": "Thor's Wrath: the Lightning Spell",
+      "value": "Thor's_Wrath:_the_Lightning_Spell",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
+      "trait_type": "affinity",
       "value": "Amber",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "3",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "2",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "66",
       "filename": null
     }

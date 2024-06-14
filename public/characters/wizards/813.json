@@ -4,7 +4,7 @@
   "image": "ipfs://QmbtiPZfgUzHd79T1aPcL9yZnhGFmzwar7h4vmfV6rV8Kq/813.png",
   "attributes": [
     {
-      "trait_type": "Serial",
+      "trait_type": "serial",
       "value": 813,
       "filename": null
     },
@@ -15,46 +15,46 @@
     },
     {
       "trait_type": "body",
-      "value": "Yellow Elven Cloak",
+      "value": "Yellow_Elven_Cloak",
       "filename": null
     },
     {
       "trait_type": "familiar",
-      "value": "Swamp Bullfrog",
+      "value": "Swamp_Bullfrog",
       "filename": null
     },
     {
       "trait_type": "head",
-      "value": "Silver Skeleton",
+      "value": "Silver_Skeleton",
       "filename": null
     },
     {
       "trait_type": "prop",
-      "value": "Siren's Harp",
+      "value": "Siren's_Harp",
       "filename": null
     },
     {
       "trait_type": "rune",
-      "value": "Rune of Brimstone",
+      "value": "Rune_of_Brimstone",
       "filename": null
     },
     {
-      "trait_type": "Affinity",
+      "trait_type": "affinity",
       "value": "Orange",
       "filename": null
     },
     {
-      "trait_type": "# Traits",
+      "trait_type": "# traits",
       "value": "5",
       "filename": null
     },
     {
-      "trait_type": "# Traits in Affinity",
+      "trait_type": "# traits in affinity",
       "value": "2",
       "filename": null
     },
     {
-      "trait_type": "% Traits in Affinity",
+      "trait_type": "% traits in affinity",
       "value": "40",
       "filename": null
     }
