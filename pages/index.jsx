@@ -93,10 +93,48 @@ export default function HomePage({ address, session }) {
             <div className="bg-[url('/img/border1.png')] h-[135px] bg-auto w-full">
             </div>
 
-            <div className="bg-[#28248c] h-screen">
+            <div className="bg-[#28248c]  flex flex-col gap-12 h-full">
+                <div className="mt-24 h-[500px] flex flex-row justify-center gap-6 p-12">
+                    <div className="w-[600px] flex items-center justify-center ">
+                        <Image className="rounded-none container_img hover:rotate-0 ease-in-out duration-300 rotate-[-9deg] cursor-pointer" width={600} src="/img/bs.png" alt="pic"/>
+                    </div>
+                    <div className="w-[600px] flex flex-col items-center justify-center">
+    
+                        <h1 className="w-[500px] text-[#E3FF37] text-4xl font-upheav">PLAY WITH FRIENDS</h1>
+                        <p className="w-[500px] font-vcr">Give life to your land by managing crops and raising animals. Get energy from your harvest and use it to expand the universe.</p>
+               
+                    </div>
+                </div>
 
+                <div className="h-[500px] flex flex-row-reverse justify-center gap-6 p-12">
+                    <div className="w-[600px] flex items-center justify-center ">
+                        <Image className="rounded-none container_img rotate-[9deg] hover:rotate-0 ease-in-out duration-300 cursor-pointer" width={600} src="/img/bs.png" alt="pic"/>
+                    </div>
+                    <div className="w-[600px] flex flex-col items-center justify-center">
+    
+                        <h1 className="w-[500px] text-[#E3FF37] text-4xl font-upheav">EARN REWARDS</h1>
+                        <p className="w-[500px] font-vcr">Co-operation makes the world go round. You can collaborate with your friends or conspire against them. The choice is yours.</p>
+               
+                    </div>
+                </div>
+
+                <div className="mb-24 h-[500px] flex flex-row justify-center gap-6 p-12">
+                    <div className="w-[600px] flex items-center justify-center ">
+                        <Image className="rounded-none container_img rotate-[-9deg] hover:rotate-0 ease-in-out duration-300 cursor-pointer" width={600} src="/img/bs.png" alt="pic"/>
+                    </div>
+                    <div className="w-[600px] flex flex-col items-center justify-center">
+    
+                        <h1 className="w-[500px] text-[#E3FF37] text-4xl font-upheav">BUILD YOUR OWN WORLD</h1>
+                        <p className="w-[500px] font-vcr">Every pixel holds the potential to be something amazing. Use the energy in the land to give life to your imagination.</p>
+               
+                    </div>
+                </div>
             </div>
             
+            <div className="bg-[url('/img/border2.png')] h-[225px] bg-auto w-full">
+            </div>
+
+
         </Layout>
     );
 }
