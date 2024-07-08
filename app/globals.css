@@ -11,7 +11,29 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'VCR';
+  src: url('/fonts/vcr.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: 'Upheav';
+  src: url('/fonts/upheavtt.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.clip_img{
+  clip-path: polygon(0 4px, 4px 4px, 4px 0, calc(100% - 4px) 0, calc(100% - 4px) 4px, 100% 4px, 100% calc(100% - 4px), calc(100% - 4px) calc(100% - 4px), calc(100% - 4px) 100%, 4px 100%, 4px calc(100% - 4px), 0 calc(100% - 4px));
+  box-shadow: inset -4px -4px 0px rgba(0, 0, 0, 0.2), inset 4px 4px 0px rgba(255, 255, 255, 0.2);
+}
+
+.container_div{
+  clip-path: polygon(0 6px, 6px 6px, 6px 0, calc(100% - 6px) 0, calc(100% - 6px) 6px, 100% 6px, 100% calc(100% - 6px), calc(100% - 6px) calc(100% - 6px), calc(100% - 6px) 100%, 4px 100%, 4px calc(100% - 6px), 0 calc(100% - 6px));
+  box-shadow: inset -6px -6px 0px rgba(0, 0, 0, 0.2),  inset -10px -10px 0px rgba(0, 0, 0, 0.1);
+}
 
 html {
   font-family: "MEKSANS",

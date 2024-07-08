@@ -1,10 +1,13 @@
-import type { Config } from "tailwindcss";
+import {nextui} from '@nextui-org/theme'
 
-const config: Config = {
+/** @type {import('tailwindcss').Config} */
+
+module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    './node_modules/@nextui-org/theme/dist/components/(button|navbar|link).js'
   ],
   theme: {
     extend: {
@@ -15,9 +18,12 @@ const config: Config = {
       },
       fontFamily: {
         meksans: ['MEKSANS', 'sans-serif'],
+        vcr: ['VCR', 'sans-serif'],
+        upheav: ['Upheav', 'sans-serif'],
       },
     },
   },
-  plugins: [],
+  darkMode: "class",
+  plugins: [nextui()],
 };
-export default config;
+

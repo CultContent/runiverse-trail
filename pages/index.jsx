@@ -1,38 +1,24 @@
 import Layout from '../components/Layout';
 import OuterNav from '../components/OuterNav';
 import Footer from '../components/Website/Footer/Footer';
-import Image from 'next/image'
+import { Image } from '@nextui-org/image';
 import { getSession } from 'next-auth/react';
 import { getToken } from 'next-auth/jwt';
+import styles from '../app/pixelbutton.module.css'
 
 export default function HomePage({ address, session }) {
     return (
         <Layout pageTitle="Home">
-            <div className="h-full">
-                <OuterNav address={address} session={session} />
-
-                {/* Main */}
-                <div className="container pt-24 md:pt-36 mx-auto flex flex-wrap flex-col md:flex-row items-center">
-                    {/* Left-col */}
-                    <div className="flex flex-col w-full xl:w-2/5 justify-center lg:items-start overflow-y-hidden">
-                        <h1 className="my-4 text-3xl md:text-5xl text-white opacity-75 font-bold leading-tight text-center md:text-left">
-                            Welcome to
-                            <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-pink-500 to-purple-500">
-                                Runiverse Trail
-                            </span>
-                            the game!
-                        </h1>
-                        <p className="leading-normal text-base md:text-2xl mb-8 text-center md:text-left">
-                            A never ending, community driven, AI backed Web3 game!
-                        </p>
-
-                        <form className="bg-gray-900 opacity-75 w-full shadow-lg rounded-lg px-8 pt-6 pb-8 mb-4">
-                            <div className="mb-4">
-                                <label className="block text-blue-300 py-2 font-bold mb-2" htmlFor="emailaddress">
-                                    Signup to receive updates on game progress
-                                </label>
+            <div className="flex flex-col items-center  h-full bg-[#622aff]">
+                <div className="flex flex-col items-center justify-cenver mt-20">
+                    <h1 className="uppercase text-8xl w-[900px] text-center leading-[60px] font-upheav">Welcome to Runiverse Trail <br/>the game</h1>
+                    <p className="mt-8 font-vcr text-2xl w-[400px] text-center leading-[24px]">A never ending, community driven, AI backed Web3 game!</p>
+                </div>
+                <div>
+                <form className="flex flex-col items-center justify-center mt-6">
+                            <div className="">
                                 <input
-                                    className="shadow appearance-none border rounded w-full p-3 text-gray-700 leading-tight focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
+                                    className={styles.pixel_input}
                                     id="emailaddress"
                                     type="text"
                                     placeholder="you@somewhere.com"
@@ -41,25 +27,76 @@ export default function HomePage({ address, session }) {
 
                             <div className="flex items-center justify-between pt-4">
                                 <button
-                                    className="bg-gradient-to-r from-purple-800 to-green-500 hover:from-pink-500 hover:to-green-500 text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
+                                    className={styles.pixel_button}
                                     type="button"
                                 >
                                     Sign Up
                                 </button>
                             </div>
                         </form>
-                    </div>
-
-                    {/* Right-col */}
-                    <div className="w-full xl:w-3/5 p-12 overflow-hidden">
-                    
-
-                    </div>
-
-                    {/* Footer */}
-                    <Footer />
                 </div>
+
+                <img src="/img/bg.png" alt="bg"/>
             </div>
+
+            <div className="w-full bg-[#e3ff37] flex flex-row justify-center gap-10">
+                <h1 className="uppercase text-3xl p-3 text-[#222044] font-upheav">Coming soon!</h1>
+                <h1 className="uppercase text-3xl p-3 text-[#222044] font-upheav">Coming soon!</h1>
+                <h1 className="uppercase text-3xl p-3 text-[#222044] font-upheav">Coming soon!</h1>
+                <h1 className="uppercase text-3xl p-3 text-[#222044] font-upheav">Coming soon!</h1>
+                <h1 className="uppercase text-3xl p-3 text-[#222044] font-upheav">Coming soon!</h1>
+                <h1 className="uppercase text-3xl p-3 text-[#222044] font-upheav">Coming soon!</h1>
+                <h1 className="uppercase text-3xl p-3 text-[#222044] font-upheav">Coming soon!</h1>
+            </div>
+
+            <div className="bg-[url('/img/border.png')] h-[130px] bg-auto w-full">
+            </div>
+
+            <div className="bg-[#622aff] py-10 flex flex-col items-center justify-center">
+                <div className="flex flex-row gap-6 w-[50%] ">
+                    <div className="w-full  flex flex-col justify-center items-center">
+                        <h1 className="w-[400px] text-[#E3FF37] text-4xl font-upheav">Where communities come to life</h1>
+                        <p className="w-[400px] font-vcr">A never ending, community driven, AI backed Web3 game! A never ending, community driven, AI backed Web3 game!</p>
+                    </div>
+                    <div className="flex justify-center w-full">
+                        <Image src="/img/image.png" alt="char" width={200}/>
+                    </div>
+                </div>
+
+                <div className="flex flex-row gap-6 items-center mt-12 mb-12">
+                    <div className="flex flex-col justify-between w-[250px] ease-in-out duration-300 h-[330px] hover:w-[330px] bg-[#222044] px-4 py-8 hover:bg-[#403c7f] cursor-pointer container_div">
+                        <Image className="container_div rounded-none" src="/img/bs.png" alt="blacksand"/>
+                        <p className="font-upheav text-4xl">Blacksand</p>
+                    </div>
+                    <div className="flex flex-col justify-between w-[250px] ease-in-out duration-300 h-[330px] hover:w-[330px] bg-[#222044] px-4 py-8 hover:bg-[#403c7f] cursor-pointer container_div">
+                        <Image className="container_div rounded-none" src="/img/bs.png" alt="blacksand"/>
+                        <p className="font-upheav text-4xl">Blacksand</p>
+                    </div>
+                    <div className="flex flex-col justify-between w-[250px] ease-in-out duration-300 h-[330px] hover:w-[330px] bg-[#222044] px-4 py-8 hover:bg-[#403c7f] cursor-pointer container_div">
+                        <Image className="container_div rounded-none" src="/img/bs.png" alt="blacksand"/>
+                        <p className="font-upheav text-4xl">Blacksand</p>
+                    </div>
+                    <div className="flex flex-col justify-between w-[250px] ease-in-out duration-300 h-[330px] hover:w-[330px] bg-[#222044] px-4 py-8 hover:bg-[#403c7f] cursor-pointer container_div">
+                        <Image className="container_div rounded-none" src="/img/bs.png" alt="blacksand"/>
+                        <p className="font-upheav text-4xl">Blacksand</p>
+                    </div>
+                </div>
+
+                <button
+                                    className={styles.pixel_button}
+                                    type="button"
+                                >
+                                    Play Now!
+                </button>
+            </div>
+
+            <div className="bg-[url('/img/border1.png')] h-[135px] bg-auto w-full">
+            </div>
+
+            <div className="bg-[#28248c] h-screen">
+
+            </div>
+            
         </Layout>
     );
 }

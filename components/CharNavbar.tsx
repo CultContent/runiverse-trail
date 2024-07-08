@@ -1,42 +1,95 @@
 // CharNavBar.tsx
 import React from 'react';
 import { useCharacter } from '../context/CharacterContext';
-import Link from 'next/link';
 import CustomConnectButton from './CustomConnectButton'
+import {
+  Navbar as NextUINavbar,
+  NavbarContent,
+  NavbarMenu,
+  NavbarMenuToggle,
+  NavbarBrand,
+  NavbarItem,
+  NavbarMenuItem,
+} from "@nextui-org/navbar";
+import { Button } from "@nextui-org/button";
+import { Link } from "@nextui-org/link";
+import { Image } from "@nextui-org/image"
+import NextLink from "next/link";
+import { ConnectButton } from '@rainbow-me/rainbowkit';
 
 const CharNavBar: React.FC = () => {
   const { selectedCharacter } = useCharacter();
   const characterUrl = `https://www.forgottenrunes.com/api/art/wizards/${selectedCharacter?.id}`;
 
   return (
-    <nav className="bg-gray-900 p-4 text-white flex justify-between items-center shadow-lg">
-      <div className="text-2xl font-bold">Runiverse Trail</div>
-      <ul className="flex space-x-8">
-        <li>
-          <Link href="/" legacyBehavior>
-            <a className="hover:text-gray-400 transition-colors duration-200">Home</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/profile" legacyBehavior>
-            <a className="hover:text-gray-400 transition-colors duration-200">Profile</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/store" legacyBehavior>
-            <a className="hover:text-gray-400 transition-colors duration-200">Store</a>
-          </Link>
-        </li>
-        <li>
-        <Link href="/game" legacyBehavior>
-            <a className="hover:text-gray-400 transition-colors duration-200">Game</a>
-          </Link>
-        </li>
-      </ul>
+    <NextUINavbar className="bg-[#622aff] p-4" maxWidth="2xl" position="static">
+      <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
+        <NavbarBrand className="gap-3 max-w-fit">
+          <NextLink className="flex justify-start items-center gap-1" href="/">
+            <p className="font-bold text-white text-2xl">Runiverse Trail</p>
+          </NextLink>
+        </NavbarBrand>
+        
+      </NavbarContent>
 
-      <CustomConnectButton />
+      <div className="hidden lg:flex gap-6 justify-center ml-2">
+            <NavbarItem>
+              <NextLink
+                href="/profile"
+                className='text-2xl'
+              >
+                Profile
+              </NextLink>
+            </NavbarItem>
+            <NavbarItem>
+              <NextLink
+                href="/store"
+                className='text-2xl'
+              >
+                Store
+              </NextLink>
+            </NavbarItem>
+            <NavbarItem>
+              <NextLink
+                href="/game"
+                className='text-2xl'
+              >
+                Game
+              </NextLink>
+            </NavbarItem>
+        </div>
 
-    </nav>
+      <NavbarContent
+        className="hidden sm:flex basis-1/5 sm:basis-full"
+        justify="end"
+      >
+        <NavbarItem className="hidden sm:flex gap-2">
+          <Link isExternal href="">
+            <Image src="/img/twitter.webp" alt="twitter" width={40} className='rounded-none'/>
+          </Link>
+        </NavbarItem>
+        <NavbarItem className="hidden md:flex">
+          <CustomConnectButton />
+        </NavbarItem>
+      </NavbarContent>
+
+      <NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
+        <NavbarMenuToggle />
+      </NavbarContent>
+
+      <NavbarMenu>
+        <div className="mx-4 mt-2 flex flex-col gap-2">
+            <NavbarMenuItem>
+              <Link
+                href="#"
+                size="lg"
+              >
+                Home
+              </Link>
+            </NavbarMenuItem>
+        </div>
+      </NavbarMenu>
+    </NextUINavbar>
   );
 };
 

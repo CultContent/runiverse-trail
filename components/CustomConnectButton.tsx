@@ -55,13 +55,13 @@ const CustomConnectButton: React.FC = () => {
 
               return (
                 <div className="flex items-center space-x-4 cursor-pointer">
-                  <div className="flex items-center space-x-2" onClick={openAccountModal}>
-                  <span className="text-white">{account.displayName}</span>
+                  <div className="flex items-center space-x-3" onClick={openAccountModal}>
+                  <span className="text-white text-2xl">{account.displayName}</span>
                     {characterUrl && (
                       <img
                         src={characterUrl}
                         alt="Character"
-                        className="w-20 h-20 border-2 border-white"
+                        className="w-[44px] h-[44px] clip_img"
                       />
                     )}
                  
