@@ -20,6 +20,7 @@ module.exports = {
         meksans: ['MEKSANS', 'sans-serif'],
         vcr: ['VCR', 'sans-serif'],
         upheav: ['Upheav', 'sans-serif'],
+        thaleahfat: ['ThaleahFat', 'sans-serif'],
       },
     },
   },

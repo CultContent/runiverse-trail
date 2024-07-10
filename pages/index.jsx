@@ -36,7 +36,7 @@ export default function HomePage({ address, session }) {
                         </form>
                 </div>
 
-                <img src="/img/bg.png" alt="bg"/>
+                <img className="-mt-[180px]" src="/img/bg1.png" alt="bg"/>
             </div>
 
             <div className="w-full bg-[#e3ff37] flex flex-row justify-center gap-10">

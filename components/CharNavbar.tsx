@@ -16,13 +16,25 @@ import { Link } from "@nextui-org/link";
 import { Image } from "@nextui-org/image"
 import NextLink from "next/link";
 import { ConnectButton } from '@rainbow-me/rainbowkit';
+import { useRouter } from 'next/router';
 
 const CharNavBar: React.FC = () => {
   const { selectedCharacter } = useCharacter();
   const characterUrl = `https://www.forgottenrunes.com/api/art/wizards/${selectedCharacter?.id}`;
+  const router = useRouter();
+  const { pathname } = router;
 
+  const bgColorMap: { [key: string]: string } = {
+    '/': 'bg-[#622aff]',
+    '/profile': 'bg-[#ff6347]',
+    '/store': 'bg-[#32cd32]',
+    '/game': 'bg-[#1e90ff]',
+    '/team': 'bg-[#353e75]',
+  };
+
+  const bgColor = bgColorMap[pathname] || 'bg-[#622aff]';
   return (
-    <NextUINavbar className="bg-[#622aff] p-4" maxWidth="2xl" position="static">
+    <NextUINavbar className={`${bgColor} p-4`} maxWidth="2xl" position="static">
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
         <NavbarBrand className="gap-3 max-w-fit">
           <NextLink className="flex justify-start items-center gap-1" href="/">
@@ -55,6 +67,14 @@ const CharNavBar: React.FC = () => {
                 className='text-2xl'
               >
                 Game
+              </NextLink>
+            </NavbarItem>
+            <NavbarItem>
+              <NextLink
+                href="/team"
+                className='text-2xl'
+              >
+                Team
               </NextLink>
             </NavbarItem>
         </div>

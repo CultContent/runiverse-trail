@@ -4,6 +4,7 @@ import { useUserTokens } from '@reservoir0x/reservoir-kit-ui';
 import { useAccount } from 'wagmi';
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 import { useCharacter } from '../../context/CharacterContext';
+import styles from "@/app/pixelbutton.module.css"
 
 enum EquipScreen {
   CharacterSelection,
@@ -36,9 +37,10 @@ const CharacterMenu: React.FC = () => {
   return (
     <div className="container mx-auto p-6">
       {equipScreen === EquipScreen.CharacterSelection && (
-        <div>
-          <h2 className="text-3xl font-bold text-center mb-8">Choose your Adventurer</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div className="">
+          <h2 className="text-5xl font-bold text-center mb-8 font-upheav tracking-wide mt-10">Choose your Adventurer</h2>
+          {/* <div className="border grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"> */}
+          <div className="border py-6 flex justify-center flex-row flex-wrap gap-3">
             {tokens?.map((token, i) => (
               <CharacterSelect
                 id={token?.token?.tokenId ?? ''}
@@ -46,7 +48,7 @@ const CharacterMenu: React.FC = () => {
                 key={i}
                 onSelect={handleCharacterSelect}
                 isSelected={selectedCharacter?.id === token?.token?.tokenId}
-                className={`rounded-lg cursor-pointer transition-transform transform hover:scale-105`}
+                className={`cursor-pointer transition-transform transform hover:scale-105`}
               />
             ))}
           </div>
@@ -99,7 +101,7 @@ const CharacterMenu: React.FC = () => {
                     return (
                       <button
                         onClick={() => setEquipScreen(EquipScreen.Equip)}
-                        className="bg-green-500 text-white py-2 px-4 rounded-lg hover:bg-green-600 transition-colors"
+                        className={styles.pixel_button}
                       >
                         Proceed
                       </button>
