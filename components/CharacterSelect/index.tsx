@@ -48,7 +48,7 @@ const CharacterSelect: FC<CharacterSelectProps> = ({ id, contract, onSelect, cla
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       className={`relative overflow-hidden ${className} p-1`}
-      style={{ width: '250px', height: '250px' }}
+      style={{ width: '200px', height: '200px' }}
     >
       <div className="relative overflow-hidden rounded-none shadow-lg w-full h-full">
         <div
@@ -75,7 +75,7 @@ const CharacterSelect: FC<CharacterSelectProps> = ({ id, contract, onSelect, cla
             backgroundImage: `url("${backgroundImageUrl}")`,
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'contain',
-            marginTop: '10px', // Adds top padding to adjust the character image position
+            marginTop: '8px', // Adds top padding to adjust the character image position
           }}
           className="flex items-center justify-center mx-auto"
         />

@@ -48,6 +48,21 @@
   clip-path: polygon(/* top left */ 0 10px, 10px 10px, 10px 0, /* top right */ calc(100% - 10px) 0, calc(100% - 10px) 10px, 100% 10px, /* bottom right */ 100% calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) 100%, /* bottom left */ 8px 100%, 8px calc(100% - 8px), 0 calc(100% - 8px));
 }
 
+.pixel_container{
+  display: inline-block;
+  position: relative;
+  background-color: rgb(36, 36, 36);
+  color: #000000;
+  clip-path: polygon(0 4px, 4px 4px, 4px 0, calc(100% - 4px) 0, calc(100% - 4px) 4px, 100% 4px, 100% calc(100% - 4px), calc(100% - 4px) calc(100% - 4px), calc(100% - 4px) 100%, 4px 100%, 4px calc(100% - 4px), 0 calc(100% - 4px));
+  box-shadow: inset -4px -4px 0px rgba(0, 0, 0, 0.2), inset 4px 4px 0px rgba(255, 255, 255, 0.2);
+  padding: 50px;
+  font-size: 24px;
+  text-transform: uppercase;
+  width: 100%;
+  display: flex;
+  overflow-y: auto;
+}
+
 
 html {
   font-family: "MEKSANS",

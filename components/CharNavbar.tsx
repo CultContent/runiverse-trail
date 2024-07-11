@@ -26,7 +26,7 @@ const CharNavBar: React.FC = () => {
 
   const bgColorMap: { [key: string]: string } = {
     '/': 'bg-[#622aff]',
-    '/profile': 'bg-[#ff6347]',
+    '/profile': 'bg-[#fdb060]',
     '/store': 'bg-[#32cd32]',
     '/game': 'bg-[#1e90ff]',
     '/team': 'bg-[#353e75]',

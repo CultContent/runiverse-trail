@@ -38,9 +38,9 @@ const CharacterMenu: React.FC = () => {
     <div className="container mx-auto p-6">
       {equipScreen === EquipScreen.CharacterSelection && (
         <div className="">
-          <h2 className="text-5xl font-bold text-center mb-8 font-upheav tracking-wide mt-10">Choose your Adventurer</h2>
+          <h2 className="text-8xl font-bold text-gray-900 text-center mb-8 font-upheav tracking-wide mt-10">Choose your Adventurer</h2>
           {/* <div className="border grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"> */}
-          <div className="border py-6 flex justify-center flex-row flex-wrap gap-3">
+          <div className="pixel_container py-6 flex justify-center flex-row flex-wrap gap-3">
             {tokens?.map((token, i) => (
               <CharacterSelect
                 id={token?.token?.tokenId ?? ''}
