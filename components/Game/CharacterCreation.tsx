@@ -9,7 +9,7 @@ interface FormData {
 }
 
 const CharacterCreation: React.FC = () => {
-  const { selectedCharacter, updateCharacterAttributes } = useCharacter();
+  const { selectedCharacter, updateCharacterAttributes, updateConsciousId } = useCharacter();
   const [inputType, setInputType] = useState<string | null>(null);
   const [formData, setFormData] = useState<FormData>({
     traits: '',
@@ -52,10 +52,17 @@ const CharacterCreation: React.FC = () => {
 
       const result = JSON.parse(responseText);
       console.log(result);
+
+      // Update the consciousId in the CharacterContext
+      if (result.characterId) {
+        updateConsciousId(result.characterId);
+      }
+
     } catch (error) {
-      console.error('Error:');
+      console.error('Error:', error);
     }
   };
+
 
   const renderInputScreen = (type: keyof FormData) => (
     <div className="flex flex-col items-center mt-4">

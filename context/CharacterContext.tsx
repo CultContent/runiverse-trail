@@ -14,12 +14,14 @@ interface Character {
   attributes?: Attribute[];
   image?: string;
   background_color?: string;
+  consciousId?: string;  // New property
 }
 
 interface CharacterContextType {
   selectedCharacter: Character | null;
   setSelectedCharacter: (character: { id: string; contract: string }) => void;
   updateCharacterAttributes: (attributes: Attribute[]) => void;
+  updateConsciousId: (consciousId: string) => void;  // New function
 }
 
 const CharacterContext = createContext<CharacterContextType | undefined>(undefined);
@@ -60,8 +62,16 @@ export const CharacterProvider: React.FC<{ children: ReactNode }> = ({ children 
     }
   };
 
+  const updateConsciousId = (consciousId: string) => {
+    if (selectedCharacter) {
+      const updatedCharacter = { ...selectedCharacter, consciousId };
+      setSelectedCharacterState(updatedCharacter);
+      localStorage.setItem('selectedCharacter', JSON.stringify(updatedCharacter));
+    }
+  };
+
   return (
-    <CharacterContext.Provider value={{ selectedCharacter, setSelectedCharacter, updateCharacterAttributes }}>
+    <CharacterContext.Provider value={{ selectedCharacter, setSelectedCharacter, updateCharacterAttributes, updateConsciousId }}>
       {children}
     </CharacterContext.Provider>
   );
