@@ -13,8 +13,15 @@ interface CharacterSelectProps {
   className?: string;
 }
 
-const CharacterSelect: FC<CharacterSelectProps> = ({ id, contract, onSelect, isSelected, className = '' }) => {
+const CharacterSelect: FC<CharacterSelectProps> = ({ id, contract, onSelect, className = '' }) => {
   const [isHovered, setIsHovered] = useState(false);
+  const [isSelected, setIsSelected] = useState(false);
+
+  const handleMouseEnter = () => setIsHovered(true);
+  const handleMouseLeave = () => setIsHovered(false);
+  const handleClick = () => setIsSelected(!isSelected);
+
+  const backgroundImage = isSelected || isHovered ? 'url("/img/frame_on.png")' : 'url("/img/frame_off.png")';
 
   let backgroundImageUrl = '';
 
@@ -41,12 +48,12 @@ const CharacterSelect: FC<CharacterSelectProps> = ({ id, contract, onSelect, isS
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       className={`relative overflow-hidden ${className} p-1`}
-      style={{ width: '250px', height: '250px' }}
+      style={{ width: '200px', height: '200px' }}
     >
-      <div className="relative overflow-hidden rounded-lg shadow-lg w-full h-full">
+      <div className="relative overflow-hidden rounded-none shadow-lg w-full h-full">
         <div
           style={{
-            backgroundImage: isSelected || isHovered ? 'url("/img/frame_on.png")' : 'url("/img/frame_off.png")',
+            backgroundImage: backgroundImage,
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
             height: '100%',
@@ -56,6 +63,9 @@ const CharacterSelect: FC<CharacterSelectProps> = ({ id, contract, onSelect, isS
             left: 0,
             zIndex: 10,
           }}
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+          onClick={handleClick}
         ></div>
         <div
           style={{
@@ -65,7 +75,7 @@ const CharacterSelect: FC<CharacterSelectProps> = ({ id, contract, onSelect, isS
             backgroundImage: `url("${backgroundImageUrl}")`,
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'contain',
-            marginTop: '10px', // Adds top padding to adjust the character image position
+            marginTop: '8px', // Adds top padding to adjust the character image position
           }}
           className="flex items-center justify-center mx-auto"
         />

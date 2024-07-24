@@ -4,7 +4,7 @@ import { CookiesProvider } from 'react-cookie';
 import { reservoirChains } from '@reservoir0x/reservoir-sdk';
 import { CharacterProvider } from '../context/CharacterContext';
 import CharNavBar from '../components/CharNavbar';
-
+import {NextUIProvider} from "@nextui-org/system";
 import {
     ReservoirKitProvider
 } from '@reservoir0x/reservoir-kit-ui';
@@ -36,7 +36,6 @@ import type { Session } from 'next-auth';
 import { AppProps } from 'next/app';
 import '../app/globals.css';
 
-
 // React SWIE Custom message config
 const getSiweMessageOptions: GetSiweMessageOptions = () => ({
     statement: 'Sign in to Runiverse Trail',
@@ -59,7 +58,7 @@ const queryClient = new QueryClient();
 export default function App({
     Component,
     pageProps,
-}: AppProps<{ session: Session }>) {
+}: AppProps<{ session: Session }>) {    
     return (
         <WagmiProvider config={config}>
             <SessionProvider refetchInterval={0} session={pageProps.session}>
@@ -88,10 +87,10 @@ export default function App({
                                 }}
                             >
                                 <CookiesProvider>
-                                    
+                                <NextUIProvider>
                                         <CharNavBar />
                                         <Component {...pageProps} />
-                                    
+                                    </NextUIProvider>
                                 </CookiesProvider>
                             </ReservoirKitProvider>
                         </RainbowKitProvider>
