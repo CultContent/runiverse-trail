@@ -30,6 +30,8 @@ const CharNavBar: React.FC = () => {
     '/store': 'bg-[#32cd32]',
     '/game': 'bg-[#1e90ff]',
     '/team': 'bg-[#353e75]',
+    '/char_creation': 'bg-[#1c9f49]',
+    '/adventure': 'bg-[#28248c]'
   };
 
   const bgColor = bgColorMap[pathname] || 'bg-[#622aff]';

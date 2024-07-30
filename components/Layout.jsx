@@ -23,6 +23,7 @@ export default function Layout({ pageTitle, children }) {
                 <title>{pageTitle}</title>
             </Head>
             <main>{children}</main>
+            
         </div>
     );
 }

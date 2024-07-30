@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useCharacter } from '../../../context/CharacterContext';
 import CharacterCreation from '../CharacterCreation';
 import GameInterface from '../GameInterface';
+import styles from "@/app/pixelbutton.module.css"
 
 interface Story {
   id: string;
@@ -111,27 +112,31 @@ const RuniverseAdventure: React.FC = () => {
   };
 
   return (
-    <div className="container mx-auto p-4">
-      <h1 className="text-2xl font-bold mb-4">Runiverse Adventure</h1>
+    <div className=" mx-auto bg-[#622aff]">
+      <div className="bg-[url('/img/border.png')] h-[131px] bg-auto w-full">
+      </div>
+      <div className="h-screen flex flex-col items-center justify-center gap-6">
+      <h1 className="font-upheav text-7xl font-bold mb-4 tracking-wide">Runiverse Adventure</h1>
 
       {!selectedCharacter && <CharacterCreation />}
 
       {selectedCharacter && (
-        <div className="mb-4">
-          <h2 className="text-xl font-semibold mb-2">Selected Character</h2>
-          <div className="flex items-center">
+        <div className="flex flex-col items-center gap-3">
+          <h2 className="font-vcr text-2xl text-center font-semibold">Selected Character</h2>
+          <div className="flex flex-col items-center">
             <img src={selectedCharacter.image} alt={selectedCharacter.name} className="w-16 h-16 rounded-full mr-4" />
-            <span>{selectedCharacter.name}</span>
+            {/* <img src="/characters/heroes/0.png" alt="test" className={styles.adventure_image} /> */}
+            <span className="font-vcr text-2xl mt-3">{selectedCharacter.name}</span>
           </div>
         </div>
       )}
 
-      <div className="mb-4">
-        <h2 className="text-xl font-semibold mb-2">Select a Story</h2>
+      <div className="flex flex-col items-center w-[600px]">
+        <h2 className="font-upheav tracking-wide text-2xl font-semibold mb-2">Select a Story</h2>
         <select
           value={selectedStory}
           onChange={(e) => setSelectedStory(e.target.value)}
-          className="w-full p-2 border border-black-300 rounded"
+          className="w-full p-2 rounded text-black font-vcr text-xl"
         >
           <option value="">Select a story</option>
           {Array.isArray(stories) && stories.length > 0 ? (
@@ -147,12 +152,12 @@ const RuniverseAdventure: React.FC = () => {
       <button
         onClick={handleStartAdventure}
         disabled={!selectedCharacter || !selectedStory || loading}
-        className="bg-blue-500 text-white px-4 py-2 rounded disabled:bg-gray-400"
+        className={styles.pixels_button}
       >
         {loading ? 'Starting...' : 'Start Adventure'}
       </button>
 
-      {error && <div className="text-red-500 mt-4">{error}</div>}
+      {error && <div className="text-red-500 font-vcr mt-4">{error}</div>}
 
       {adventureData && (
         <GameInterface
@@ -161,6 +166,9 @@ const RuniverseAdventure: React.FC = () => {
           onOptionClick={handleOptionClick}
         />
       )}
+      </div>
+      <div className="bg-[url('/img/border1.png')] h-[131px] bg-auto w-full">
+      </div>
     </div>
   );
 };

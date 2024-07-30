@@ -3,8 +3,7 @@ import CharacterCreation from '../components/Game/CharacterCreation';
 
 const CharacterCreationPage: React.FC = () => {
   return (
-    <div className="container mx-auto p-4 space-y-4 bg-gray-800">
-
+    <div className="h-full mx-auto space-y-4 bg-[#8dc73f]">
       <CharacterCreation />
     </div>
   );

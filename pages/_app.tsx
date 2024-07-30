@@ -4,6 +4,7 @@ import { CookiesProvider } from 'react-cookie';
 import { reservoirChains } from '@reservoir0x/reservoir-sdk';
 import { CharacterProvider } from '../context/CharacterContext';
 import CharNavBar from '../components/CharNavbar';
+import Footer from '@/components/Website/Footer/Footer'
 import {NextUIProvider} from "@nextui-org/system";
 import {
     ReservoirKitProvider
@@ -90,6 +91,7 @@ export default function App({
                                 <NextUIProvider>
                                         <CharNavBar />
                                         <Component {...pageProps} />
+                                        <Footer/>
                                     </NextUIProvider>
                                 </CookiesProvider>
                             </ReservoirKitProvider>

@@ -10,6 +10,60 @@
     text-transform: uppercase;
   }
 
+  .pixels_button{
+    display: inline-block;
+    position: relative;
+    background-color: #1c9f49;
+    color: #ffffff;
+    clip-path: polygon(0 4px, 4px 4px, 4px 0, calc(100% - 4px) 0, calc(100% - 4px) 4px, 100% 4px, 100% calc(100% - 4px), calc(100% - 4px) calc(100% - 4px), calc(100% - 4px) 100%, 4px 100%, 4px calc(100% - 4px), 0 calc(100% - 4px));
+    box-shadow: inset -4px -4px 0px rgba(0, 0, 0, 0.2), inset 4px 4px 0px rgba(255, 255, 255, 0.2);
+    padding: 3px 50px;
+    font-size: 24px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .save_button{
+    display: inline-block;
+    position: relative;
+    background-color: #1c9f49;
+    color: #ffffff;
+    clip-path: polygon(0 4px, 4px 4px, 4px 0, calc(100% - 4px) 0, calc(100% - 4px) 4px, 100% 4px, 100% calc(100% - 4px), calc(100% - 4px) calc(100% - 4px), calc(100% - 4px) 100%, 4px 100%, 4px calc(100% - 4px), 0 calc(100% - 4px));
+    box-shadow: inset -4px -4px 0px rgba(0, 0, 0, 0.2), inset 4px 4px 0px rgba(255, 255, 255, 0.2);
+    padding: 3px 50px;
+    font-size: 24px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .pixels_image{
+    display: inline-block;
+    position: relative;
+    background-color: #0b0b0b;
+    color: #000000;
+    clip-path: polygon(0 4px, 4px 4px, 4px 0, calc(100% - 4px) 0, calc(100% - 4px) 4px, 100% 4px, 100% calc(100% - 4px), calc(100% - 4px) calc(100% - 4px), calc(100% - 4px) 100%, 4px 100%, 4px calc(100% - 4px), 0 calc(100% - 4px));
+    box-shadow: inset -4px -4px 0px rgba(0, 0, 0, 0.2), inset 4px 4px 0px rgba(255, 255, 255, 0.2);
+    padding: 20px 20px;
+    text-transform: uppercase;
+    height: 300px;
+  }
+
+  .adventure_image{
+    display: inline-block;
+    position: relative;
+    background-color: #0b0b0b;
+    color: #000000;
+    clip-path: polygon(0 4px, 4px 4px, 4px 0, calc(100% - 4px) 0, calc(100% - 4px) 4px, 100% 4px, 100% calc(100% - 4px), calc(100% - 4px) calc(100% - 4px), calc(100% - 4px) 100%, 4px 100%, 4px calc(100% - 4px), 0 calc(100% - 4px));
+    box-shadow: inset -4px -4px 0px rgba(0, 0, 0, 0.2), inset 4px 4px 0px rgba(255, 255, 255, 0.2);
+    padding: 20px 20px;
+    text-transform: uppercase;
+    height: 200px;
+  }
+
+  .pixels_button:hover{
+    scale: 1.10;
+  }
+
   .pixel_input{
     display: inline-block;
     position: relative;

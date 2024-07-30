@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useCharacter } from '../../context/CharacterContext';
+import styles from '../../app/pixelbutton.module.css'
 
 interface FormData {
   traits: string;
@@ -11,6 +12,7 @@ interface FormData {
 const CharacterCreation: React.FC = () => {
   const { selectedCharacter, updateCharacterAttributes, updateConsciousId } = useCharacter();
   const [inputType, setInputType] = useState<string | null>(null);
+
   const [formData, setFormData] = useState<FormData>({
     traits: '',
     backstory: '',
@@ -63,7 +65,6 @@ const CharacterCreation: React.FC = () => {
     }
   };
 
-
   const renderInputScreen = (type: keyof FormData) => (
     <div className="flex flex-col items-center mt-4">
       <textarea
@@ -71,11 +72,12 @@ const CharacterCreation: React.FC = () => {
         value={formData[type]}
         onChange={handleInputChange}
         placeholder={`Enter ${type}`}
-        className="w-64 h-32 p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-black text-white"
+        /* className="w-full h-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-black text-white" */
+        className="resize-none outline-none bg-transparent w-[550px] h-[340px] mt-[82px] p-3 text-xl text-black placeholder:text-black font-vcr"
       />
       <button
         onClick={() => handleSave(type)}
-        className="mt-2 px-4 py-2 bg-blue-500 text-white rounded-lg"
+        className={styles.save_button}
       >
         Save
       </button>
@@ -83,45 +85,61 @@ const CharacterCreation: React.FC = () => {
   );
 
   return (
-    <div className="flex flex-col items-center p-4">
+    <div className="h-full flex flex-col items-center">
+      <div className="bg-[url('/img/border3.png')] h-[130px] bg-auto w-full">
+      </div>
+
+      <div className="flex flex-col items-center gap-4 p-4">
       {selectedCharacter && (
-        <div className="mb-4 text-center">
-          <img src={selectedCharacter.image} alt={selectedCharacter.name} className="w-40 h-40 object-cover rounded-full" />
-          <h2 className="text-xl font-bold mt-2">{selectedCharacter.name}</h2>
+        <div className="mt-6 mb-4 flex flex-col items-center text-center">
+          <img src={selectedCharacter.image} alt={selectedCharacter.name} className="w-60 h-60 border object-cover rounded-full" />
+          <h2 className="text-3xl font-vcr text-black font-bold mt-2">{selectedCharacter.name}</h2>
         </div>
       )}
-      <div className="flex flex-wrap justify-center">
+      <div className="flex flex-row gap-4 flex-wrap">
         <div
-          className="m-4 p-4 border border-gray-300 w-48 text-center cursor-pointer hover:bg-gray-100"
+          /* className="m-4 p-4 border border-gray-300 w-48 text-center cursor-pointer hover:bg-gray-100" */
+          className={styles.pixels_button}
           onClick={() => setInputType('traits')}
         >
           <div>Traits</div>
         </div>
         <div
-          className="m-4 p-4 border border-gray-300 w-48 text-center cursor-pointer hover:bg-gray-100"
+          /* className="m-4 p-4 border border-gray-300 w-48 text-center cursor-pointer hover:bg-gray-100" */
+          className={styles.pixels_button}
           onClick={() => setInputType('backstory')}
         >
           <div>Backstory</div>
         </div>
         <div
-          className="m-4 p-4 border border-gray-300 w-48 text-center cursor-pointer hover:bg-gray-100"
+          /* className="m-4 p-4 border border-gray-300 w-48 text-center cursor-pointer hover:bg-gray-100" */
+          className={styles.pixels_button}
           onClick={() => setInputType('motivation')}
         >
           <div>Motivation</div>
         </div>
         <div
-          className="m-4 p-4 border border-gray-300 w-48 text-center cursor-pointer hover:bg-gray-100"
+         /*  className="m-4 p-4 border border-gray-300 w-48 text-center cursor-pointer hover:bg-gray-100" */
+         className={styles.pixels_button}
           onClick={() => setInputType('skills')}
         >
           <div>Skills</div>
         </div>
       </div>
-
-      {inputType && renderInputScreen(inputType as keyof FormData)}
-
-      <button onClick={handleSubmit} className="mt-4 px-4 py-2 bg-green-500 text-white rounded-lg">
+      
+      <div className="bg-[url('/img/scroll.png')] bg-cover bg-no-repeat mt-4 w-[800px] h-[600px]">
+        {inputType && renderInputScreen(inputType as keyof FormData)}
+      </div>
+      
+      <button onClick={handleSubmit} className={styles.pixels_button}>
         Create Character
       </button>
+
+      
+      </div>
+
+      <div className="bg-[url('/img/border4.png')] h-[130px] bg-auto w-full">
+      </div>
     </div>
   );
 };
