@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useCharacter } from '../../../context/CharacterContext';
 import CharacterCreation from '../CharacterCreation';
 import GameInterface from '../GameInterface';
-import styles from "@/app/pixelbutton.module.css"
+import styles from "@/app/pixelbutton.module.css";
 
 interface Story {
   id: string;
@@ -16,16 +16,104 @@ interface Adventure {
   storyId: string;
 }
 
+interface GameState {
+  storyText: string;
+  options: { optionText: string; nextStep: string }[];
+}
+
+// Place this function inside your RuniverseAdventure component, but outside of any other functions
+// Alternatively, you can define it outside the component if preferred
+
+const readAndProcessStream = async (reader: ReadableStreamDefaultReader<Uint8Array>) => {
+  let accumulatedContent = '';
+  let buffer = '';
+  let doneReading = false;
+  const decoder = new TextDecoder();
+
+  while (!doneReading) {
+    const { done, value } = await reader.read();
+    if (done) {
+      break;
+    }
+
+    const chunk = decoder.decode(value);
+    buffer += chunk;
+
+    // Split the buffer by newlines to get complete JSON objects
+    let lines = buffer.split('\n');
+
+    // Keep the last line in the buffer (it might be incomplete)
+    buffer = lines.pop() || '';
+
+    for (let line of lines) {
+      if (line.trim() === '') {
+        continue;
+      }
+      try {
+        const parsedChunk = JSON.parse(line);
+        const deltaContent = parsedChunk.choices?.[0]?.delta?.content || '';
+        accumulatedContent += deltaContent;
+
+        // Check if the stream has finished
+        if (parsedChunk.choices?.[0]?.finish_reason === 'stop') {
+          doneReading = true;
+          break;
+        }
+      } catch (e) {
+        console.error("Error parsing line as JSON:", e);
+        // If parsing fails, the line may be incomplete; skip it
+        continue;
+      }
+    }
+  }
+
+  // After the loop, process any remaining data in the buffer
+  if (buffer.trim() !== '') {
+    try {
+      const parsedChunk = JSON.parse(buffer);
+      const deltaContent = parsedChunk.choices?.[0]?.delta?.content || '';
+      accumulatedContent += deltaContent;
+    } catch (e) {
+      console.error("Error parsing buffer as JSON after stream ended:", e);
+    }
+  }
+
+  return accumulatedContent;
+};
+
+const parseAccumulatedContent = (content: string) => {
+  let parsedData;
+  try {
+    parsedData = JSON.parse(content);
+    return parsedData;
+  } catch (e) {
+    const jsonMatch = content.match(/```json\s*([\s\S]*?)\s*```/);
+    if (jsonMatch && jsonMatch[1]) {
+      const jsonString = jsonMatch[1];
+      try {
+        parsedData = JSON.parse(jsonString);
+        return parsedData;
+      } catch (e2) {
+        console.error("Error parsing JSON content from code block:", e2);
+        throw e2;
+      }
+    } else {
+      console.error("Error parsing accumulated content as JSON:", e);
+      console.error("JSON code block not found in the content");
+      throw e;
+    }
+  }
+};
+
+
 const RuniverseAdventure: React.FC = () => {
   const { selectedCharacter } = useCharacter();
   const [stories, setStories] = useState<Story[]>([]);
   const [selectedStory, setSelectedStory] = useState<string>('');
   const [adventure, setAdventure] = useState<Adventure | null>(null);
-  const [adventureStream, setAdventureStream] = useState<string[]>([]);
-  const [formattedStream, setFormattedStream] = useState<string[]>([]);
-  const [loading, setLoading] = useState<boolean>(false);
+  const [gameState, setGameState] = useState<GameState>({ storyText: '', options: [] });
+  const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const [adventureData, setAdventureData] = useState<any>(null);
 
   useEffect(() => {
     fetchStories();
@@ -54,8 +142,9 @@ const RuniverseAdventure: React.FC = () => {
   const handleStartAdventure = async () => {
     try {
       setLoading(true);
-      console.log("Starting adventure...");
-      const response = await fetch("/api/consciousnft/stream-adventure", {
+      console.log("Creating adventure...");
+      
+      const createResponse = await fetch("/api/consciousnft/create-adventure", {
         method: "POST",
         headers: {
           'Content-Type': 'application/json',
@@ -65,39 +154,117 @@ const RuniverseAdventure: React.FC = () => {
           storyId: selectedStory,
         })
       });
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
+      
+      if (!createResponse.ok) {
+        throw new Error(`HTTP error! status: ${createResponse.status}`);
+      }
+      
+      const adventureData = await createResponse.json();
+      setAdventure(adventureData.data.adventure);
+      console.log(adventureData.data.adventure.id);
+  
+      console.log("Starting adventure stream...");
+      
+      const streamResponse = await fetch("/api/consciousnft/stream-adventure", {
+        method: "POST",
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          adventureId: adventureData.data.adventure.id,
+        })
+      });
+      
+     
+      if (!streamResponse.ok) {
+        throw new Error(`HTTP error! status: ${streamResponse.status}`);
       }
 
-      const reader = response.body?.getReader();
+      const reader = streamResponse.body?.getReader();
       if (!reader) {
         throw new Error("No readable stream available");
       }
 
-      setAdventureStream([]); // Clear previous stream data
-      setFormattedStream([]); // Clear previous formatted data
+      setGameState({ storyText: '', options: [] });
 
-      let storyData = '';
-      while (true) {
+      let accumulatedContent = '';
+      let buffer = '';
+      let doneReading = false;
+      const decoder = new TextDecoder();
+
+      while (!doneReading) {
         const { done, value } = await reader.read();
-        if (done) break;
-        const chunk = new TextDecoder().decode(value);
-        storyData += chunk;
-        console.log("Received chunk:", chunk);
+        if (done) {
+          break;
+        }
+
+        const chunk = decoder.decode(value);
+        buffer += chunk;
+
+        // Split the buffer by newlines to get complete JSON objects
+        let lines = buffer.split('\n');
+
+        // Keep the last line in the buffer (it might be incomplete)
+        buffer = lines.pop() || '';
+
+        for (let line of lines) {
+          if (line.trim() === '') {
+            continue;
+          }
+          try {
+            const parsedChunk = JSON.parse(line);
+            const deltaContent = parsedChunk.choices?.[0]?.delta?.content || '';
+            accumulatedContent += deltaContent;
+
+            // Check if the stream has finished
+            if (parsedChunk.choices?.[0]?.finish_reason === 'stop') {
+              doneReading = true;
+              break;
+            }
+          } catch (e) {
+            console.error("Error parsing line as JSON:", e);
+            // If parsing fails, the line may be incomplete; skip it
+            continue;
+          }
+        }
       }
 
-      console.log("Final story data:", storyData);
+      // After the loop, process any remaining data in the buffer
+      if (buffer.trim() !== '') {
+        try {
+          const parsedChunk = JSON.parse(buffer);
+          const deltaContent = parsedChunk.choices?.[0]?.delta?.content || '';
+          accumulatedContent += deltaContent;
+        } catch (e) {
+          console.error("Error parsing buffer as JSON after stream ended:", e);
+        }
+      }
 
-      // Clean up JSON string
-      storyData = storyData.replace(/`\s+`/g, '').trim();
+      // Now process the accumulated content
+      console.log("Accumulated Content:", accumulatedContent);
 
-      // Fix trailing commas in JSON
-      storyData = storyData.replace(/,(\s*[\]}])/g, '$1');
+      // Extract the JSON code block from the accumulated content
+      const jsonMatch = accumulatedContent.match(/```json\s*([\s\S]*?)\s*```/);
 
-      const parsedData = JSON.parse(storyData);
-      console.log("Parsed data:", parsedData);
+      if (jsonMatch && jsonMatch[1]) {
+        const jsonString = jsonMatch[1];
 
-      setAdventureData(parsedData);
+        try {
+          const parsedData = JSON.parse(jsonString);
+          // Update the gameState with the parsed storytext and options
+          setGameState({
+            storyText: parsedData.storytext || '',
+            options: parsedData.options || [],
+          });
+        } catch (e) {
+          console.error("Error parsing JSON content:", e);
+          setError("Error parsing story data");
+        }
+      } else {
+        console.error("JSON code block not found in the content");
+        setError("Story data not found");
+      }
+
     } catch (error) {
       console.error("Error starting adventure:", error);
       setError("Error starting adventure");
@@ -105,70 +272,124 @@ const RuniverseAdventure: React.FC = () => {
       setLoading(false);
     }
   };
+  
+  
+  
 
-  const handleOptionClick = (nextStep: string) => {
-    // Logic to handle option selection and update the story
-    console.log('Selected next step:', nextStep);
+  const handleOptionClick = async (nextStep: string) => {
+    try {
+      setLoading(true);
+      console.log('Selected next step:', nextStep);
+  
+      if (!adventure) {
+        throw new Error("No active adventure");
+      }
+  
+      const response = await fetch("/api/consciousnft/stream-adventure", {
+        method: "POST",
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          adventureId: adventure.id,
+          characterMessage: nextStep,
+        })
+      });
+  
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+  
+      const reader = response.body?.getReader();
+      if (!reader) {
+        throw new Error("No readable stream available");
+      }
+  
+      setGameState({ storyText: '', options: [] });
+  
+      const accumulatedContent = await readAndProcessStream(reader);
+  
+      console.log("Accumulated Content:", accumulatedContent);
+  
+      try {
+        const parsedData = parseAccumulatedContent(accumulatedContent);
+        setGameState({
+          storyText: parsedData.storytext || '',
+          options: parsedData.options || [],
+        });
+      } catch (e) {
+        console.error("Error parsing story data:", e);
+        setError("Error parsing story data");
+      }
+  
+    } catch (error) {
+      console.error("Error continuing adventure:", error);
+      setError("Error continuing adventure");
+    } finally {
+      setLoading(false);
+    }
   };
+  
+  
 
   return (
-    <div className=" mx-auto bg-[#622aff]">
-      <div className="bg-[url('/img/border.png')] h-[131px] bg-auto w-full">
-      </div>
-      <div className="h-screen flex flex-col items-center justify-center gap-6">
-      <h1 className="font-upheav text-7xl font-bold mb-4 tracking-wide">Runiverse Adventure</h1>
+    <div className="mx-auto bg-[#622aff]">
+      <div className="bg-[url('/img/border.png')] h-[131px] bg-auto w-full"></div>
+      <div className="min-h-screen flex flex-col items-center justify-center gap-6">
+        <h1 className="font-upheav text-7xl font-bold mb-4 tracking-wide">Runiverse Adventure</h1>
 
-      {!selectedCharacter && <CharacterCreation />}
+        {!selectedCharacter && <CharacterCreation />}
 
-      {selectedCharacter && (
-        <div className="flex flex-col items-center gap-3">
-          <h2 className="font-vcr text-2xl text-center font-semibold">Selected Character</h2>
-          <div className="flex flex-col items-center">
-            <img src={selectedCharacter.image} alt={selectedCharacter.name} className="w-16 h-16 rounded-full mr-4" />
-            {/* <img src="/characters/heroes/0.png" alt="test" className={styles.adventure_image} /> */}
-            <span className="font-vcr text-2xl mt-3">{selectedCharacter.name}</span>
+        {selectedCharacter && !adventure && (
+          <div className="flex flex-col items-center gap-3">
+            <h2 className="font-vcr text-2xl text-center font-semibold">Selected Character</h2>
+            <div className="flex flex-col items-center">
+              <img src={selectedCharacter.image} alt={selectedCharacter.name} className="w-16 h-16 rounded-full mr-4" />
+              <span className="font-vcr text-2xl mt-3">{selectedCharacter.name}</span>
+            </div>
+
+            <div className="flex flex-col items-center w-[600px]">
+              <h2 className="font-upheav tracking-wide text-2xl font-semibold mb-2">Select a Story</h2>
+              <select
+                value={selectedStory}
+                onChange={(e) => setSelectedStory(e.target.value)}
+                className="w-full p-2 rounded text-black font-vcr text-xl"
+              >
+                <option value="">Select a story</option>
+                {Array.isArray(stories) && stories.length > 0 ? (
+                  stories.map((story) => (
+                    <option key={story.id} value={story.id}>{story.title || `Story ${story.id}`}</option>
+                  ))
+                ) : (
+                  <option disabled>No stories available</option>
+                )}
+              </select>
+            </div>
+
+            <button
+              onClick={handleStartAdventure}
+              disabled={!selectedCharacter || !selectedStory || loading}
+              className={styles.pixels_button}
+            >
+              {loading ? 'Starting...' : 'Start Adventure'}
+            </button>
           </div>
+        )}
+
+        {error && <div className="text-red-500 font-vcr mt-4">{error}</div>}
+        <div>
+          
         </div>
-      )}
-
-      <div className="flex flex-col items-center w-[600px]">
-        <h2 className="font-upheav tracking-wide text-2xl font-semibold mb-2">Select a Story</h2>
-        <select
-          value={selectedStory}
-          onChange={(e) => setSelectedStory(e.target.value)}
-          className="w-full p-2 rounded text-black font-vcr text-xl"
-        >
-          <option value="">Select a story</option>
-          {Array.isArray(stories) && stories.length > 0 ? (
-            stories.map((story) => (
-              <option key={story.id} value={story.id}>{story.title || `Story ${story.id}`}</option>
-            ))
-          ) : (
-            <option disabled>No stories available</option>
-          )}
-        </select>
+        {adventure && (
+          <GameInterface
+            storyText={gameState.storyText}
+            options={gameState.options}
+            onOptionClick={handleOptionClick}
+          />
+        )}
       </div>
-
-      <button
-        onClick={handleStartAdventure}
-        disabled={!selectedCharacter || !selectedStory || loading}
-        className={styles.pixels_button}
-      >
-        {loading ? 'Starting...' : 'Start Adventure'}
-      </button>
-
-      {error && <div className="text-red-500 font-vcr mt-4">{error}</div>}
-
-      {adventureData && (
-        <GameInterface
-          storyText={adventureData.storytext}
-          options={adventureData.options}
-          onOptionClick={handleOptionClick}
-        />
-      )}
-      </div>
-      <div className="bg-[url('/img/border1.png')] h-[131px] bg-auto w-full">
-      </div>
+      
+      <div className="bg-[url('/img/border1.png')] h-[131px] bg-auto w-full"></div>
     </div>
   );
 };
