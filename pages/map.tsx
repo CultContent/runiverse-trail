@@ -146,7 +146,6 @@ const RuniverseMap: React.FC<RuniverseMapProps> = ({
         )}
       </div>
       
-      {/* Instructions */}
       <div className="mt-4 text-sm text-gray-600">
         Click on any grid cell to learn more about that location.
       </div>
