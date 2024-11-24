@@ -13,7 +13,8 @@ export default function Footer() {
     '/game': 'bg-[#1e90ff]',
     '/team': 'bg-[#353e75]',
     '/char_creation': 'bg-[#1c9f49]',
-    '/adventure': 'bg-[#28248c]'
+    '/adventure': 'bg-[#28248c]',
+    '/map': 'bg-black'
   };
   
   const bgColor = bgColorMap[pathname] || 'bg-[#622aff]';
