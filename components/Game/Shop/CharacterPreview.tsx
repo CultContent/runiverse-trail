@@ -71,17 +71,19 @@ const CharacterPreview: React.FC = () => {
         <input className="border p-1 rounded w-full bg-gray-100 text-gray-700" type="text" value={selectedCharacter.name} readOnly />
       </div>
       <div className="flex justify-center mb-4 relative w-60 h-60">
-        {sortedAttributes.map((trait, index) => (
-          <img
-            key={index}
-            src={getTraitImage(trait)}
-            alt={trait.trait_type}
-            className="absolute"
-            style={{ zIndex: traitOrder[trait.trait_type.toLowerCase()] || index }}
-            width="250"
-            height="250"
-          />
-        ))}
+        {sortedAttributes
+          .filter(trait => trait.value !== 'none' && trait.value !== '')
+          .map((trait, index) => (
+            <img
+              key={index}
+              src={getTraitImage(trait)}
+              alt={trait.trait_type}
+              className="absolute"
+              style={{ zIndex: traitOrder[trait.trait_type.toLowerCase()] || index }}
+              width="250"
+              height="250"
+            />
+          ))}
       </div>
       <div className="flex justify-center space-x-2 mb-4">
         <button className="bg-blue-500 text-white py-1 px-4 rounded">Buy Equipped Item</button>
