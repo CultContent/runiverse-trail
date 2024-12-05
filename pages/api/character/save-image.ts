@@ -25,8 +25,13 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       const { characterType, characterId } = fields;
       const image = files.image;
 
-      // Convert contract to character type
-      const folderName = getCharacterType(characterType as string);
+      // Validate characterType
+      if (!characterType || !Array.isArray(characterType) || characterType.length === 0) {
+        return res.status(400).json({ message: 'No character type provided' });
+      }
+
+      // Convert contract to character type - use first element of array
+      const folderName = getCharacterType(characterType[0]);
 
       // Create directory if it doesn't exist
       const dirPath = path.join(process.cwd(), 'public', 'characters', folderName);
@@ -35,8 +40,16 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       }
 
       // Save the file
-      const filePath = path.join(dirPath, `${characterId}.png`);
-      fs.copyFileSync(image.filepath, filePath);
+      if (!image || !Array.isArray(image) || image.length === 0) {
+        return res.status(400).json({ message: 'No image file provided' });
+      }
+
+      if (!characterId || !Array.isArray(characterId) || characterId.length === 0) {
+        return res.status(400).json({ message: 'No character ID provided' });
+      }
+
+      const filePath = path.join(dirPath, `${characterId[0]}.png`);
+      fs.copyFileSync(image[0].filepath, filePath);
 
       res.status(200).json({ message: 'Image saved successfully' });
     });

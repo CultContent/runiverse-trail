@@ -13,13 +13,18 @@ interface ChunkData {
   }[];
 }
 
-const useAdventureStream = () => {
+interface AdventureParams {
+  characterId: string;
+  storyId: string;
+}
+
+const useAdventureStream = ({ characterId, storyId }: AdventureParams) => {
     const [adventureText, setAdventureText] = useState<string>('');
   
     const processChunk = (chunk: string) => {
       try {
         const data: ChunkData = JSON.parse(chunk);
-        const content = data.content || '';
+        const content = data.choices[0]?.delta?.content || '';
         setAdventureText((prev) => prev + content);
       } catch (error) {
         console.error('Error processing chunk:', error);
@@ -31,8 +36,8 @@ const useAdventureStream = () => {
         const response = await fetch("/api/consciousnft/stream-adventure", {
           method: "POST",
           body: JSON.stringify({
-            characterId: selectedCharacter.consciousId,
-            storyId: selectedStory,
+            characterId,
+            storyId,
           })
         });
   

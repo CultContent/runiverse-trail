@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useCharacter } from '../../../context/CharacterContext';
 
 const WIZARD_CONTRACT = "0x521f9c7505005cfa19a8e5786a9c3c9c9f5e6f42";
@@ -12,8 +12,13 @@ interface Attribute {
   filename: string | null;
 }
 
+interface EquippedItems {
+  [key: string]: string | null;
+}
+
 const CharacterPreview: React.FC = () => {
   const { selectedCharacter } = useCharacter();
+  const [equippedItems, setEquippedItems] = useState<EquippedItems>({});
 
   const getTraitImage = (trait: Attribute) => {
     if (selectedCharacter) {
@@ -39,12 +44,25 @@ const CharacterPreview: React.FC = () => {
     }
   };
 
-  if (!selectedCharacter || !selectedCharacter.attributes) {
-    console.log('Selected Character or Attributes missing:', selectedCharacter);
-    return <div>Loading...</div>;
-  }
+  const handleEquipItem = (traitType: string, value: string) => {
+    setEquippedItems(prev => ({
+      ...prev,
+      [traitType.toLowerCase()]: value === prev[traitType.toLowerCase()] ? null : value
+    }));
+  };
 
-  console.log('Rendering CharacterPreview with attributes:', selectedCharacter.attributes);
+  const handleResetEquipped = () => {
+    setEquippedItems({});
+  };
+
+  const handleBuyEquipped = () => {
+    // Implement purchase logic here
+    console.log('Buying equipped items:', equippedItems);
+  };
+
+  if (!selectedCharacter || !selectedCharacter.attributes) {
+    return <div className="text-gray-700">Loading...</div>;
+  }
 
   // Define the order of traits to ensure correct layering
   const traitOrder: { [key: string]: number } = {
@@ -68,33 +86,69 @@ const CharacterPreview: React.FC = () => {
     <div className="bg-white shadow-md rounded p-4 w-60">
       <div className="text-center mb-2">
         <h3 className="font-bold text-gray-700">Character ID</h3>
-        <input className="border p-1 rounded w-full bg-gray-100 text-gray-700" type="text" value={selectedCharacter.name} readOnly />
+        <input 
+          className="border p-1 rounded w-full bg-gray-100 text-gray-700" 
+          type="text" 
+          value={selectedCharacter.name} 
+          readOnly 
+          aria-label="Character ID"
+        />
       </div>
       <div className="flex justify-center mb-4 relative w-60 h-60">
         {sortedAttributes
-          .filter(trait => trait.value !== 'none' && trait.value !== '')
-          .map((trait, index) => (
-            <img
-              key={index}
-              src={getTraitImage(trait)}
-              alt={trait.trait_type}
-              className="absolute"
-              style={{ zIndex: traitOrder[trait.trait_type.toLowerCase()] || index }}
-              width="250"
-              height="250"
-            />
-          ))}
+          .filter(trait => {
+            const equippedValue = equippedItems[trait.trait_type.toLowerCase()];
+            return (equippedValue !== null && equippedValue !== undefined) 
+              ? equippedValue !== 'none' 
+              : trait.value !== 'none' && trait.value !== '';
+          })
+          .map((trait, index) => {
+            const traitType = trait.trait_type.toLowerCase();
+            const displayValue = equippedItems[traitType] || trait.value;
+            
+            return (
+              <img
+                key={`${traitType}-${displayValue}`}
+                src={getTraitImage({ ...trait, value: displayValue })}
+                alt={`${trait.trait_type} - ${displayValue}`}
+                className="absolute cursor-pointer hover:opacity-90 transition-opacity"
+                style={{ zIndex: traitOrder[traitType] || index }}
+                width="250"
+                height="250"
+                onClick={() => handleEquipItem(trait.trait_type, String(displayValue))}
+                onKeyDown={(e) => e.key === 'Enter' && handleEquipItem(trait.trait_type, String(displayValue))}
+                tabIndex={0}
+                role="button"
+                aria-label={`Toggle ${trait.trait_type} - ${displayValue}`}
+              />
+            );
+          })}
       </div>
       <div className="flex justify-center space-x-2 mb-4">
-        <button className="bg-blue-500 text-white py-1 px-4 rounded">Buy Equipped Item</button>
-        <button className="bg-gray-500 text-white py-1 px-4 rounded">Return to Default</button>
+        <button 
+          className="bg-blue-500 hover:bg-blue-600 text-white py-1 px-4 rounded transition-colors"
+          onClick={handleBuyEquipped}
+          disabled={Object.keys(equippedItems).length === 0}
+          aria-label="Buy equipped items"
+        >
+          Buy Equipped Item
+        </button>
+        <button 
+          className="bg-gray-500 hover:bg-gray-600 text-white py-1 px-4 rounded transition-colors"
+          onClick={handleResetEquipped}
+          disabled={Object.keys(equippedItems).length === 0}
+          aria-label="Reset to default appearance"
+        >
+          Return to Default
+        </button>
       </div>
       <div className="bg-gray-100 p-2 rounded">
         <h4 className="font-bold text-gray-700 mb-2">Attributes</h4>
-        <ul>
+        <ul className="space-y-1">
           {selectedCharacter.attributes.map((attribute, index) => (
             <li key={index} className="text-gray-700">
-              <strong>{attribute.trait_type.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase())}:</strong> {attribute.value}
+              <strong>{attribute.trait_type.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase())}:</strong>{' '}
+              {equippedItems[attribute.trait_type.toLowerCase()] || attribute.value}
             </li>
           ))}
         </ul>
