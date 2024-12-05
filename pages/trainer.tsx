@@ -313,7 +313,7 @@ const Home: React.FC = () => {
           <section>
             <h2 className="text-lg sm:text-xl font-semibold text-white mb-4">Import JSON</h2>
             <textarea
-              className="w-full p-4 rounded bg-background border border-text-secondary text-white mb-4"
+              className="w-full p-4 rounded bg-background border border-text-secondary text-black mb-4"
               rows={10}
               placeholder="Paste your JSON here..."
               onBlur={(e) => handleJsonImport(e.target.value)}
