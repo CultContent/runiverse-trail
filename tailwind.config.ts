@@ -21,6 +21,8 @@ module.exports = {
         vcr: ['VCR', 'sans-serif'],
         upheav: ['Upheav', 'sans-serif'],
         thaleahfat: ['ThaleahFat', 'sans-serif'],
+        atirose: ['Atirose', 'sans-serif'],
+        ocra: ['OCRAStd', 'sans-serif']
       },
     },
   },
