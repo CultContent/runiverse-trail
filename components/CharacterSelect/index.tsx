@@ -21,7 +21,7 @@ const CharacterSelect: FC<CharacterSelectProps> = ({ id, contract, onSelect, cla
   const handleMouseLeave = () => setIsHovered(false);
   const handleClick = () => setIsSelected(!isSelected);
 
-  const backgroundImage = isSelected || isHovered ? 'url("/img/frame_on.png")' : 'url("/img/frame_off.png")';
+  
 
   let backgroundImageUrl = '';
 
@@ -48,12 +48,11 @@ const CharacterSelect: FC<CharacterSelectProps> = ({ id, contract, onSelect, cla
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       className={`relative overflow-hidden ${className} p-1`}
-      style={{ width: '200px', height: '200px' }}
+      style={{ width: '300px', height: '300px' }}
     >
       <div className="relative overflow-hidden rounded-none shadow-lg w-full h-full">
         <div
           style={{
-            backgroundImage: backgroundImage,
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
             height: '100%',
@@ -70,14 +69,11 @@ const CharacterSelect: FC<CharacterSelectProps> = ({ id, contract, onSelect, cla
         <div
           style={{
             zIndex: 1,
-            width: '90%', // Ensures the image fits within the frame
-            height: '90%',
             backgroundImage: `url("${backgroundImageUrl}")`,
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'contain',
-            marginTop: '8px', // Adds top padding to adjust the character image position
           }}
-          className="flex items-center justify-center mx-auto"
+          className="flex items-center justify-center mx-auto w-full h-full border-[10px] rounded-xl border-yellow"
         />
       </div>
     </div>

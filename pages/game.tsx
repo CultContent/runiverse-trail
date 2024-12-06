@@ -21,7 +21,7 @@ const GamePage: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-900 text-white">
+    <div className="">
       <GameInterface 
         storyText={storyText}
         options={options}

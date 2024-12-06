@@ -134,22 +134,22 @@ const Home: React.FC = () => {
   };
 
   return (
-    <div className="max-w-4xl mx-auto p-4 sm:p-6 text-white bg-black font-sans">
+    <div className="max-w-6xl min-h-screen flex flex-col  justify-center mx-auto p-4 sm:p-6 text-white bg-black font-sans">
       {/* Header */}
-      <h1 className="text-center text-2xl sm:text-3xl font-bold mb-6 text-white">
-        Create JSON File
+      <h1 className="text-center text-2xl sm:text-7xl font-bold mb-6 text-white font-atirose uppercase">
+        Train Your<br/> Character
       </h1>
 
       {/* Top-level Tabs */}
-      <div className="flex flex-wrap justify-center sm:justify-around mb-4 border-b border-text-secondary">
+      <div className="flex flex-wrap justify-center sm:justify-around gap-2 mb-4 border-text-secondary font-ocra uppercase">
         {["General", "Narratives", "Message Examples", "Post Examples", "Style", "Full JSON", "Import JSON"].map((tab) => (
           <button
             key={tab}
             onClick={() => setActiveTab(tab)}
-            className={`px-2 py-1 sm:px-4 sm:py-2 text-sm sm:text-base ${
+            className={`px-2 py-1 sm:px-4 sm:py-2 text-sm sm:text-sm uppercase border rounded-xl border-yellow active:bg-yellow focus:bg-yellow focus:text-black ${
               activeTab === tab
                 ? "bg-card-bg text-yellow-500"
-                : "text-text-secondary hover:text-yellow-500"
+                : "text-white hover:text-yellow-500"
             }`}
           >
             {tab}
@@ -158,14 +158,15 @@ const Home: React.FC = () => {
       </div>
 
       {/* Content Section */}
-      <div className="bg-card-bg p-4 sm:p-6 rounded-lg shadow-lg">
+      <div className="bg-card-bg p-4 sm:p-6 rounded-lg shadow-lg flex flex-col items-center">
+        <div className="w-full">
         {activeTab === "General" && (
           <section>
-            <h2 className="text-lg sm:text-xl font-semibold text-white mb-4">
-              General Information
+            <h2 className="text-lg sm:text-xl font-semibold text-white mb-4 font-ocra uppercase">
+              General
             </h2>
             <div className="mb-4">
-              <label className="block text-text-secondary mb-2">
+              <label className="block text-white text-sm mb-2 font-ocra uppercase">
                 Name:
                 <input
                   type="text"
@@ -176,26 +177,26 @@ const Home: React.FC = () => {
               </label>
             </div>
             <div className="mb-4">
-              <label className="block text-text-secondary mb-2">Clients:</label>
+              <label className="block text-white text-sm mb-2 font-ocra uppercase">Clients:</label>
               <select
                 multiple
                 value={clients}
                 onChange={(e) =>
                   setClients(Array.from(e.target.selectedOptions, (option) => option.value))
                 }
-                className="w-full p-2 rounded bg-background border border-text-secondary text-white"
+                className="w-full p-2 rounded bg-background border border-text-secondary text-black font-ocra uppercase"
               >
-                <option value="telegram">Telegram</option>
-                <option value="discord">Discord</option>
-                <option value="twitter">Twitter</option>
+                <option className="py-1" value="telegram">Telegram</option>
+                <option className="py-1" value="discord">Discord</option>
+                <option className="py-1" value="twitter">Twitter</option>
               </select>
             </div>
             <div className="mb-4">
-              <label className="block text-text-secondary mb-2">Model Provider:</label>
+              <label className="block text-white text-sm mb-2 font-ocra uppercase">Model Provider:</label>
               <select
                 value={modelProvider}
                 onChange={(e) => setModelProvider(e.target.value)}
-                className="w-full p-2 rounded bg-background border border-text-secondary text-white"
+                className="w-full p-2 rounded bg-background border border-text-secondary text-black font-ocra uppercase"
               >
                 <option value="openai">OpenAI</option>
                 <option value="llama">Llama</option>
@@ -208,18 +209,18 @@ const Home: React.FC = () => {
 
         {activeTab === "Narratives" && (
           <section>
-            <h2 className="text-lg sm:text-xl font-semibold text-white mb-4">Narratives</h2>
+            <h2 className="text-lg sm:text-xl font-semibold text-white mb-4 font-ocra uppercase">Narratives</h2>
 
             {/* Narrative Subtabs */}
-            <div className="flex flex-wrap justify-center sm:justify-around mb-4 border-b border-text-secondary">
+            <div className="flex flex-wrap justify-center sm:justify-around mb-4 border-b font-ocra border-text-secondary">
               {["Bio", "Lore", "Knowledge", "Topics", "Adjectives"].map((subTab) => (
                 <button
                   key={subTab}
                   onClick={() => setActiveNarrativeTab(subTab)}
-                  className={`px-2 py-1 sm:px-4 sm:py-2 text-sm sm:text-base rounded-t ${
+                  className={`px-2 py-1 sm:px-4 sm:py-2 text-sm sm:text-sm uppercase rounded-t hover:text-yellow focus:text-yellow ${
                     activeNarrativeTab === subTab
                       ? "bg-card-bg text-white"
-                      : "text-text-secondary hover:text-white"
+                      : "text-white hover:text-white"
                   }`}
                 >
                   {subTab}
@@ -248,9 +249,9 @@ const Home: React.FC = () => {
 
         {activeTab === "Message Examples" && (
           <section>
-            <h2 className="text-lg sm:text-xl font-semibold text-white mb-4">
+           {/*  <h2 className="text-lg sm:text-xl font-semibold text-white mb-4 font-ocra uppercase">
               Message Examples
-            </h2>
+            </h2> */}
             <MessageExampleSection
               title="Message Examples"
               values={messageExamples}
@@ -261,26 +262,26 @@ const Home: React.FC = () => {
 
         {activeTab === "Post Examples" && (
           <section>
-            <h2 className="text-lg sm:text-xl font-semibold text-white mb-4">
+           {/*  <h2 className="text-lg sm:text-xl font-semibold text-white mb-4">
               Post Examples
-            </h2>
+            </h2> */}
             <FormSection title="Post Examples" values={postExamples} setValues={setPostExamples} />
           </section>
         )}
 
         {activeTab === "Style" && (
           <section>
-            <h2 className="text-lg sm:text-xl font-semibold text-white mb-4">Style</h2>
+            <h2 className="text-lg sm:text-xl font-semibold text-white mb-4 font-ocra">Style</h2>
 
-            <div className="flex flex-wrap justify-center sm:justify-around mb-4 border-b border-text-secondary">
+            <div className="flex flex-wrap justify-center sm:justify-around mb-4 border-b uppercase border-text-secondary">
               {["All", "Chat", "Post"].map((subTab) => (
                 <button
                   key={subTab}
                   onClick={() => setActiveStyleTab(subTab)}
-                  className={`px-2 py-1 sm:px-4 sm:py-2 text-sm sm:text-base rounded-t ${
+                  className={`px-2 py-1 sm:px-4 sm:py-2 text-sm sm:text-base rounded-t font-ocra uppercase ${
                     activeStyleTab === subTab
                       ? "bg-card-bg text-white"
-                      : "text-text-secondary hover:text-white"
+                      : "text-white hover:text-white"
                   }`}
                 >
                   {subTab}
@@ -302,8 +303,8 @@ const Home: React.FC = () => {
 
         {activeTab === "Full JSON" && (
           <section>
-            <h2 className="text-lg sm:text-xl font-semibold text-white mb-4">Full JSON</h2>
-            <pre className="bg-background p-4 rounded text-white text-sm overflow-auto max-h-96 border border-text-secondary">
+            <h2 className="text-lg sm:text-xl font-semibold text-white mb-4 font-ocra uppercase">Full JSON</h2>
+            <pre className="bg-background p-4 rounded text-black text-sm overflow-auto max-h-96 border border-text-secondary font-ocra uppercase">
               {getJsonPreview()}
             </pre>
           </section>
@@ -311,20 +312,20 @@ const Home: React.FC = () => {
 
         {activeTab === "Import JSON" && (
           <section>
-            <h2 className="text-lg sm:text-xl font-semibold text-white mb-4">Import JSON</h2>
+            <h2 className="text-lg sm:text-xl font-semibold text-white mb-4 font-ocra uppercase">Import JSON</h2>
             <textarea
-              className="w-full p-4 rounded bg-background border border-text-secondary text-black mb-4"
+              className="w-full p-4 rounded bg-background border border-text-secondary text-black mb-4 placeholder:uppercase placeholder:font-ocra"
               rows={10}
               placeholder="Paste your JSON here..."
               onBlur={(e) => handleJsonImport(e.target.value)}
             ></textarea>
           </section>
         )}
-
+</div>
         {/* Generate Button */}
         <button
           onClick={generateJson}
-          className="w-full mt-4 bg-button-bg hover:bg-button-hover-bg text-white py-2 px-4 rounded transition duration-300"
+          className=" text-black mt-4 bg-yellow hover:bg-button-hover-bg py-2 px-4 rounded transition duration-300 font-ocra uppercase"
         >
           Generate JSON
         </button>

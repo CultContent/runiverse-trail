@@ -364,10 +364,9 @@ const RuniverseAdventure: React.FC = () => {
   
 
   return (
-    <div className="mx-auto bg-[#622aff]">
-      <div className="bg-[url('/img/border.png')] h-[131px] bg-auto w-full"></div>
+    <div className="mx-auto border">
       <div className="min-h-screen flex flex-col items-center justify-center gap-6">
-        <h1 className="font-upheav text-7xl font-bold mb-4 tracking-wide">Runiverse Adventure</h1>
+        <h1 className="font-atirose uppercase text-7xl font-bold mb-4 tracking-wide">Runiverse Adventure</h1>
 
         {!selectedCharacter && <CharacterCreation />}
 
@@ -408,9 +407,6 @@ const RuniverseAdventure: React.FC = () => {
         )}
 
         {error && <div className="text-red-500 font-vcr mt-4">{error}</div>}
-        <div>
-          
-        </div>
         {adventure && (
           <GameInterface
             storyText={gameState.storyText}
@@ -421,8 +417,6 @@ const RuniverseAdventure: React.FC = () => {
           />
         )}
       </div>
-      
-      <div className="bg-[url('/img/border1.png')] h-[131px] bg-auto w-full"></div>
     </div>
   );
 };

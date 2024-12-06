@@ -2,6 +2,7 @@
 import React from 'react';
 import { useCharacter } from '../context/CharacterContext';
 import CustomConnectButton from './CustomConnectButton'
+import { FaTwitter } from "react-icons/fa";
 import {
   Navbar as NextUINavbar,
   NavbarContent,
@@ -37,29 +38,37 @@ const CharNavBar: React.FC = () => {
 
   const bgColor = bgColorMap[pathname] || 'bg-[#622aff]';
   return (
-    <NextUINavbar className={`${bgColor} p-4`} maxWidth="2xl" position="static">
+    <NextUINavbar className="bg-black p-4" maxWidth="2xl" position="static">
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
         <NavbarBrand className="gap-3 max-w-fit">
           <NextLink className="flex justify-start items-center gap-1" href="/">
-            <p className="font-bold text-white text-2xl">Runiverse Trail</p>
+            <p className="font-atirose text-white text-2xl">Runiverse Trail</p>
           </NextLink>
         </NavbarBrand>
         
       </NavbarContent>
 
-      <div className="hidden lg:flex gap-6 justify-center ml-2">
+      <div className="hidden lg:flex gap-8 justify-center ml-2 font-ocra">
             <NavbarItem>
               <NextLink
                 href="/profile"
-                className='text-2xl'
+                className='text-sm uppercase hover:text-yellow'
               >
-                Profile
+                Create Your Character
               </NextLink>
             </NavbarItem>
             <NavbarItem>
               <NextLink
+                href="/trainer"
+                className='text-sm uppercase hover:text-yellow'
+              >
+                Trainer
+              </NextLink>
+            </NavbarItem>
+            {/* <NavbarItem>
+              <NextLink
                 href="/store"
-                className='text-2xl'
+                className='text-sm uppercase'
               >
                 Store
               </NextLink>
@@ -67,7 +76,7 @@ const CharNavBar: React.FC = () => {
             <NavbarItem>
               <NextLink
                 href="/game"
-                className='text-2xl'
+                className='text-sm uppercase'
               >
                 Game
               </NextLink>
@@ -75,11 +84,11 @@ const CharNavBar: React.FC = () => {
             <NavbarItem>
               <NextLink
                 href="/team"
-                className='text-2xl'
+                className='text-sm uppercase'
               >
                 Team
               </NextLink>
-            </NavbarItem>
+            </NavbarItem> */}
         </div>
 
       <NavbarContent
@@ -88,7 +97,7 @@ const CharNavBar: React.FC = () => {
       >
         <NavbarItem className="hidden sm:flex gap-2">
           <Link isExternal href="">
-            <Image src="/img/twitter.webp" alt="twitter" width={40} className='rounded-none'/>
+            <FaTwitter className="text-white text-2xl"/>
           </Link>
         </NavbarItem>
         <NavbarItem className="hidden md:flex">

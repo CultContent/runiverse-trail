@@ -134,27 +134,27 @@ body {
 }
 
 .form-input::-webkit-input-placeholder {
-  color: #a0aec0;
+  color: #E3FF37;
   opacity: 1
 }
 
 .form-input::-moz-placeholder {
-  color: #a0aec0;
+  color: #E3FF37;
   opacity: 1
 }
 
 .form-input:-ms-input-placeholder {
-  color: #a0aec0;
+  color: #E3FF37;
   opacity: 1
 }
 
 .form-input::-ms-input-placeholder {
-  color: #a0aec0;
+  color: #E3FF37;
   opacity: 1
 }
 
 .form-input::placeholder {
-  color: #a0aec0;
+  color: #E3FF37;
   opacity: 1
 }
 
@@ -181,27 +181,27 @@ body {
 }
 
 .form-textarea::-webkit-input-placeholder {
-  color: #a0aec0;
+  color: #E3FF37;
   opacity: 1
 }
 
 .form-textarea::-moz-placeholder {
-  color: #a0aec0;
+  color: #E3FF37;
   opacity: 1
 }
 
 .form-textarea:-ms-input-placeholder {
-  color: #a0aec0;
+  color: #E3FF37;
   opacity: 1
 }
 
 .form-textarea::-ms-input-placeholder {
-  color: #a0aec0;
+  color: #E3FF37;
   opacity: 1
 }
 
 .form-textarea::placeholder {
-  color: #a0aec0;
+  color: #E3FF37;
   opacity: 1
 }
 
@@ -256,7 +256,7 @@ body {
 }
 
 .form-select::-ms-expand {
-  color: #a0aec0;
+  color: #E3FF37;
   border: none
 }
 

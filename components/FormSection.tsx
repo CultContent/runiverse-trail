@@ -19,8 +19,8 @@ const FormSection: React.FC<FormSectionProps> = ({ title, values, setValues }) =
   };
 
   return (
-    <div className="mb-6">
-      <h3 className="text-lg text-white font-semibold mb-2">{title}</h3>
+    <div className="mb-6 font-ocra">
+      <h3 className="text-md uppercase text-white font-semibold mb-2 font-ocra">{title}</h3>
       {values.map((value, index) => (
         <div key={index} className="flex items-center mb-2">
           <input
@@ -28,12 +28,12 @@ const FormSection: React.FC<FormSectionProps> = ({ title, values, setValues }) =
             value={value}
             onChange={(e) => updateValue(index, e.target.value)}
             placeholder={`Enter ${title.slice(0, -1)} ${index + 1}`}
-            className="flex-1 p-2 border border-gray-600 rounded bg-gray-800 text-white mr-2"
+            className="flex-1 p-2 mb-2 border border-gray-600 rounded bg-gray-800 text-white mr-2 text-sm placeholder:uppercase"
           />
           <button
             type="button"
             onClick={() => removeValue(index)}
-            className="px-4 py-2 bg-red-600 text-white rounded hover:bg-red-500"
+            className="px-4 py-2 bg-red-600 mb-2 text-white text-sm rounded hover:bg-red-500"
           >
             Remove
           </button>
@@ -42,7 +42,7 @@ const FormSection: React.FC<FormSectionProps> = ({ title, values, setValues }) =
       <button
         type="button"
         onClick={addValue}
-        className="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-500"
+        className="px-6 py-2 border-yellow border text-sm text-white rounded-xl hover:bg-yellow hover:text-black uppercase"
       >
         Add {title.slice(0, -1)}
       </button>

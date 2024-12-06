@@ -5,6 +5,7 @@ import { useAccount } from 'wagmi';
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 import { useCharacter } from '../../context/CharacterContext';
 import styles from "@/app/pixelbutton.module.css"
+import Link from 'next/link'
 
 enum EquipScreen {
   CharacterSelection,
@@ -24,6 +25,7 @@ const CharacterMenu: React.FC = () => {
   const { address: accountAddress } = useAccount();
   const { selectedCharacter, setSelectedCharacter } = useCharacter();
   const [equipScreen, setEquipScreen] = useState<EquipScreen>(EquipScreen.CharacterSelection);
+  const [showNewButton, setShowNewButton] = useState(false);
 
   const { data: tokens } = useUserTokens(accountAddress ?? '', {
     collectionsSetId: 'bf781912648d9b6c1e0148bc991dceefc09f47fc9050ae8421414e8e33077100',
@@ -34,13 +36,22 @@ const CharacterMenu: React.FC = () => {
     setSelectedCharacter(character);
   };
 
+  const handleProceed = () => {
+    setShowNewButton(true);
+    setEquipScreen(EquipScreen.Equip);
+  };
+
+  const handleNewButtonClick = () => {
+    console.log('New button clicked!');
+    // Add your new button functionality here
+  };
+
   return (
-    <div className="container mx-auto p-6">
+    <div className="min-h-screen flex flex-col items-center justify-center mx-auto p-6">
       {equipScreen === EquipScreen.CharacterSelection && (
         <div className="">
-          <h2 className="text-8xl font-bold text-gray-900 text-center mb-8 font-upheav tracking-wide mt-10">Choose your Adventurer</h2>
-          {/* <div className="border grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"> */}
-          <div className="pixel_container py-6 flex justify-center flex-row flex-wrap gap-3">
+          <h2 className="text-7xl font-bold text-white text-center mb-8 font-atirose uppercase tracking-wide mt-10">Choose your<br/> Adventurer</h2>
+          <div className="py-6 flex justify-center flex-row flex-wrap gap-3">
             {tokens?.map((token, i) => (
               <CharacterSelect
                 id={token?.token?.tokenId ?? ''}
@@ -55,64 +66,75 @@ const CharacterMenu: React.FC = () => {
         </div>
       )}
 
-      {equipScreen === EquipScreen.CharacterSelection && (
-        <div className="mt-8 text-center">
-          <ConnectButton.Custom>
-            {({ account, chain, openChainModal, openConnectModal, mounted }) => {
-              const ready = mounted && 'loading';
-              const connected = ready && account && chain && 'authenticated';
+      <div className="mt-8 text-center space-y-4">
+        <ConnectButton.Custom>
+          {({ account, chain, openChainModal, openConnectModal, mounted }) => {
+            const ready = mounted && 'loading';
+            const connected = ready && account && chain && 'authenticated';
 
-              return (
-                <div
-                  {...(!ready && {
-                    'aria-hidden': true,
-                    style: {
-                      opacity: 0,
-                      pointerEvents: 'none',
-                      userSelect: 'none',
-                    },
-                  })}
-                >
-                  {(() => {
-                    if (!connected) {
-                      return (
-                        <button
-                          onClick={openConnectModal}
-                          type="button"
-                          className="bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition-colors"
-                        >
-                          Connect Wallet
-                        </button>
-                      );
-                    }
-
-                    if (chain.unsupported) {
-                      return (
-                        <button
-                          onClick={openChainModal}
-                          type="button"
-                          className="bg-yellow-500 text-white py-2 px-4 rounded-lg hover:bg-yellow-600 transition-colors"
-                        >
-                          Switch Networks
-                        </button>
-                      );
-                    }
-
+            return (
+              <div
+                {...(!ready && {
+                  'aria-hidden': true,
+                  style: {
+                    opacity: 0,
+                    pointerEvents: 'none',
+                    userSelect: 'none',
+                  },
+                })}
+              >
+                {(() => {
+                  if (!connected) {
                     return (
                       <button
-                        onClick={() => setEquipScreen(EquipScreen.Equip)}
-                        className={styles.pixel_button}
+                        onClick={openConnectModal}
+                        type="button"
+                        className="bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition-colors"
+                      >
+                        Connect Wallet
+                      </button>
+                    );
+                  }
+
+                  if (chain.unsupported) {
+                    return (
+                      <button
+                        onClick={openChainModal}
+                        type="button"
+                        className="bg-yellow-500 text-white py-2 px-4 rounded-lg hover:bg-yellow-600 transition-colors"
+                      >
+                        Switch Networks
+                      </button>
+                    );
+                  }
+
+                  return (
+                    !showNewButton && (
+                      <button
+                        onClick={handleProceed}
+                        className="text-lg text-black font-ocra uppercase py-2 px-4 rounded-xl bg-yellow"
                       >
                         Proceed
                       </button>
-                    );
-                  })()}
-                </div>
-              );
-            }}
-          </ConnectButton.Custom>
-        </div>
-      )}
+                    )
+                  );
+                })()}
+              </div>
+            );
+          }}
+        </ConnectButton.Custom>
+
+        {showNewButton && (
+           <Link href="/game">
+            <button
+              onClick={handleNewButtonClick}
+              className="text-lg text-white font-ocra uppercase py-2 px-4 rounded-xl bg-blue-500 hover:bg-blue-600 transition-colors"
+            >
+              Play The Game
+            </button>
+          </Link>
+        )}
+      </div>
     </div>
   );
 };
