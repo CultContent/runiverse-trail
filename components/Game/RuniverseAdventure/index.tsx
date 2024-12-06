@@ -105,7 +105,6 @@ const parseAccumulatedContent = (content: string) => {
   }
 };
 
-
 const RuniverseAdventure: React.FC = () => {
   const { selectedCharacter } = useCharacter();
   const [stories, setStories] = useState<Story[]>([]);
@@ -150,11 +149,10 @@ const RuniverseAdventure: React.FC = () => {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          characterId: selectedCharacter.consciousId,
+          characterId: selectedCharacter?.consciousId,
           storyId: selectedStory,
         })
       });
-      
       if (!createResponse.ok) {
         throw new Error(`HTTP error! status: ${createResponse.status}`);
       }
@@ -175,7 +173,7 @@ const RuniverseAdventure: React.FC = () => {
         })
       });
       
-     
+      
       if (!streamResponse.ok) {
         throw new Error(`HTTP error! status: ${streamResponse.status}`);
       }
@@ -272,9 +270,6 @@ const RuniverseAdventure: React.FC = () => {
       setLoading(false);
     }
   };
-  
-  
-  
 
   const handleOptionClick = async (nextStep: string) => {
     try {
@@ -329,7 +324,43 @@ const RuniverseAdventure: React.FC = () => {
       setLoading(false);
     }
   };
+
+  const handleContinueAdventure = async () => {
+    try {
+      setLoading(true);
+      console.log('Continuing adventure...');
   
+      if (!adventure) {
+        throw new Error("No active adventure");
+      }
+  
+      const response = await fetch('/api/consciousnft/continue', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          adventureId: adventure.id,
+        }),
+      });
+  
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+  
+      const data = await response.json();
+      console.log('Received next storyId:', data.storyId);
+  
+      // Start the next adventure with the received storyId
+      setSelectedStory(data.storyId);
+      handleStartAdventure();
+    } catch (error) {
+      console.error("Error continuing adventure:", error);
+      setError("Error continuing adventure");
+    } finally {
+      setLoading(false);
+    }
+  };
   
 
   return (
@@ -384,7 +415,9 @@ const RuniverseAdventure: React.FC = () => {
           <GameInterface
             storyText={gameState.storyText}
             options={gameState.options}
+            continueAvailable={true} // Always true since we want to display the continue button
             onOptionClick={handleOptionClick}
+            onContinue={handleContinueAdventure}
           />
         )}
       </div>

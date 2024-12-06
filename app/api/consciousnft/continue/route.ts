@@ -9,14 +9,12 @@ export async function POST(req: NextRequest) {
   }
 
   try {
-    const { adventureId, characterMessage } = await req.json();
+    const { adventureId } = await req.json();
     if (!adventureId) {
       return NextResponse.json({ error: 'adventureId is required' }, { status: 400 });
     }
 
-    const url = `https://consciousnft.ai/api/partner/v1/adventure/${adventureId}`;
-
-    const body = characterMessage ? JSON.stringify({ characterMessage }) : undefined;
+    const url = `https://consciousnft.ai/api/partner/v1/adventure/continue`;
 
     const response = await fetch(url, {
       method: 'POST',
@@ -24,23 +22,17 @@ export async function POST(req: NextRequest) {
         'Content-Type': 'application/json',
         'x-api-key': apiKey,
       },
-      body,
+      body: JSON.stringify({ adventureId }),
     });
 
     if (!response.ok) {
       throw new Error(`API responded with status: ${response.status}`);
     }
 
-    // Stream the response
-    return new NextResponse(response.body, {
-      headers: {
-        'Content-Type': 'text/event-stream',
-        'Cache-Control': 'no-cache',
-        'Connection': 'keep-alive',
-      },
-    });
+    const data = await response.json();
+    return NextResponse.json(data);
   } catch (error) {
-    console.error('Error in adventure stream:', error);
-    return NextResponse.json({ error: 'Failed to start or continue adventure stream' }, { status: 500 });
+    console.error('Error in continue adventure stream:', error);
+    return NextResponse.json({ error: 'Failed to continue adventure' }, { status: 500 });
   }
 }

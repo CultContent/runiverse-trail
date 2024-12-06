@@ -38,14 +38,14 @@ const GameInterface: React.FC<GameInterfaceProps> = ({ storyText, options, conti
             </div>
           </div>
         )}
-        {continueAvailable && (
+        
           <button
             onClick={onContinue}
             className="bg-green-600 hover:bg-green-700 transition-colors rounded-lg px-4 py-2 font-bold"
           >
             Continue
           </button>
-        )}
+        
       </div>
     </div>
   );

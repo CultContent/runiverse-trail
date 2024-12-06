@@ -246,8 +246,13 @@ const EquipScreen: React.FC = () => {
   };
 
   const handleResetAll = () => {
-    if (!selectedCharacter?.originalAttributes) return;
-    updateCharacterAttributes(selectedCharacter.originalAttributes);
+    if (!selectedCharacter?.attributes) return;
+    // Store initial attributes when character is first loaded
+    const originalAttributes = selectedCharacter.attributes.map(attr => ({
+      ...attr,
+      value: attr.original_value || attr.value
+    }));
+    updateCharacterAttributes(originalAttributes);
   };
 
   const handleSaveEquipment = () => {
