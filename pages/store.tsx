@@ -5,10 +5,10 @@ import Store from '../components/Game/Shop/Store';
 
 const StorePage: React.FC = () => {
   return (
-    <div className="container mx-auto p-4 space-y-4 bg-gray-800">
-    <div className="flex space-x-4">
+    <div className="w-full flex items-center justify-center min-h-screen p-4 space-y-4 my-16">
+    <div className="flex flex-col items-center space-x-4">
 
-        
+        <h1 className="text-5xl font-atirose uppercase mb-8">Runiverse store</h1>
         <Store />
 
       </div>

@@ -37,6 +37,7 @@ import type { Session } from 'next-auth';
 import { AppProps } from 'next/app';
 import '../app/globals.css';
 
+
 // React SWIE Custom message config
 const getSiweMessageOptions: GetSiweMessageOptions = () => ({
     statement: 'Sign in to Runiverse Trail',

@@ -136,17 +136,17 @@ const Home: React.FC = () => {
   return (
     <div className="max-w-6xl min-h-screen flex flex-col  justify-center mx-auto p-4 sm:p-6 text-white bg-black font-sans">
       {/* Header */}
-      <h1 className="text-center text-2xl sm:text-7xl font-bold mb-6 text-white font-atirose uppercase">
+      <h1 className="text-center text-5xl font-bold mb-6 text-white font-atirose uppercase">
         Train Your<br/> Character
       </h1>
-
+      
       {/* Top-level Tabs */}
-      <div className="flex flex-wrap justify-center sm:justify-around gap-2 mb-4 border-text-secondary font-ocra uppercase">
+      <div className="flex flex-wrap justify-center sm:justify-around gap-1 mb-4 font-ocra uppercase">
         {["General", "Narratives", "Message Examples", "Post Examples", "Style", "Full JSON", "Import JSON"].map((tab) => (
           <button
             key={tab}
             onClick={() => setActiveTab(tab)}
-            className={`px-2 py-1 sm:px-4 sm:py-2 text-sm sm:text-sm uppercase border rounded-xl border-yellow active:bg-yellow focus:bg-yellow focus:text-black ${
+            className={`px-2 py-1 sm:px-4 sm:py-2 text-md uppercase border rounded-xl border-yellow active:bg-yellow focus:bg-yellow focus:text-black ${
               activeTab === tab
                 ? "bg-card-bg text-yellow-500"
                 : "text-white hover:text-yellow-500"
@@ -162,7 +162,7 @@ const Home: React.FC = () => {
         <div className="w-full">
         {activeTab === "General" && (
           <section>
-            <h2 className="text-lg sm:text-xl font-semibold text-white mb-4 font-ocra uppercase">
+            <h2 className="text-md font-semibold text-white mb-4 font-ocra uppercase">
               General
             </h2>
             <div className="mb-4">
@@ -209,7 +209,7 @@ const Home: React.FC = () => {
 
         {activeTab === "Narratives" && (
           <section>
-            <h2 className="text-lg sm:text-xl font-semibold text-white mb-4 font-ocra uppercase">Narratives</h2>
+            <h2 className="text-md font-semibold text-white mb-4 font-ocra uppercase">Narratives</h2>
 
             {/* Narrative Subtabs */}
             <div className="flex flex-wrap justify-center sm:justify-around mb-4 border-b font-ocra border-text-secondary">
@@ -271,7 +271,7 @@ const Home: React.FC = () => {
 
         {activeTab === "Style" && (
           <section>
-            <h2 className="text-lg sm:text-xl font-semibold text-white mb-4 font-ocra">Style</h2>
+            <h2 className="text-md uppercase font-semibold text-white mb-4 font-ocra">Style</h2>
 
             <div className="flex flex-wrap justify-center sm:justify-around mb-4 border-b uppercase border-text-secondary">
               {["All", "Chat", "Post"].map((subTab) => (
@@ -303,7 +303,7 @@ const Home: React.FC = () => {
 
         {activeTab === "Full JSON" && (
           <section>
-            <h2 className="text-lg sm:text-xl font-semibold text-white mb-4 font-ocra uppercase">Full JSON</h2>
+            <h2 className="text-md font-semibold text-white mb-4 font-ocra uppercase">Full JSON</h2>
             <pre className="bg-background p-4 rounded text-black text-sm overflow-auto max-h-96 border border-text-secondary font-ocra uppercase">
               {getJsonPreview()}
             </pre>
@@ -312,7 +312,7 @@ const Home: React.FC = () => {
 
         {activeTab === "Import JSON" && (
           <section>
-            <h2 className="text-lg sm:text-xl font-semibold text-white mb-4 font-ocra uppercase">Import JSON</h2>
+            <h2 className="text-md font-semibold text-white mb-4 font-ocra uppercase">Import JSON</h2>
             <textarea
               className="w-full p-4 rounded bg-background border border-text-secondary text-black mb-4 placeholder:uppercase placeholder:font-ocra"
               rows={10}

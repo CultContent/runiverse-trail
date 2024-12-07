@@ -48,7 +48,7 @@ const CharNavBar: React.FC = () => {
         
       </NavbarContent>
 
-      <div className="hidden lg:flex gap-8 justify-center ml-2 font-ocra">
+      <div className="hidden lg:flex gap-10 justify-center ml-2 font-parkin font-medium">
             <NavbarItem>
               <NextLink
                 href="/profile"
@@ -63,6 +63,14 @@ const CharNavBar: React.FC = () => {
                 className='text-sm uppercase hover:text-yellow'
               >
                 Trainer
+              </NextLink>
+            </NavbarItem>
+            <NavbarItem>
+              <NextLink
+                href="/store"
+                className='text-sm uppercase hover:text-yellow'
+              >
+                Store
               </NextLink>
             </NavbarItem>
             {/* <NavbarItem>

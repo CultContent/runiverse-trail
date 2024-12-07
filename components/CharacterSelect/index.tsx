@@ -48,7 +48,7 @@ const CharacterSelect: FC<CharacterSelectProps> = ({ id, contract, onSelect, cla
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       className={`relative overflow-hidden ${className} p-1`}
-      style={{ width: '300px', height: '300px' }}
+      style={{ width: '200px', height: '200px' }}
     >
       <div className="relative overflow-hidden rounded-none shadow-lg w-full h-full">
         <div

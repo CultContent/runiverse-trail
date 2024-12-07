@@ -2,42 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
-
-@font-face {
-  font-family: 'MEKSANS';
-  src: url('/fonts/MEKSans-Regular.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'VCR';
-  src: url('/fonts/vcr.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Upheav';
-  src: url('/fonts/upheavtt.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'ThaleahFat';
-  src: url('/fonts/ThaleahFat.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Mona Sans';
-  src: url('/fonts/mona-sans/Mona-Sans.woff2') format('woff2');
-  font-weight: 200 900;
-  font-stretch: 75% 125%;
-}
 
 @font-face {
   font-family: 'Atirose';
@@ -86,7 +50,7 @@
 
 
 html {
-  font-family: "MEKSANS",
+  font-family: "OCRAStd",
     -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 

@@ -22,7 +22,7 @@ export default function Layout({ pageTitle, children }) {
                 <meta property="og:type" content="Website" />
                 <title>{pageTitle}</title>
             </Head>
-            <main className="font-ocra">{children}</main>
+            <main>{children}</main>
             
         </div>
     );

@@ -106,53 +106,64 @@ const CharacterPreview: React.FC = () => {
     .sort((a, b) => traitOrder[a.trait_type.toLowerCase()] - traitOrder[b.trait_type.toLowerCase()]);
 
   return (
-    <div className="bg-white shadow-md rounded p-4 w-60">
-      {/* Character Preview */}
-      <div className="text-center mb-2">
-        <h3 className="font-bold text-gray-700">Character ID</h3>
-        <input
-          className="border p-1 rounded w-full bg-gray-100 text-gray-700"
-          type="text"
-          value={selectedCharacter.name || ''}
-          readOnly
-          aria-label="Character ID"
-        />
-      </div>
-      <div className="flex justify-center mb-4 relative w-60 h-60">
-        {sortedAttributes
-          .filter(trait => {
-            const equippedValue = equippedItems[trait.trait_type.toLowerCase()];
-            return (equippedValue !== null && equippedValue !== undefined)
-              ? equippedValue !== 'none'
-              : trait.value !== 'none' && trait.value !== '';
-          })
-          .map((trait, index) => {
-            const traitType = trait.trait_type.toLowerCase();
-            const displayValue = equippedItems[traitType] || trait.value;
+    <div className="max-w-6xl rounded-lg bg-darkgray shadow-md p-6">
+      
+      {/* Character Preview Section */}
+      <div className="mb-3 bg-yellow rounded-lg p-4">
+        {/* Character ID Input */}
+        <div className="">
+          <h3 className="text-md font-semibold text-black  uppercase text-center">Character ID</h3>
+          <input
+            className="font-atirose w-full px-3 py-2 rounded-md 
+                       text-black text-xl bg-yellow  uppercase text-center"
+            type="text"
+            value={selectedCharacter.name || ''}
+            readOnly
+            aria-label="Character ID"
+          />
+        </div>
 
-            return (
-              <img
-                key={`${traitType}-${displayValue}`}
-                src={getTraitImage({ ...trait, value: displayValue })}
-                alt={`${trait.trait_type} - ${displayValue}`}
-                className="absolute cursor-pointer hover:opacity-90 transition-opacity"
-                style={{ zIndex: traitOrder[traitType] || index }}
-                width="250"
-                height="250"
-                onClick={() => handleEquipItem(trait.trait_type, String(displayValue))}
-                onKeyDown={e => e.key === 'Enter' && handleEquipItem(trait.trait_type, String(displayValue))}
-                tabIndex={0}
-                role="button"
-                aria-label={`Toggle ${trait.trait_type} - ${displayValue}`}
-              />
-            );
-          })}
+        {/* Character Traits */}
+        <div className="relative w-96 h-96">
+          {sortedAttributes
+            .filter(trait => {
+              const equippedValue = equippedItems[trait.trait_type.toLowerCase()];
+              return (equippedValue !== null && equippedValue !== undefined)
+                ? equippedValue !== 'none'
+                : trait.value !== 'none' && trait.value !== '';
+            })
+            .map((trait, index) => {
+              const traitType = trait.trait_type.toLowerCase();
+              const displayValue = equippedItems[traitType] || trait.value;
+
+              return (
+                <div key={`${traitType}-${displayValue}`} className="absolute inset-0">
+                  <img
+                    src={getTraitImage({ ...trait, value: displayValue })}
+                    alt={`${trait.trait_type} - ${displayValue}`}
+                    className="w-96 h-96 object-contain cursor-pointer 
+                             transition-opacity duration-200 hover:opacity-90"
+                    style={{ zIndex: traitOrder[traitType] || index }}
+                    onClick={() => handleEquipItem(trait.trait_type, String(displayValue))}
+                    onKeyDown={e => e.key === 'Enter' && 
+                      handleEquipItem(trait.trait_type, String(displayValue))}
+                    tabIndex={0}
+                    role="button"
+                    aria-label={`Toggle ${trait.trait_type} - ${displayValue}`}
+                  />
+                </div>
+              );
+            })}
+        </div>
       </div>
 
       {/* Action Buttons */}
-      <div className="flex justify-center space-x-2 mb-4">
+      <div className="flex justify-center gap-4 mb-3">
         <button
-          className="bg-blue-500 hover:bg-blue-600 text-white py-1 px-4 rounded transition-colors"
+          className="px-6 py-2 bg-blue text-sm text-white rounded-md
+                     transition-colors duration-200 hover:bg-blue-600
+                     disabled:bg-blue-300 disabled:cursor-not-allowed
+                     focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 uppercase"
           onClick={handleBuyEquipped}
           disabled={Object.keys(equippedItems).length === 0}
           aria-label="Buy equipped items"
@@ -160,7 +171,10 @@ const CharacterPreview: React.FC = () => {
           Buy Equipped Item
         </button>
         <button
-          className="bg-gray-500 hover:bg-gray-600 text-white py-1 px-4 rounded transition-colors"
+          className="px-6 py-2 bg-gray-500 text-sm text-white rounded-md
+                     transition-colors duration-200 hover:bg-gray-600
+                     disabled:bg-gray-500 disabled:cursor-not-allowed
+                     focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 uppercase"
           onClick={handleResetEquipped}
           disabled={Object.keys(equippedItems).length === 0}
           aria-label="Reset to default appearance"
@@ -170,15 +184,17 @@ const CharacterPreview: React.FC = () => {
       </div>
 
       {/* Attributes List */}
-      <div className="bg-gray-100 p-2 rounded">
-        <h4 className="font-bold text-gray-700 mb-2">Attributes</h4>
-        <ul className="space-y-1">
+      <div className="border border-yellow rounded-lg p-4 uppercase">
+        <h4 className="text-md text-white mb-3">Attributes</h4>
+        <ul className="space-y-2">
           {selectedCharacter.attributes.map((attribute, index) => (
-            <li key={index} className="text-gray-700">
-              <strong>
+            <li key={index} className="text-white text-sm flex justify-between items-center">
+              <span className="">
                 {attribute.trait_type.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase())}:
-              </strong>{' '}
-              {equippedItems[attribute.trait_type.toLowerCase()] || attribute.value}
+              </span>
+              <span className="text-white">
+                {equippedItems[attribute.trait_type.toLowerCase()] || attribute.value}
+              </span>
             </li>
           ))}
         </ul>
@@ -434,13 +450,13 @@ const Store: React.FC = () => {
       <CharacterPreview />
 
       {/* Store section on the right */}
-      <div className="bg-white shadow-md rounded p-6 w-full">
+      <div className="bg-darkgray shadow-md rounded-lg p-6 w-full">
         {errorMessage && <div className="bg-red-500 text-white p-4 mb-4 rounded">{errorMessage}</div>}
         <div className="flex mb-6 space-x-4">
           {['eye_accessories', 'body', 'prop', 'hats', 'tops', 'bottoms'].map(tab => (
             <button
               key={tab}
-              className={`py-3 px-6 rounded ${activeTab === tab ? 'bg-blue-500 text-white' : 'bg-gray-300 text-gray-700'}`}
+              className={`py-3 px-6 rounded-lg text-sm ${activeTab === tab ? 'bg-yellow text-black' : 'bg-fg3 text-black'}`}
               onClick={() => {
                 setActiveTab(tab);
                 setCurrentPage(1);
@@ -450,11 +466,11 @@ const Store: React.FC = () => {
             </button>
           ))}
         </div>
-        <div className="grid grid-cols-2 gap-4 min-h-[50rem]">
+        <div className="grid grid-cols-2 gap-4 min-h-screen uppercase">
           {getItemsToDisplay().map((item, index) => (
             <div
               key={index}
-              className="border p-4 flex items-center bg-gray-100 cursor-pointer"
+              className="p-4 flex items-center bg-bg0 rounded-lg cursor-pointer r"
               onClick={() => {
                 if (item.path) {
                   handleItemClick(activeTab, item.name);
@@ -465,12 +481,12 @@ const Store: React.FC = () => {
                 <>
                   <img src={item.path} alt={item.name} className="w-24 h-24 mr-6" />
                   <div>
-                    <div className="text-lg text-gray-700">{item.name.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase())}</div>
-                    <div className="text-lg text-gray-700">Price: 0</div>
+                    <div className="text-md text-white">{item.name.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase())}</div>
+                    <div className="text-md text-white">Price: 0</div>
                     <div className="flex mt-2 space-x-4">
-                      <button className="bg-blue-500 text-white py-2 px-4 rounded text-sm">Buy</button>
-                      <button className="bg-gray-500 text-white py-2 px-4 rounded text-sm">Gift</button>
-                      <button className="bg-green-500 text-white py-2 px-4 rounded text-sm">Reserve</button>
+                      <button className="bg-blue text-white uppercase py-2 px-4 rounded text-sm">Buy</button>
+                      <button className="bg-gray-500 text-white uppercase py-2 px-4 rounded text-sm">Gift</button>
+                      <button className="bg-yellow text-black uppercase py-2 px-4 rounded text-sm">Reserve</button>
                     </div>
                   </div>
                 </>
@@ -480,17 +496,17 @@ const Store: React.FC = () => {
             </div>
           ))}
         </div>
-        <div className="flex justify-between mt-6">
+        <div className="flex justify-between mt-6 text-black">
           <button
-            className="py-3 px-6 rounded bg-gray-300 text-gray-700"
+            className="py-3 px-6 rounded bg-fg3 text-sm uppercase text-black"
             onClick={() => setCurrentPage(prev => Math.max(prev - 1, 1))}
             disabled={currentPage === 1}
           >
             Previous
           </button>
-          <span className="py-3 px-6">{currentPage} / {totalPages}</span>
+          <span className="py-3 px-6 text-sm text-white ">{currentPage} / {totalPages}</span>
           <button
-            className="py-3 px-6 rounded bg-gray-300 text-gray-700"
+            className="py-3 px-6 rounded text-sm bg-fg3 uppercase text-black"
             onClick={() => setCurrentPage(prev => Math.min(prev + 1, totalPages))}
             disabled={currentPage === totalPages}
           >

@@ -50,7 +50,7 @@ const CharacterMenu: React.FC = () => {
     <div className="min-h-screen flex flex-col items-center justify-center mx-auto p-6">
       {equipScreen === EquipScreen.CharacterSelection && (
         <div className="">
-          <h2 className="text-7xl font-bold text-white text-center mb-8 font-atirose uppercase tracking-wide mt-10">Choose your<br/> Adventurer</h2>
+          <h2 className="text-5xl font-bold text-white text-center mb-8 font-atirose uppercase tracking-wide mt-10">Choose your<br/> Adventurer</h2>
           <div className="py-6 flex justify-center flex-row flex-wrap gap-3">
             {tokens?.map((token, i) => (
               <CharacterSelect
@@ -112,7 +112,7 @@ const CharacterMenu: React.FC = () => {
                     !showNewButton && (
                       <button
                         onClick={handleProceed}
-                        className="text-lg text-black font-ocra uppercase py-2 px-4 rounded-xl bg-yellow"
+                        className="text-md text-black font-ocra uppercase py-2 px-4 rounded-xl bg-yellow"
                       >
                         Proceed
                       </button>
@@ -128,7 +128,7 @@ const CharacterMenu: React.FC = () => {
            <Link href="/game">
             <button
               onClick={handleNewButtonClick}
-              className="text-lg text-white font-ocra uppercase py-2 px-4 rounded-xl bg-blue-500 hover:bg-blue-600 transition-colors"
+              className="text-md text-black font-ocra uppercase py-2 px-4 rounded-xl bg-yellow hover:bg-blue-600 transition-colors"
             >
               Play The Game
             </button>
