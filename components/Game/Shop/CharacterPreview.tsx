@@ -65,8 +65,8 @@ const CharacterPreview: React.FC = () => {
   }
 
   // Define the order of traits to ensure correct layering
+  // Removed 'background' since it's not one of the required traits
   const traitOrder: { [key: string]: number } = {
-    background: 0,
     familiar: 1,
     bottoms: 2,
     tops: 3,
