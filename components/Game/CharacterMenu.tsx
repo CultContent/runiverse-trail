@@ -125,6 +125,23 @@ const CharacterMenu: React.FC = () => {
         </ConnectButton.Custom>
 
         {showNewButton && (
+          <div className="flex gap-3">
+            <Link href="/trainer">
+            <button
+              onClick={handleNewButtonClick}
+              className="text-md text-black font-ocra uppercase py-2 px-4 rounded-xl bg-yellow hover:bg-blue-600 transition-colors"
+            >
+              Agent Trainer
+            </button>
+          </Link>
+          <Link href="/char_creation">
+            <button
+              onClick={handleNewButtonClick}
+              className="text-md text-black font-ocra uppercase py-2 px-4 rounded-xl bg-yellow hover:bg-blue-600 transition-colors"
+            >
+             Character Editor
+            </button>
+          </Link>
            <Link href="/game">
             <button
               onClick={handleNewButtonClick}
@@ -133,6 +150,7 @@ const CharacterMenu: React.FC = () => {
               Play The Game
             </button>
           </Link>
+          </div>
         )}
       </div>
     </div>
