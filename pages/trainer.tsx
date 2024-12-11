@@ -172,7 +172,7 @@ const Home: React.FC = () => {
                   type="text"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
-                  className="w-full p-2 rounded bg-background border border-text-secondary text-white mt-1"
+                  className="w-full p-2 rounded text-black mt-1"
                 />
               </label>
             </div>
@@ -304,7 +304,7 @@ const Home: React.FC = () => {
         {activeTab === "Full JSON" && (
           <section>
             <h2 className="text-md font-semibold text-white mb-4 font-ocra uppercase">Full JSON</h2>
-            <pre className="bg-background p-4 rounded text-black text-sm overflow-auto max-h-96 border border-text-secondary font-ocra uppercase">
+            <pre className="bg-background p-4 rounded text-black text-sm overflow-auto max-h-96 border border-text-secondary">
               {getJsonPreview()}
             </pre>
           </section>

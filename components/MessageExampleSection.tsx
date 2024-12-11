@@ -36,7 +36,7 @@ const MessageExampleSection: React.FC<MessageExampleSectionProps> = ({ title, va
               value={message.userQuestion}
               onChange={(e) => updateMessage(index, "userQuestion", e.target.value)}
               placeholder={`Enter User Question ${index + 1}`}
-              className="w-full p-2 border border-gray-600 rounded bg-gray-900 text-sm text-white font-ocra uppercase"
+              className="w-full p-2 border border-gray-600 rounded bg-gray-900 text-sm text-white font-ocra "
             />
           </div>
           <div>
@@ -46,7 +46,7 @@ const MessageExampleSection: React.FC<MessageExampleSectionProps> = ({ title, va
               value={message.agentResponse}
               onChange={(e) => updateMessage(index, "agentResponse", e.target.value)}
               placeholder={`Enter Agent Response ${index + 1}`}
-              className="w-full p-2 border border-gray-600 rounded text-sm bg-gray-900 text-white font-ocra uppercase"
+              className="w-full p-2 border border-gray-600 rounded text-sm bg-gray-900 text-white font-ocra "
             />
           </div>
           <button
