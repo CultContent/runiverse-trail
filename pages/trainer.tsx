@@ -1,8 +1,9 @@
 'use client';
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import FormSection from "../components/FormSection";
 import MessageExampleSection from "../components/MessageExampleSection";
 import { downloadJson } from "../utils/downloadJson";
+import { characterApi } from "../utils/api";
 
 interface MessageExample {
   user: string;
@@ -15,6 +16,8 @@ const Home: React.FC = () => {
   const [activeTab, setActiveTab] = useState("General");
   const [activeNarrativeTab, setActiveNarrativeTab] = useState("Bio");
   const [activeStyleTab, setActiveStyleTab] = useState("All");
+  const [isLoading, setIsLoading] = useState(false);
+  const [savedCharacters, setSavedCharacters] = useState<string[]>([]);
 
   // General Information
   const [name, setName] = useState("");
@@ -41,7 +44,122 @@ const Home: React.FC = () => {
   const [styleChat, setStyleChat] = useState<string[]>([]);
   const [stylePost, setStylePost] = useState<string[]>([]);
 
-  // JSON Import
+  // Load saved characters on mount
+  useEffect(() => {
+    loadSavedCharacters();
+  }, []);
+
+  const loadSavedCharacters = async () => {
+    try {
+      const characters = await characterApi.getAllCharacters();
+      setSavedCharacters(characters.map((char: any) => char.name));
+    } catch (error) {
+      console.error('Failed to load characters:', error);
+    }
+  };
+
+  // Load a character
+  const loadCharacter = async (characterName: string) => {
+    setIsLoading(true);
+    try {
+      const character = await characterApi.getCharacter(characterName);
+      
+      // Populate state with character data
+      setName(character.name || "");
+      setClients(character.clients || []);
+      setModelProvider(character.modelProvider || "openai");
+      setBio(character.bio || []);
+      setLore(character.lore || []);
+      setKnowledge(character.knowledge || []);
+      setTopics(character.topics || []);
+      setAdjectives(character.adjectives || []);
+      setMessageExamples(
+        (character.messageExamples || []).map((example: any[]) => ({
+          userQuestion: example[0]?.content?.text || "",
+          agentResponse: example[1]?.content?.text || "",
+        }))
+      );
+      setPostExamples(character.postExamples || []);
+      setStyleAll(character.style?.all || []);
+      setStyleChat(character.style?.chat || []);
+      setStylePost(character.style?.post || []);
+
+      setActiveTab("General"); // Reset to General tab after loading
+    } catch (error) {
+      console.error('Failed to load character:', error);
+      alert('Failed to load character. Please try again.');
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  // Save a character
+  const saveCharacter = async () => {
+    if (!name) {
+      alert('Please provide a name for the character');
+      return;
+    }
+
+    setIsLoading(true);
+    try {
+      const jsonData = {
+        name,
+        clients,
+        modelProvider,
+        settings: {
+          secrets: {},
+          voice: {
+            model: "en_US-male-medium",
+          },
+        },
+        bio,
+        lore,
+        knowledge,
+        topics,
+        adjectives,
+        messageExamples: messageExamples.map(({ userQuestion, agentResponse }) => [
+          { user: "{{user1}}", content: { text: userQuestion } },
+          { user: "agent", content: { text: agentResponse } },
+        ]),
+        postExamples,
+        style: {
+          all: styleAll,
+          chat: styleChat,
+          post: stylePost,
+        },
+      };
+
+      await characterApi.saveCharacter(jsonData);
+      await loadSavedCharacters(); // Refresh the list
+      alert('Character saved successfully!');
+    } catch (error) {
+      console.error('Failed to save character:', error);
+      alert('Failed to save character. Please try again.');
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  // Delete a character
+  const deleteCharacter = async (characterName: string) => {
+    if (!confirm(`Are you sure you want to delete ${characterName}?`)) {
+      return;
+    }
+
+    setIsLoading(true);
+    try {
+      await characterApi.deleteCharacter(characterName);
+      await loadSavedCharacters(); // Refresh the list
+      alert('Character deleted successfully!');
+    } catch (error) {
+      console.error('Failed to delete character:', error);
+      alert('Failed to delete character. Please try again.');
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  // JSON Import (keeping existing functionality)
   const handleJsonImport = (json: string) => {
     try {
       const parsed = JSON.parse(json);
@@ -70,6 +188,7 @@ const Home: React.FC = () => {
     }
   };
 
+  // Keep existing generateJson and getJsonPreview functions
   const generateJson = () => {
     const jsonData = {
       name,
@@ -135,6 +254,36 @@ const Home: React.FC = () => {
 
   return (
     <div className="max-w-6xl min-h-screen flex flex-col  justify-center mx-auto p-4 sm:p-6 text-white bg-black font-sans">
+      {isLoading && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+          <div className="text-white font-ocra">Loading...</div>
+        </div>
+      )}
+
+<div className="mb-6">
+        <h3 className="text-md font-semibold text-white mb-2 font-ocra uppercase">
+          Saved Characters
+        </h3>
+        <div className="flex flex-wrap gap-2 mb-4">
+          {savedCharacters.map((charName) => (
+            <div key={charName} className="flex items-center gap-2 bg-gray-800 p-2 rounded">
+              <button
+                onClick={() => loadCharacter(charName)}
+                className="text-yellow-500 hover:text-yellow-400 font-ocra"
+              >
+                {charName}
+              </button>
+              <button
+                onClick={() => deleteCharacter(charName)}
+                className="text-red-500 hover:text-red-400 font-ocra"
+              >
+                ×
+              </button>
+            </div>
+          ))}
+        </div>
+      </div>
+
       {/* Header */}
       <h1 className="text-center text-5xl font-bold mb-6 text-white font-atirose uppercase">
         Train Your<br/> Character
@@ -323,12 +472,22 @@ const Home: React.FC = () => {
         )}
 </div>
         {/* Generate Button */}
-        <button
-          onClick={generateJson}
-          className=" text-black mt-4 bg-yellow hover:bg-button-hover-bg py-2 px-4 rounded transition duration-300 font-ocra uppercase"
-        >
-          Generate JSON
-        </button>
+         <div className="flex gap-2 mt-4">
+          <button
+            onClick={saveCharacter}
+            className="text-black bg-yellow hover:bg-button-hover-bg py-2 px-4 rounded transition duration-300 font-ocra uppercase"
+            disabled={isLoading}
+          >
+            Save Character
+          </button>
+          <button
+            onClick={generateJson}
+            className="text-black bg-yellow hover:bg-button-hover-bg py-2 px-4 rounded transition duration-300 font-ocra uppercase"
+            disabled={isLoading}
+          >
+            Download JSON
+          </button>
+        </div>
       </div>
     </div>
   );
