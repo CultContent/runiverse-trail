@@ -356,7 +356,8 @@ const Store: React.FC = () => {
         if (type === 'head') {
           if (isNewItemOnesie) {
             const originalHead = attr.original_value || attr.value;
-            const cleanedHead = String(originalHead).replace(/_\w+$/, ''); // Remove existing hat suffix
+      
+            const cleanedHead = String(originalHead).replace(/_onesie$/, ''); // Only remove _onesie if it exists
             const newHeadValue = `${cleanedHead}_onesie`.toLowerCase();
             return {
               ...attr,
